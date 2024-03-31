@@ -1,17 +1,370 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>start html</title>
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>start html</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>
+    <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>
 </head>
-
 <body>
-  <script src="./js/main.js"></script>
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top-inner">
+                <a class="logo" href="">
+                    <img alt="logo" class="logo__img" src="./images/logo.svg">
+                </a>
+                <div class="nav-menu">
+                    <div class="nav-menu__lang">
+                        <a class="lang-item" href="#">Cz</a>
+                        <a class="lang-item" href="#">Rus</a>
+                    </div>
+                    <div class="nav-menu__callback">
+                        <button class="btn">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__nav">
+        <div class="container">
+            <div class="header__nav-inner">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <img alt="" class="icon-item" src="./images/bars_staggered_icon%20(1).svg">
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Услуги</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">О нас</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Отзывы</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Наши партнеры</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Контакты</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Оставить заявку</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="icons">
+                    <a href="https://www.facebook.com/yourusername" target="_blank">
+                        <img alt="Facebook Icon" src="./images/facebook_icon.svg">
+                    </a>
+                    <a href="https://www.twitter.com/yourusername" target="_blank">
+                        <img alt="Telegram Icon" src="./images/telegram_plane_icon.svg">
+                    </a>
+                    <a href="https://www.instagram.com/yourusername" target="_blank">
+                        <img alt="Instagram Icon" src="./images/instagram_logo_fill_icon.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__content">
+        <div class="container">
+            <div class="header__content-inner">
+                <div class="text">
+                    <h4 class="header__subtitle">№1 на рынке переводов в Чехии.</h4>
+                    <h1 class="header__title"><span class="highlight-word">Остановитесь</span>, вы находитесь в нужном
+                        месте.</h1>
+                    <h4 class="header__subtitle">Мы переводим с чешского, украинского, русского и других языков.</h4>
+                </div>
+                <div class="header__content-img">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="service">
+    <div class="container">
+        <h2 class="heading-2 highlight-word">Услуги</h2>
+        <section class="features">
+            <div class="feature icons">
+                <img alt="Written Translation Icon" class="feature__img"
+                     src="./images/file_document_paper_page_icon.svg">
+                <h4 class="heading-4">Письменный перевод</h4>
+                <p class="feature__text">Включает перевод различных типов документов, таких как юридические, медицинские, технические, финансовые и другие специализированные тексты. Этот вид перевода требует высокой квалификации переводчика и глубоких знаний в определенной области.</p>
+            </div>
+            <div class="feature icons">
+                <img alt="Written Translation Icon" class="feature__img" src="./images/stamp_icon.svg">
+                <h4 class="heading-4 heading-4--dark">Нотариальный перевод</h4>
+                <p class="feature__text">Это официальный перевод документа, который заверяется нотариусом. Такой перевод необходим для предоставления документов в официальные органы или организации, требующие юридической силы.</p>
+            </div>
+            <div class="feature icons">
+                <img alt="Written Translation Icon" class="feature__img" src="./images/ic_work_icon.svg">
+                <h4 class="heading-4 heading-4--dark">Редактирование и корректура</h4>
+                <p class="feature__text">Это проверка уже переведенного текста на предмет грамматических, стилистических и терминологических ошибок. Эта услуга особенно важна для тех, кто хочет убедиться в высоком качестве своего перевода.</p>
+            </div>
+            <div class="feature icons">
+                <img alt="Written Translation Icon" class="feature__img" src="./images/globe_fill_icon.svg">
+                <h4 class="heading-4 heading-4--dark">Локализация веб-сайтов и программного обеспечения</h4>
+                <p class="feature__text">Это процесс адаптации продукта к определенному языку и культуре. Он включает в себя перевод текста, графических элементов, пользовательского интерфейса и других компонентов продукта.</p>
+            </div>
+            <div class="feature icons">
+                <img alt="Written Translation Icon" class="feature__img"
+                     src="./images/bank_business_cash_finance_house_icon.svg">
+                <h4 class="heading-4 heading-4--dark">Переводы для бизнеса</h4>
+                <p class="feature__text">Мы можем перевести и локализовать для вас контракты компаний и документацию, а также сотрудничаем с агентствами недвижимости для перевода контрактов для их иностранных клиентов. Мы можем сделать субтитры, креативный перевод контента для социальных сетей и многое другое. Цена зависит от размера заказа и срока сотрудничества.</p>
+            </div>
+            <div class="feature icons">
+                <img alt="Written Translation Icon" class="feature__img" src="./images/passport_icon.svg">
+                <h4 class="heading-4 heading-4--dark">Перевод документов</h4>
+                <p class="feature__text">
+                    За перевод с печатью судебного переводчика вы заплатите 350 крон за стандартный документ, например, выписку из судимости, свидетельство о рождении, свидетельство о браке, диплом, аттестат о среднем образовании и т. д. За нестандартный документ тогда400 крон, обычно это приложения к дипломам, доверенностям, договорам, решениям суда. Цена на сверхстандартный перевод сложных медицинских или технических текстов рассчитывается индивидуально.</p>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="advantages">
+    <div class="container">
+        <h2 class="heading-2 highlight-word">Наши преимущества</h2>
+        <div class="advantages__content">
+            <p class="plane_text">"Prekladovna" — ваш проводник в мире языков. Мы гордимся тем, что наши клиенты
+                выбирают нас снова и снова. Наш секрет прост: мы делаем то, что любим, и любим то, что делаем.
+
+                Команда профессиональных переводчиков готова взяться за любую задачу — от простого письма до сложного
+                технического текста. Наша цель — обеспечить точный и качественный перевод, который поможет вам достичь
+                успеха в любом деле.</p>
+            <ul class="advantages__list">
+                <li class="advantages__list-item"><p>Опыт работы более 7 лет на рынке переводов</p></li>
+                <li class="advantages__list-item"><p>Более 10000 выполненных переводов</p></li>
+                <li class="advantages__list-item"><p>Более 3000 довольных клиентов</p></li>
+                <li class="advantages__list-item"><p>Возможность экспресс-переводов до 24 часов</p></li>
+                <li class="advantages__list-item"><p>Конкурентные цены от 350 крон</p></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="testimonials">
+    <div class="container">
+        <h2 class="heading-2 highlight-word">Отзывы</h2>
+        <div class="testimonials__items">
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
+                    <div class="testimonial-author-info">
+                        <p class="name">Anton</p>
+                        <p class="activity">Businessman</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item__down">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
+                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
+                    saepe veritatis?
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
+                    <div class="testimonial-author-info">
+                        <p class="name">Anton</p>
+                        <p class="activity">Businessman</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item__down">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
+                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
+                    saepe veritatis?
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
+                    <div class="testimonial-author-info">
+                        <p class="name">Anton</p>
+                        <p class="activity">Businessman</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item__down">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
+                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
+                    saepe veritatis?
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
+                    <div class="testimonial-author-info">
+                        <p class="name">Anton</p>
+                        <p class="activity">Businessman</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item__down">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
+                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
+                    saepe veritatis?
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
+                    <div class="testimonial-author-info">
+                        <p class="name">Anton</p>
+                        <p class="activity">Businessman</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item__down">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
+                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
+                    saepe veritatis?
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
+                    <div class="testimonial-author-info">
+                        <p class="name">Anton</p>
+                        <p class="activity">Businessman</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item__down">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
+                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
+                    saepe veritatis?
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="partners">
+    <div class="container">
+        <h2 class="heading-2 highlight-word heading-margin">Наши партнёры</h2>
+        <div class="partners__items">
+            <img alt="" class="partner__item" src="./images/partners/1.png">
+            <img alt="" class="partner__item" src="./images/partners/2.png">
+            <img alt="" class="partner__item" src="./images/partners/3.svg">
+            <img alt="" class="partner__item" src="./images/partners/4.png">
+            <img alt="" class="partner__item" src="./images/partners/5.png">
+        </div>
+    </div>
+</div>
+<div class="contact-form">
+    <div class="container">
+        <div class="main-block">
+            <form action="/" class="form__item">
+                <h2 class="form-heading">Contact Us</h2>
+                <div class="info">
+                    <input class="fname" name="name" placeholder="Имя" type="text">
+                    <input class="email" name="name" placeholder="Email" type="text">
+                    <input class="phone" name="name" placeholder="+420" type="text" value="+420">
+                </div>
+                <div>
+                    <textarea class="message" placeholder=" Дополнительная информация" rows="4"></textarea>
+                </div>
+                <button class="btn btn-white" href="/" type="submit">Оставить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="map">
+    <div class="container">
+        <div class="map-item">
+            <div class="contacts">
+                <h4>МЫ ВСЕГО ЛИШЬ ЛЮДИ.</h4>
+                <p>Мы работаем с 9:00 до 17:00 с понедельника по пятницу.Иногда случается, что в офисе никого нет.
+                    Не стесняйтесь звонить Александру
+                    по телефону +420 603 776 909.</p>
+                <h4>ДЛЯ НОВЫХ КОРПОРАТИВНЫХ КЛИЕНТОВ.</h4>
+                <p>Вы заинтересованы в сотрудничестве? Свяжитесь с Алексом по телефону +420 777 850 286.</p>
+                <h4>Прага 3</h4>
+                <p>ТЕЛЕФОН:+420 603 776 909</p>
+                <p>ЭЛЕКТРОННАЯ ПОЧТА:info@prekladovna.cz</p>
+                <p>АДРЕС:Рокицанова 240/27</p>
+                <h4>Карловы Вары</h4>
+                <p>ТЕЛЕФОН:+420 777 850 286</p>
+                <p>ЭЛЕКТРОННАЯ ПОЧТА:info@prekladovna.cz</p>
+                <p>АДРЕС:Трухларжска 1074/13а</p>
+
+
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.032484277256!2d14.452840876535815!3d50.08567867152483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9549c6e26c17%3A0x28f38016ca08dc12!2sP%C5%99ekladovna!5e0!3m2!1sen!2sru!4v1711924265863!5m2!1sen!2sru" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer__logo">
+            <a class="logo" href="">
+                <img alt="logo" class="logo__img" src="./images/logo.svg">
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript"></script>
+<script src="./js/main.js"></script>
 </body>
 
 </html>
