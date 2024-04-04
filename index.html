@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>start html</title>
+    <title>Prekladovna #1 на рынке переводов</title>
+    <link rel="shortcut icon" href="./images/logo.svg" />
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -16,13 +17,15 @@
     <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>
     <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>
 
-<!--НОВЫЕ ШРИФТЫ-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!--НОВЫЕ ШРИФТЫ-->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 <header class="header">
+    <a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a>
     <div class="header__top">
         <div class="container">
             <div class="header__top-inner">
@@ -35,7 +38,9 @@
                         <a class="lang-item" href="#">Rus</a>
                     </div>
                     <div class="nav-menu__callback">
-                        <button class="btn">Оставить заявку</button>
+                        <a href="#forma">
+                            <button class="btn">Оставить заявку</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -50,22 +55,22 @@
                             <img alt="" class="icon-item" src="./images/bars_staggered_icon%20(1).svg">
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Услуги</a>
+                            <a class="menu__list-link" href="#uslugy">Услуги</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">О нас</a>
+                            <a class="menu__list-link" href="#aboutus">О нас</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Отзывы</a>
+                            <a class="menu__list-link" href="#otzovy">Отзывы</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Наши партнеры</a>
+                            <a class="menu__list-link" href="#ourpartners">Наши партнеры</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Контакты</a>
+                            <a class="menu__list-link" href="#kontakty">Контакты</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#">Оставить заявку</a>
+                            <a class="menu__list-link" href="#forma">Оставить заявку</a>
                         </li>
                     </ul>
                 </nav>
@@ -73,12 +78,26 @@
                     <a href="https://www.facebook.com/yourusername" target="_blank">
                         <img alt="Facebook Icon" src="./images/facebook_icon.svg">
                     </a>
-                    <a href="https://www.twitter.com/yourusername" target="_blank">
-                        <img alt="Telegram Icon" src="./images/telegram_plane_icon.svg">
-                    </a>
                     <a href="https://www.instagram.com/yourusername" target="_blank">
                         <img alt="Instagram Icon" src="./images/instagram_logo_fill_icon.svg">
                     </a>
+                    <a href="https://t.me/Prekladovna" target="_blank">
+                        <img alt="Telegram Icon" src="./images/telegram_plane_icon.svg">
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send/?phone=%2B420603776909&text&type=phone_number&app_absent=0" target="_blank">
+                        <img alt="WhatsUp Icon" src="./images/call_chat_mobile_whatsapp_whatsapp%20logo_icon.svg">
+                    </a>
+<!--                    <a href="" target="_blank">-->
+<!--                        <img alt="ViberIcon" src="./images/media_messenger_social_viber_icon.svg">-->
+<!--                    </a>-->
+                    <a href="mailto:info@alexpreklady.com" target="_blank">
+                        <img alt="email Icon" src="./images/email_mail_open_outline_icon.svg">
+                    </a>
+                    <a href="tel:+420603776909" target="_blank">
+                        <img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg">
+                    </a>
+
                 </div>
             </div>
         </div>
@@ -90,7 +109,8 @@
                     <!--                    <h4 class="header__subtitle">№1 на рынке переводов в Чехии.</h4>-->
                     <h1 class="header__title"><span class="highlight-word fredericka">Zastavte se,</span><br>
                         Jste tu spravne.</h1>
-                    <h4 class="header__subtitle highlight-word">Мы переводим с чешского, украинского,<br> русского и других языков.</h4>
+                    <h4 class="header__subtitle highlight-word">Мы переводим с чешского, украинского,<br> русского и
+                        других языков.</h4>
                 </div>
                 <div class="header__content-img">
 
@@ -103,7 +123,7 @@
 
 <div class="service">
     <div class="container">
-        <h2 class="heading-2 highlight-word">Услуги</h2>
+        <h2 class="heading-2 highlight-word" id="uslugy">Услуги</h2>
         <section class="features">
             <div class="feature">
                 <img alt="Written Translation Icon" class="feature__img"
@@ -140,25 +160,22 @@
                 <h4 class="heading-4 heading-4--dark">Переводы для бизнеса</h4>
                 <p class="feature__text">Мы можем перевести и локализовать для вас контракты компаний и документацию, а
                     также сотрудничаем с агентствами недвижимости для перевода контрактов для их иностранных клиентов.
-                    Мы можем сделать субтитры, креативный перевод контента для социальных сетей и многое другое. Цена
-                    зависит от размера заказа и срока сотрудничества.</p>
+                    Мы можем сделать субтитры, креативный перевод контента для социальных сетей и многое другое. </p>
             </div>
             <div class="feature">
                 <img alt="Written Translation Icon" class="feature__img" src="./images/passport_icon.svg">
                 <h4 class="heading-4 heading-4--dark">Перевод документов</h4>
                 <p class="feature__text">
-                    За перевод с печатью судебного переводчика вы заплатите 350 крон за стандартный документ, например,
-                    выписку из судимости, свидетельство о рождении, свидетельство о браке, диплом, аттестат о среднем
-                    образовании и т. д. За нестандартный документ тогда400 крон, обычно это приложения к дипломам,
-                    доверенностям, договорам, решениям суда. Цена на сверхстандартный перевод сложных медицинских или
-                    технических текстов рассчитывается индивидуально.</p>
+                    Перевод с печатью судебного переводчика, например, выписку из судимости, свидетельство о рождении, свидетельство о браке, диплом, аттестат о среднем
+                    образовании и т. д. А также нестандартные документы, обычно это приложения к дипломам,
+                    доверенностям, договорам, решениям суда.</p>
             </div>
         </section>
     </div>
 </div>
 <div class="advantages">
     <div class="container">
-        <h2 class="heading-2 highlight-word">Наши преимущества</h2>
+        <h2 class="heading-2 highlight-word" id="aboutus">Наши преимущества</h2>
         <div class="advantages__content">
             <p class="plane_text">"Prekladovna" — ваш проводник в мире языков. Мы гордимся тем, что наши клиенты
                 выбирают нас снова и снова. Наш секрет прост: мы делаем то, что любим, и любим то, что делаем.
@@ -178,15 +195,15 @@
 </div>
 <div class="testimonials">
     <div class="container">
-        <h2 class="heading-2 highlight-word">Отзывы</h2>
+        <h2 class="heading-2 highlight-word" id="otzovy">Отзывы</h2>
         <div class="testimonials__items">
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
                     <img alt="" class="testimonial-avatar"
-                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
+                         src="https://lh3.googleusercontent.com/a-/ALV-UjWbH8HWBTncxkoKMpvf3yjz1s6oGHRGoINOKdPgig63dw=w60-h60-p-rp-mo-br100">
                     <div class="testimonial-author-info">
-                        <p class="name">Anton</p>
-                        <p class="activity">Businessman</p>
+                        <p class="name">Наталья Чулюкина</p>
+<!--                        <p class="activity">Частный клиент</p>-->
                         <div class="rating">
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
@@ -197,9 +214,55 @@
                     </div>
                 </div>
                 <div class="testimonial-item__down">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
-                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
-                    saepe veritatis?
+                    <blockquote cite="https://www.google.com/search?hl=en-RU&gl=ru&q=P%C5%99ekladovna,+Rokycanova+240/27,+130+00+Praha+3-%C5%BDi%C5%BEkov,+Czechia&ludocid=2950843016225020946&lsig=AB86z5XpwhckX3ZGw589zvKGyrY8&hl=en&gl=RU#lrd=0x470b9549c6e26c17:0x28f38016ca08dc12,1">
+                        Приятный персонал 👍 сделали перевод документов в срок! Большое спасибо за качественную работу ☺️
+                    </blockquote>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="https://lh3.googleusercontent.com/a/ACg8ocKu8Ar87Moi1Rkqgiw4H4qdD5Y7wHuVIvD0jlc6lQyh=w60-h60-p-rp-mo-br100">
+                    <div class="testimonial-author-info">
+                        <p class="name">Евдокименко Виктория</p>
+<!--                        <p class="activity">Businessman</p>-->
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item__down">
+                    <blockquote cite="https://www.google.com/search?hl=en-RU&gl=ru&q=P%C5%99ekladovna,+Rokycanova+240/27,+130+00+Praha+3-%C5%BDi%C5%BEkov,+Czechia&ludocid=2950843016225020946&lsig=AB86z5XpwhckX3ZGw589zvKGyrY8&hl=en&gl=RU#lrd=0x470b9549c6e26c17:0x28f38016ca08dc12,1">
+                        Спасибо за работу. Все доступно, оперативно, с учётом пожеланий клиента.
+                        Желаю вам процветания и благодарных клиентов.
+                    </blockquote>
+
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="https://lh3.googleusercontent.com/a-/ALV-UjU-4z-DjrPD9-LHp6fJUkd9wZ_naB3pDUJfCVy8Edl2J9w=w60-h60-p-rp-mo-br100">
+                    <div class="testimonial-author-info">
+                        <p class="name">Тамирлан Какишев</p>
+<!--                        <p class="activity">Businessman</p>-->
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item__down">
+                    <blockquote cite="https://www.google.com/search?hl=en-RU&gl=ru&q=P%C5%99ekladovna,+Rokycanova+240/27,+130+00+Praha+3-%C5%BDi%C5%BEkov,+Czechia&ludocid=2950843016225020946&lsig=AB86z5XpwhckX3ZGw589zvKGyrY8&hl=en&gl=RU#lrd=0x470b9549c6e26c17:0x28f38016ca08dc12,1">
+                        Спасибо большое за перевод, все сделали быстро и качественно, крайне рекомендую обращаться именно сюда.
+                    </blockquote>
                 </div>
             </div>
             <div class="testimonial-item">
@@ -207,8 +270,26 @@
                     <img alt="" class="testimonial-avatar"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
-                        <p class="name">Anton</p>
-                        <p class="activity">Businessman</p>
+                        <p class="name">Анастасия Паламарчук</p>
+<!--                        <p class="activity">Businessman</p>-->
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <blockquote cite="https://www.google.com/search?hl=en-RU&gl=ru&q=P%C5%99ekladovna,+Rokycanova+240/27,+130+00+Praha+3-%C5%BDi%C5%BEkov,+Czechia&ludocid=2950843016225020946&lsig=AB86z5XpwhckX3ZGw589zvKGyrY8&hl=en&gl=RU#lrd=0x470b9549c6e26c17:0x28f38016ca08dc12,1">
+                    Очень довольна, приятные цены, всегда всё качественно и вовремя, пользуюсь их услугами уже давно, рекомендую!                </blockquote>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-item__up">
+                    <img alt="" class="testimonial-avatar"
+                         src="https://lh3.googleusercontent.com/a-/ALV-UjU5Lhoj1wgPARHU8coLhHgcIgxCAG2VjQphE5i-dWb5mlA=w60-h60-p-rp-mo-ba2-br100">
+                    <div class="testimonial-author-info">
+                        <p class="name">Екатерина Богданова</p>
                         <div class="rating">
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
@@ -219,18 +300,17 @@
                     </div>
                 </div>
                 <div class="testimonial-item__down">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
-                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
-                    saepe veritatis?
+                    <blockquote cite="https://www.google.com/search?hl=en-RU&gl=ru&q=P%C5%99ekladovna,+Rokycanova+240/27,+130+00+Praha+3-%C5%BDi%C5%BEkov,+Czechia&ludocid=2950843016225020946&lsig=AB86z5XpwhckX3ZGw589zvKGyrY8&hl=en&gl=RU#lrd=0x470b9549c6e26c17:0x28f38016ca08dc12,1">
+                        Спасибо за вашу работу) перевели документы быстро, качественно и недорого)              </blockquote>
+
                 </div>
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
                     <img alt="" class="testimonial-avatar"
-                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
+                         src="https://lh3.googleusercontent.com/a-/ALV-UjVuhM_HYvqQWQ1tQsFezquTZKi7y7bkVnIuUNpU7Zl-V4Y=w60-h60-p-rp-mo-ba4-br100">
                     <div class="testimonial-author-info">
-                        <p class="name">Anton</p>
-                        <p class="activity">Businessman</p>
+                        <p class="name">Tamila Mila</p>
                         <div class="rating">
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
@@ -241,75 +321,9 @@
                     </div>
                 </div>
                 <div class="testimonial-item__down">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
-                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
-                    saepe veritatis?
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-item__up">
-                    <img alt="" class="testimonial-avatar"
-                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
-                    <div class="testimonial-author-info">
-                        <p class="name">Anton</p>
-                        <p class="activity">Businessman</p>
-                        <div class="rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item__down">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
-                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
-                    saepe veritatis?
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-item__up">
-                    <img alt="" class="testimonial-avatar"
-                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
-                    <div class="testimonial-author-info">
-                        <p class="name">Anton</p>
-                        <p class="activity">Businessman</p>
-                        <div class="rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item__down">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
-                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
-                    saepe veritatis?
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-item__up">
-                    <img alt="" class="testimonial-avatar"
-                         src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
-                    <div class="testimonial-author-info">
-                        <p class="name">Anton</p>
-                        <p class="activity">Businessman</p>
-                        <div class="rating">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item__down">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi assumenda cum eligendi error ex
-                    expedita hic neque nostrum, nulla praesentium quidem tenetur vero voluptate voluptates. Amet magnam
-                    saepe veritatis?
+                    <blockquote cite="https://www.google.com/search?hl=en-RU&gl=ru&q=P%C5%99ekladovna,+Rokycanova+240/27,+130+00+Praha+3-%C5%BDi%C5%BEkov,+Czechia&ludocid=2950843016225020946&lsig=AB86z5XpwhckX3ZGw589zvKGyrY8&hl=en&gl=RU#lrd=0x470b9549c6e26c17:0x28f38016ca08dc12,1">
+                    Просто пять звёзд)              </blockquote>
+
                 </div>
             </div>
         </div>
@@ -317,7 +331,7 @@
 </div>
 <div class="partners">
     <div class="container">
-        <h2 class="heading-2 highlight-word heading-margin">Наши партнёры</h2>
+        <h2 class="heading-2 highlight-word heading-margin" id="ourpartners">Наши партнёры</h2>
         <div class="partners__items">
             <img alt="" class="partner__item" src="./images/partners/1.png">
             <img alt="" class="partner__item" src="./images/partners/2.png">
@@ -329,7 +343,7 @@
 </div>
 <div class="contact-form">
     <div class="container">
-        <div class="main-block">
+        <div class="main-block" id="forma">
             <form action="/" class="form__item">
                 <h2 class="form-heading">Contact Us</h2>
                 <div class="info">
@@ -345,29 +359,31 @@
         </div>
     </div>
 </div>
-<div class="map">
+<div class="map" id="kontakty">
     <div class="container">
         <div class="map-item">
             <div class="contacts">
                 <h4>МЫ ВСЕГО ЛИШЬ ЛЮДИ.</h4>
                 <p>Мы работаем с 9:00 до 17:00 с понедельника по пятницу.Иногда случается, что в офисе никого нет.
                     Не стесняйтесь звонить Александру
-                    по телефону +420 603 776 909.</p>
+                    по телефону <a href="tel:+420603776909"> +420 603 776 909</a>.</p>
                 <h4>ДЛЯ НОВЫХ КОРПОРАТИВНЫХ КЛИЕНТОВ.</h4>
-                <p>Вы заинтересованы в сотрудничестве? Свяжитесь с Алексом по телефону +420 777 850 286.</p>
+                <p>Вы заинтересованы в сотрудничестве? Свяжитесь с Алексом по телефону <a href="tel:+420777850286"> +420 777 850 286</a>.</p>
                 <h4>Прага 3</h4>
-                <p>ТЕЛЕФОН:+420 603 776 909</p>
-                <p>ЭЛЕКТРОННАЯ ПОЧТА:info@prekladovna.cz</p>
-                <p>АДРЕС:Рокицанова 240/27</p>
+                <p>ТЕЛЕФОН:<a href="tel:+420603776909"> +420 603 776 909</a></p>
+                <p>ЭЛЕКТРОННАЯ ПОЧТА:<a href="mailto:info@alexpreklady.com" target="_blank"> info@prekladovna.cz</a></p>
+                <p>АДРЕС: Rokycanova 240/27</p>
                 <h4>Карловы Вары</h4>
-                <p>ТЕЛЕФОН:+420 777 850 286</p>
-                <p>ЭЛЕКТРОННАЯ ПОЧТА:info@prekladovna.cz</p>
-                <p>АДРЕС:Трухларжска 1074/13а</p>
+                <p>ТЕЛЕФОН:<a href="tel:+420777850286"> +420 777 850 286</a></p>
+                <p>ЭЛЕКТРОННАЯ ПОЧТА:<a href="mailto:info@alexpreklady.com" target="_blank"> info@prekladovna.cz</a></p>
+                <p>АДРЕС: Truhlářská 1074/13a</p>
 
 
             </div>
             <iframe allowfullscreen=""
-                    height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.032484277256!2d14.452840876535815!3d50.08567867152483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9549c6e26c17%3A0x28f38016ca08dc12!2sP%C5%99ekladovna!5e0!3m2!1sen!2sru!4v1711924265863!5m2!1sen!2sru" style="border:0;"
+                    height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.032484277256!2d14.452840876535815!3d50.08567867152483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9549c6e26c17%3A0x28f38016ca08dc12!2sP%C5%99ekladovna!5e0!3m2!1sen!2sru!4v1711924265863!5m2!1sen!2sru"
+                    style="border:0;"
                     width="800"></iframe>
         </div>
     </div>
@@ -387,6 +403,7 @@
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 <script src="./slick/slick.js" type="text/javascript"></script>
 <script src="./js/main.js"></script>
+<script src="./js/backtotop.js"></script>
 </body>
 
 </html>
