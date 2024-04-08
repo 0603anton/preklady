@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.testimonials__items').slick({
         dots: true,
         arrows:true,
-        infinite: false,
+        infinite: true,
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 3,
