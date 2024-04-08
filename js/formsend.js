@@ -46,3 +46,11 @@ async function sendEmailTelegram(event) {
         formBtn.textContent = `Оставить заявку`
     }
 }
+
+function check() {
+    var submit = document.querySelector('.form__submit-button');
+    if (document.getElementById('politics').checked)
+        submit.disabled = '';
+    else
+        submit.disabled = `disabled`;
+}

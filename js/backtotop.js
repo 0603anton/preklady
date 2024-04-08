@@ -16,3 +16,22 @@ document.addEventListener("DOMContentLoaded", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const btnRotate = document.getElementById("btn_rotate");
+
+    // Показать/скрыть кнопку при прокрутке страницы
+    window.addEventListener("scroll", function () {
+        if (window.pageYOffset>=300) {
+            btnRotate.style.display = "block";
+        } else {
+            btnRotate.style.display = "none";
+        }
+    });
+
+    // Плавная прокрутка при клике на кнопку
+    backToTop.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+});
