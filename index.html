@@ -15,17 +15,34 @@
 
         gtag('config', 'G-M7HCZ1BJK3');
     </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NMEXD3YDWQ">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-NMEXD3YDWQ');
+    </script>
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Soudní překlady, úřední překlady, ověřené překlady dokumentů | Заверенные переводы, официальные переводы,
         заверенные переводы документов | Prekladovna Praha | Č. 1 NA TRHU PŘEKLADATELSKÝCH SLUŽEB V ČESKÉ
         REPUBLICE</title>
-    <link href="./images/logo.svg" rel="shortcut icon"/>
+    <link href="./images/do-high-resolution-logo.svg" rel="shortcut icon"/>
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
           rel="stylesheet">
+    <!--    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>-->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'>
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>
@@ -72,11 +89,15 @@
             <div class="header__nav-inner">
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__list-item">
+                        <li class="menu__list-item mobile_hide">
                             <img alt="" class="icon-item" src="./images/bars_staggered_icon%20(1).svg">
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="#uslugy">Услуги</a>
+                        </li>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#price">Стоимость</a>
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="#aboutus">О нас</a>
@@ -128,8 +149,10 @@
         <div class="container">
             <div class="header__content-inner">
                 <div class="text">
-                    <h1 class="header__title"><span class="highlight-word fredericka">Zastavte se,</span><br>
-                        Jste tu spravne.</h1>
+                    <!--                    <h1 class="header__title"><span class="highlight-word fredericka">Zastavte se,</span><br>-->
+                    <!--                        Jste tu spravne.</h1>-->
+                    <h1 class="header__title"><span class="highlight-word fredericka">Prekladovna -</span><br>
+                        №1 на Чешском рынке услуг перевода.</h1>
                     <h4 class="header__subtitle highlight-word">Мы переводим с чешского, украинского,<br> русского и
                         других языков.</h4>
                 </div>
@@ -157,7 +180,8 @@
             <div class="feature">
                 <img alt="Written Translation Icon" class="feature__img" src="./images/stamp_icon.svg">
                 <h4 class="heading-4 heading-4--dark">Нотариальный перевод</h4>
-                <p class="feature__text">Это официальный перевод документа, который заверяется нотариусом. Такой перевод
+                <p class="feature__text">Это официальный перевод документа, который заверяется судебным переводчиком. .
+                    Такой перевод
                     необходим для предоставления документов в официальные органы или организации, требующие юридической
                     силы.</p>
             </div>
@@ -185,9 +209,9 @@
             </div>
             <div class="feature">
                 <img alt="Written Translation Icon" class="feature__img" src="./images/passport_icon.svg">
-                <h4 class="heading-4 heading-4--dark">Перевод документов</h4>
+                <h4 class="heading-4 heading-4--dark">Перевод всех других документов</h4>
                 <p class="feature__text">
-                    Перевод с печатью судебного переводчика, например, выписку из судимости, свидетельство о рождении,
+                    Перевод с печатью судебного переводчика, например, справка о несудимости, свидетельство о рождении,
                     свидетельство о браке, диплом, аттестат о среднем
                     образовании и т. д. А также нестандартные документы, обычно это приложения к дипломам,
                     доверенностям, договорам, решениям суда.</p>
@@ -195,11 +219,62 @@
         </section>
     </div>
 </div>
+<div class="price" id="price">
+    <div class="container">
+        <div class="price__main">
+            <h1 class="price__heading">Выберите ваш тариф</h1>
+            <div class="pricing">
+                <div class="plan">
+                    <h2>Стандарт+</h2>
+                    <div class="price">от 450 Kč</div>
+                    <ul class="features_price">
+                        <li><i class="fas fa-check-circle"></i> Приложения к дипломам</li>
+                        <li><i class="fas fa-check-circle"></i> Доверенности</li>
+                        <li><i class="fas fa-check-circle"></i> Решения суда</li>
+                        <li><i class="fas fa-check-circle"></i> Договоры</li>
+                        <li><i class="fas fas fa-question-circle"></i> Подробнее о цене за перевод...</li>
+                        <!--                    <li><i class="fas fa-times-circle"></i> 4</li>-->
+                    </ul>
+                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>
+                </div>
+                <div class="plan popular">
+                    <span>Популярно</span>
+                    <h2>Стандарт</h2>
+                    <div class="price">от 350 Kč</div>
+                    <ul class="features_price">
+                        <li><i class="fas fa-check-circle"></i>Справки о несудимости</li>
+                        <li><i class="fas fa-check-circle"></i>Свидетельства о рождении</li>
+                        <li><i class="fas fa-check-circle"></i>Школьные аттестаты</li>
+                        <li><i class="fas fa-check-circle"></i> Свидетельства о браке</li>
+                        <li><i class="fas fas fa-question-circle"></i> Подробнее о цене за перевод...</li>
+                    </ul>
+                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>
+                </div>
+                <div class="plan">
+                    <h2>Сложные документы</h2>
+                    <div class="price">Индивидуально</div>
+                    <ul class="features_price">
+                        <li><i class="fas fa-check-circle"></i> Коммерческие и рекламные тексты</li>
+                        <li><i class="fas fa-check-circle"></i> Техническая документация</li>
+                        <li><i class="fas fa-check-circle"></i> Медицинский тексты</li>
+                        <li><i class="fas fa-check-circle"></i> Другие сложные документы</li>
+                        <li><i class="fas fas fa-question-circle"></i> Подробнее о цене за перевод...</li>
+                    </ul>
+                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>
+                </div>
+            </div>
+        </div>
+        <p class="price__text">
+            *Стандартно мы берем плату в стандартных страницах. 1 стандартная страница (NS) соответствует 1800 символам,
+            включая пробелы, из текста перевода (готового перевода).
+        </p>
+    </div>
+</div>
 <div class="advantages">
     <div class="container">
         <h2 class="heading-2 highlight-word" id="aboutus">Наши преимущества</h2>
         <div class="advantages__content">
-            <p class="plane_text">"Prekladovna" — ваш проводник в мире языков. Мы гордимся тем, что наши клиенты
+            <p class="plane_text">"Překladovna" — ваш проводник в мире языков. Мы гордимся тем, что наши клиенты
                 выбирают нас снова и снова. Наш секрет прост: мы делаем то, что любим, и любим то, что делаем.
 
                 Команда профессиональных переводчиков готова взяться за любую задачу — от простого письма до сложного
@@ -792,6 +867,65 @@
 </div>
 <footer>
     <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>О компании</h4>
+                <ul>
+                    <li><a class="menu__list-link" href="#uslugy">Услуги</a></li>
+                    <li><a class="menu__list-link" href="#price">Стоимость</a></li>
+                    <li><a class="menu__list-link" href="#aboutus">О нас</a></li>
+                    <li><a class="menu__list-link" href="#otzovy">Отзывы</a></li>
+                    <li><a class="menu__list-link" href="#ourpartners">Наши партнеры</a></li>
+                    <li><a class="menu__list-link" href="#forma">Заказать перевод</a></li>
+                    <li><a class="menu__list-link" href="#kontakty">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Помощь</h4>
+                <ul>
+                    <li><a href="#">FAQ - Часто задаваемые вопросы</a></li>
+                    <li><a href="#">Как оформить заказ</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Стоимость услуг</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Překladovna</h4>
+                <ul>
+                    <li><a aria-label="Get directions to this location on Google Maps." class="navigate-link" href="https://maps.google.com/maps/dir//P%C5%99ekladovna+-+p%C5%99eklady,+soudn%C3%AD+p%C5%99eklady+a+tlumo%C4%8Den%C3%AD+Rokycanova+240%2F27+130+00+Praha+3-%C5%BDi%C5%BEkov+Czechia/@50.0856787,14.4554158,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x470b9549c6e26c17:0x28f38016ca08dc12"
+                           jstcache="38"
+                           target="_blank">Rokycanova 240/27, 130 00 Praha 3-Žižkov</a></li>
+                    <li><a href="tel:+420603776909"> +420 603 776 909</a></li>
+                    <li><a aria-label="Get directions to this location on Google Maps." class="navigate-link" href="https://maps.google.com/maps/dir//13a+Truhl%C3%A1%C5%99sk%C3%A1+1074%2F13a+360+17+Karlovy+Vary+17+Czechia/@50.24209,12.8361524,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47a099bcee629381:0xa1df8f41ec7d5345"
+                           jstcache="38"
+                           target="_blank">Truhlářská 1074/13a, 360 17 Karlovy Vary 17, Czechia </a></li>
+                    <li><a href="tel:+420777850286"> +420 777 850 286</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Подписаться:</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61556728345328"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/prekladovna.cz/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/Prekladovna"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B420603776909&text&type=phone_number&app_absent=0"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:info@alexpreklady.com"><i class="fa fa-envelope"></i></a>
+
+                </div>
+                <h4>Способы оплаты:</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-cc-visa"></i></a>
+                    <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-pay"></i></a>
+                    <a href="#"><i class="fab fa-cc-apple-pay"></i></a>
+                    <a href="#"><i class="fa-solid fa-credit-card"></i></i></a>
+                </div>
+            </div>
+
+        </div>
         <div class="footer__logo">
             <a class="logo" href="">
                 <img alt="logo" class="logo__img" src="./images/logo.svg">
