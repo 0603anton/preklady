@@ -18,14 +18,14 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    const btnRotate = document.getElementById("btn_rotate");
+    const backToTop = document.getElementById("btn_rotate");
 
     // Показать/скрыть кнопку при прокрутке страницы
     window.addEventListener("scroll", function () {
         if (window.pageYOffset>=300) {
-            btnRotate.style.display = "block";
+            backToTop.style.display = "block";
         } else {
-            btnRotate.style.display = "none";
+            backToTop.style.display = "none";
         }
     });
 
