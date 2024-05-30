@@ -18,20 +18,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    const backToTop = document.getElementById("btn_rotate");
+    const btnRotate = document.getElementById("btn_rotate");
 
     // Показать/скрыть кнопку при прокрутке страницы
     window.addEventListener("scroll", function () {
         if (window.pageYOffset>=300) {
-            backToTop.style.display = "block";
+            btnRotate.style.display = "block";
         } else {
-            backToTop.style.display = "none";
+            btnRotate.style.display = "none";
         }
     });
 
-    // Плавная прокрутка при клике на кнопку
-    backToTop.addEventListener("click", function (event) {
-        event.preventDefault();
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    });
 });

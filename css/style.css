@@ -130,9 +130,20 @@ a {
     align-items: center;
 }
 
+.logobox{
+    display: flex;
+    align-items: center;
+}
+
+.red-tag {
+    color: #fff;
+    padding: 3px 4px 2px;
+    background-color: #de2e43;
+    font-weight: 500;
+}
+
 .logo {
     max-width: 200px;
-
 }
 
 .logo__img {
@@ -241,6 +252,7 @@ a {
     border: solid 2px var(--main-dark);
 }
 
+
 .btn_rotate {
     position: fixed;
     bottom: 80px;
@@ -287,10 +299,11 @@ a {
 
 
 .header__content-img {
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.9) 20%, rgba(255, 255, 255, 0) 35%), url("../images/main-img2.png");
+    /*background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.9) 20%, rgba(255, 255, 255, 0) 35%), url("../images/main-img2.png");*/
+    background-image: url("../images/test_background.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 140%;
+    /*background-size: 140%;*/
     min-width: 50%;
     min-height: calc(100vh - 119px);
     position: relative;
@@ -488,10 +501,26 @@ a {
 }
 
 .advantages__content {
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
-    min-height: 33vh;
+    /*min-height: 33vh;*/
+}
+
+.warranty__main{
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.warranty__main_txt p{
+    max-width: 53vw;
+}
+
+.warranty__img{
+    max-width: 300px;
 }
 
 .plane_text {
@@ -684,7 +713,7 @@ footer {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
 }
 
 .active {
@@ -714,6 +743,7 @@ footer {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    margin-bottom: 15px;
 }
 
 
@@ -793,6 +823,10 @@ footer {
 
     .heading-4 {
         font-size: 1.36em;
+    }
+
+    .warranty__main_txt p{
+        max-width: 100vw;
     }
 
 
@@ -881,5 +915,107 @@ padding: 0;
     .footer-col{
         width: 100%;
     }
+}
+
+
+
+/*PRO FIRMY Партнерам*/
+
+body .hero_first{
+    height: calc(100vh - 119px);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+body .hero_2{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+body .hero_3{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/22.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+body .hero_4{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/33.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+body .hero_5{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/44.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+body .hero_6{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/55.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+
+.hero {
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    /*position: relative;*/
+    /*margin-bottom: 20px;*/
+    /*z-index: -2;*/
+}
+
+.hero_item{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/*.hero::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: rgba(0, 0, 0, 0.5);*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.hero h1 {*/
+/*    font-size: 46px;*/
+/*    margin: -20px 0 20px;*/
+/*}*/
+
+/*.hero p {*/
+/*    font-size: 20px;*/
+/*    letter-spacing: 1px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+.partners_text{
+    color: white;
+    max-width: 30vw;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/*КОНТАКТЫ*/
+.worktime__main{
+    margin-bottom: 25px;
+    text-align: justify;
 }
 
