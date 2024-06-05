@@ -366,6 +366,93 @@ a {
     align-items: stretch;
 }
 
+/*NEW CARDS*/
+
+.cards{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    /*             background-color: #192a31; */
+    min-height: 120px;
+    color: var(--main-dark);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 32%;
+    min-width: 32%;
+    justify-content: space-between;
+    transition: transform 0.3s;
+
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: var(--main-yellow);
+}
+
+.card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #314a52;*/
+    /*border-radius: 50%;*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+}
+
+.card-icon img {
+    min-width: 50px;
+    min-height: 50px;
+    filter: invert(85%) sepia(34%) saturate(4872%) hue-rotate(350deg) brightness(102%) contrast(97%);
+
+}
+
+.card-content {
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.card-content p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+
+.card-arrow img{
+    min-width: 30px;
+    min-height: 30px;
+    /*filter: invert(85%) sepia(34%) saturate(4872%) hue-rotate(350deg) brightness(102%) contrast(97%);*/
+    filter: invert(23%) sepia(14%) saturate(2%) hue-rotate(4deg) brightness(93%) contrast(91%);
+}
+
+/*.card-arrow:hover {*/
+/*    background-color: #d3d3d3;*/
+/*}*/
+
+/*NEW CARDS STOP*/
+
 .feature {
     display: flex;
     flex-direction: column;
@@ -806,6 +893,14 @@ footer {
         min-height: 80vh;
         align-items: stretch;
     }
+
+    /*NEW CARDS*/
+    .card{
+        max-width: 100%;
+    }
+
+
+
 
     .advantages__content {
         flex-direction: column;
