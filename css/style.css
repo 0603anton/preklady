@@ -395,7 +395,10 @@ a {
 
 .card:hover {
     transform: translateY(-5px);
-    background-color: var(--main-yellow);
+    /*background-color: var(--main-yellow);*/
+    background-color: #F7D225;
+    /*filter: invert(23%) sepia(14%) saturate(2%) hue-rotate(4deg) brightness(93%) contrast(91%);*/
+
 }
 
 .card-icon {
@@ -412,8 +415,9 @@ a {
     min-width: 50px;
     min-height: 50px;
     filter: invert(85%) sepia(34%) saturate(4872%) hue-rotate(350deg) brightness(102%) contrast(97%);
-
+    /*filter: invert(96%) sepia(95%) saturate(1324%) hue-rotate(333deg) brightness(99%) contrast(96%);*/
 }
+
 
 .card-content {
     margin-left: 20px;
@@ -441,8 +445,8 @@ a {
 }
 
 .card-arrow img{
-    min-width: 30px;
-    min-height: 30px;
+    min-width: 40px;
+    min-height: 40px;
     /*filter: invert(85%) sepia(34%) saturate(4872%) hue-rotate(350deg) brightness(102%) contrast(97%);*/
     filter: invert(23%) sepia(14%) saturate(2%) hue-rotate(4deg) brightness(93%) contrast(91%);
 }
@@ -704,7 +708,7 @@ a {
 
 }
 
-.fname, .email, .phone {
+.fname, .email, .phone, .promocode {
     min-width: 30vw;
     background-color: var(--main-yellow);
     border: none;
