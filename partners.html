@@ -225,33 +225,30 @@
   <div class="container">
     <div class="main-block" id="forma">
       <form class="form__item form" onsubmit="sendEmailTelegram(event)">
-        <h2 class="form-heading">Заказать звонок</h2>
-        <p class="partners_text">
-          Хотите сотрудничать с нами и зарабатывать на переводах одним из вышеприведенных способов, но вы не в Праге? И для вас у нас найдется решение. Заполните форму ниже, и мы перезвоним вам в течение 24 часов в конкретным предложением!
-        </p>
+        <h2 class="form-heading">Заказать перевод</h2>
         <div class="info">
           <input class="fname" name="name" placeholder="Имя" required type="text">
           <input class="email" name="email" placeholder="Email" required type="text">
           <input class="phone" name="phone" placeholder="+420" required type="text" value="+420">
+          <input class="promocode" name="promocode" placeholder="Код на скидку" required type="text">
         </div>
         <div>
                     <textarea class="message" name="comment" placeholder=" Дополнительная информация"
                               rows="4"></textarea>
         </div>
         <button class="btn btn-white form__submit-button" disabled=""
-                name="submit" type="submit" value="Оставить заявку">Заказать звонок
+                name="submit" type="submit" value="Оставить заявку">Заказать перевод
         </button>
         <div class="checkbox_form">
           <input autocomplete="off" id="politics" onclick="check();" type="checkbox" value=""/>
-          Нажимая на кнопку "Заказать звонок", я даю <a class="soglasie" href="zasady.html" target="_blank">cогласие
+          Нажимая на кнопку "Заказать перевод", я даю <a class="soglasie" href="zasady.html" target="_blank">cогласие
           на обработку персональных данных.</a>
         </div>
         <div class="form_send-result"></div>
       </form>
     </div>
   </div>
-</div>
-<div class="map" id="kontakty">
+</div><div class="map" id="kontakty">
   <div class="container">
     <div class="map-item">
       <div class="contacts">
