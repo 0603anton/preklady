@@ -5,13 +5,23 @@
     <meta charset="UTF-8">
     <!-- Meta Pixel Code -->
     <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '1048362040046368');
         fbq('track', 'PageView');
@@ -50,21 +60,31 @@
     </script>
 
     <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-                m[i].l=1*new Date();
-                for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-            ym(97172319, "init", {
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true,
-                webvisor:true
-            });
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/97172319" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        ym(97172319, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/97172319" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
 
 
@@ -72,7 +92,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <!--    <meta name="description" content="Судебные переводы с украинского, русского и английского языка в Праге по низким ценам. Нотариальные переводы на чешский и с чешского языка.">-->
     <!--    <meta name="keywords" content="Нотариальные переводы , судебные переводы с чешского языка, Прага , Чехия , переводы с украинского языка , переводы с русского языка">-->
-    <title> Заказать судебные переводы в Чехии | Профессиональные услуги перевода в Праге на чешский и с чешского языка.| Судебные переводы с украинского, русского и английского языка в Праге по низким ценам.</title>
+    <title> Заказать судебные переводы в Чехии | Профессиональные услуги перевода в Праге</title>
     <link href="./images/logo1.png" rel="shortcut icon"/>
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
@@ -86,7 +106,7 @@
     <link href="./css/additional_pages.css" rel="stylesheet">
     <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>
     <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>
-    <meta content="Судебные переводы с украинского, русского и английского языка на чешский и с чешского на эти языки в Праге, Чехия.
+    <meta content="Профессиональные судебные переводы с украинского, русского и английского языка на чешский и с чешского на эти языки в Праге, Чехия.
     Качественные и заверенные переводы документов. Свяжитесь с нами для получения консультации и услуг перевода по доступным ценам."
           name="description">
     <meta content="
@@ -101,7 +121,7 @@
         заверенные переводы документов в Чехии, Прага" property="og:title">
     <meta content="Prekladovna.cz" property="og:site_name">
     <meta content="https://prekladovna.cz/" property="og:url">
-    <meta content="Судебные переводчики Prekladovna. Мы делаем судебные (официальные, заверенные,нотариальные) переводы в Чехии, Прага. Судебные переводы с украинского, русского и английского языка на чешский и с чешского на эти языки в Праге, Чехия."
+    <meta content="Судебные переводчики Prekladovna. Мы делаем официальные, заверенные и нотариальные переводы в Чехии, Прага. Работаем с Русским, Укринским, Чешским и другими языками."
           property="og:description">
     <meta content="https://prekladovna.cz/images/logo.svg" property="og:image">
     <meta content="968" property="og:image:width">
@@ -117,7 +137,7 @@
             "name": "Prekladovna",
             "url": "https://prekladovna.cz/",
             "logo": "https://prekladovna.cz/images/logo.svg",
-            "description": "Prekladovna предлагает комплексные услуги в сфере письменного перевода, заверения документов и нострификации. Судебные переводы с украинского, русского и английского языка на чешский и с чешского на эти языки в Праге, Чехия. Опытные судебные переводчики. Низкие цены.",
+            "description": "Prekladovna предлагает комплексные услуги в сфере письменного перевода, заверения документов и нострификации.Судебный, официальный, заверенный, нотариальный перевод документов с украинского, русского, английского и чешского языков. Опытные судебные переводчики. Низкие цены.",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Rokycanova 240/27, 130 00 Praha 3-Žižkov, Чехия",
@@ -138,7 +158,7 @@
 <header class="header">
     <a class="back-to-top" href="#top" id="back-to-top" title="Back to top">▲</a>
     <a href="#forma">
-        <button class="btn_rotate" id="btn_rotate">Заказать перевод</button>
+        <button class="btn_rotate" id="btn_rotate">Заявка</button>
     </a>
     <div class="header__top">
         <div class="container">
@@ -156,7 +176,7 @@
                     </div>
                     <div class="nav-menu__callback">
                         <a href="#forma">
-                            <button class="btn">Заказать перевод</button>
+                            <button class="btn">Оставить заявку</button>
                         </a>
                     </div>
                 </div>
@@ -191,7 +211,7 @@
                             <a class="menu__list-link" href="./index.html#ourpartners">Наши партнеры</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="./index.html#forma">Заказать перевод</a>
+                            <a class="menu__list-link" href="./index.html#forma">Оставить заявку</a>
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="./index.html#kontakty">Контакты</a>
@@ -237,141 +257,170 @@
 <div class="perevod">
     <div class="container">
         <div class="about_price_header_sud">
-            <h1 class="about_price_heading">Судебные переводы в Чехии с гарантией качества</h1>
-
+            <h1 class="about_price_heading">Все виды страхования. <br>Работаем со всеми страховыми компаниями в Чешской Республике.</h1>
         </div>
-        <p>Иностранцам, проживающим в Чехии, часто требуется судебный перевод документов, таких как дипломы,
-            свидетельства о рождении, свидетельства о браке и справки о несудимости. Однако судебный перевод можно
-            выполнить для всех типов документов.</p>
-        <br>
-        <p>В Чехии судебный перевод, или <span class="highlight">"soudní překlad"</span>, представляет собой перевод
-            документов с иностранного языка на чешский язык и наоборот. Выполняется такой перевод судебным переводчиком,
-            назначенным территориальным судом. Судебные переводчики следуют закону "Об экспертах и переводчиках",
-            который обязывает их сохранять в тайне содержание переводимых документов.</p>
-        <br>
-        <p>Судебный перевод является неотъемлемой частью переводимого документа, скреплен с ним степлером или сшит
-            трехцветной шнуровкой, и опломбирован наклейкой, на которую ставится круглая печать конкретного судебного
-            переводчика. На судебном переводе также всегда присутствует подпись и примечание (<span class="highlight">doložka</span>)
-            судебного переводчика, в котором он подтверждает, что перевод дословно соответствует оригиналу.</p>
-
-        <h2 class="highlight-word heading-2 otstup_zagolovok">Какие типы документов мы переводим?</h2>
-        <div class="document-types">
-            <!--                <img src="documents.jpg" alt="Типы документов">-->
-            <p>Наша компания выполняет судебный перевод всех видов текстов. Мы чаще всего переводим следующие типы
-                документов:</p>
-            <br>
-            <ul class="marked_list">
-                <li>Документы актов гражданского состояния (свидетельства о рождении, свидетельства о браке,
-                    свидетельства о правовой дееспособности к заключению брака и т. д.)
-                </li>
-                <li>Юридические и судебные документы</li>
-                <li>Доверенность и заверение подписей</li>
-                <li>Выписки из реестров и регистров (выписка из реестра судимости, выписка из торгового реестра)</li>
-                <li>Аттестаты, дипломы и свидетельства, дополнения к дипломам</li>
-                <li>Бухгалтерские и налоговые документы</li>
-                <li>Нотариальные акты и учредительные документы</li>
-                <li>Идентификационные и регистрационные документы (заграничный паспорт, гражданский паспорт,
-                    водительское удостоверение, вид на жительство и т. д.)
-                </li>
-            </ul>
-        </div>
-        <h2 class="highlight-word heading-2 otstup_zagolovok">Цена</h2>
-        <p>Цены заверенного судебного перевода для наиболее часто используемых языков можно найти в стоимости услуг.
-            Чтобы получить более точный расчет цены, отправьте нам запрос вместе с документами по электронной почте,
-            используя онлайн форму запроса или лично посетите наш офис.</p>
-        <a class="link link--arrowed" href="./about_price.html">Подробнее о стоимости, в отдельной статье
-            <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"
-                 xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"
-                   stroke-width="1.5">
-                    <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
-                    <path class="arrow-icon--arrow"
-                          d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
-                </g>
-            </svg>
-        </a>
-
-        <h2 class="highlight-word heading-2 otstup_zagolovok">Сроки выполнения судебного письменного перевода</h2>
-        <div class="details">
-            <!--                <img src="timeline.jpg" alt="Сроки выполнения">-->
-            <p>Судебный письменный перевод выполняется в стандартные и экспресс сроки в зависимости от объема текста и
-                комбинации языков. Стандартный срок выполнения составляет 3 рабочих дня, срочный перевод может быть
-                выполнен в тот же день или на следующий рабочий день.</p>
-        </div>
-
-        <h2 class="highlight-word heading-2 otstup_zagolovok">Почему выбирают нас?</h2>
-        <div class="advantages">
-            <!--                <img src="advantages.jpg" alt="Преимущества">-->
-            <ul>
-                <li><strong>Профессионализм:</strong> Наши чешские судебные переводчики в Праге обладают многолетним
-                    опытом и глубокими знаниями в области судебных переводов.
-                </li>
-                <li><strong>Качество:</strong> Все переводы заверяются подписью и круглой печатью переводчика, а также
-                    примечанием (<span class="highlight">doložka</span>), подтверждающим дословное соответствие
-                    оригиналу.
-                </li>
-                <li><strong>Конфиденциальность:</strong> Мы строго соблюдаем требования закона и гарантируем полную
-                    конфиденциальность ваших документов.
-                </li>
-                <li><strong>Широкий спектр услуг:</strong> Переводим все типы документов, включая дипломы, свидетельства
-                    о рождении, свидетельства о браке и справки о несудимости.
-                </li>
-            </ul>
-        </div>
-
-
-        <h2 class="highlight-word heading-2 otstup_zagolovok">Найдите нужного судебного переводчика</h2>
-        <p>Найти нужного судебного переводчика не составляет труда. Для этого в интернет-поисковике Google или Seznam
-            нужно задать словосочетание <span class="highlight">"soudní překlad"</span> с названием нужного города,
-            например, Praha.</p>
-
-        <h2 class="highlight-word heading-2 otstup_zagolovok">Важные детали</h2>
-        <p>При переводе документов, в которых имеются сокращения и аббревиатуры (например, наименования дисциплин в
-            дипломе), необходимо заранее подготовить и передать судебному переводчику их расшифровку.</p>
-        <p>Важно помнить, что судебный перевод будет прикреплен к переводимому документу скобой степлера или сшит
-            ниткой. Поэтому если Вы переводите диплом, свидетельство о рождении или другой важный документ, который в
-            дальнейшем Вам еще пригодится, целесообразнее будет отдать судебному переводчику не оригинал, а его
-            заверенную копию. Судебный перевод заверенной копии приравнивается к судебному переводу оригинала – нет
-            никакой разницы.</p>
     </div>
 </div>
-</div>
 
-
-<div class="warranty">
+<div class="service">
     <div class="container">
-        <h2 class="highlight-word heading-2 otstup_zagolovok">Гарантия качества перевода в Праге</h2>
-        <div class="warranty__main">
-
-            <div class="warranty__main_txt">
-                <p>У нас вы получаете не только профессиональные переводы, но и гарантированное спокойствие. Если были
-                    допущены ошибки, мы исправим их бесплатно и в кратчайшие сроки.</p>
-
-                <!--                <h3 class="highlight-word heading-2">Наши гарантии:</h3>-->
-                <ul>
-                    <li><strong>Профессионализм:</strong> Мы работаем с опытными переводчиками, гарантируя высокое
-                        качество перевода.
-                    </li>
-                    <li><strong>Бесплатные исправления:</strong> Если вы обнаружите ошибку, мы исправим ее без
-                        дополнительной оплаты.
-                    </li>
-                    <li><strong>Минимальные сроки: </strong>Мы ценим ваше время и оперативно исправляем любые
-                        неточности.
-                    </li>
-                </ul>
-                <p>Доверьтесь нам, и ваш перевод будет безупречным.</p>
+        <h2 class="heading-2 highlight-word" id="uslugy">Услуги</h2>
+        <section class="cards">
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка судебный перевод"
+                         src="./images/i1.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Страхование иностранцев</h3>
+                    <p>Надежная защита для жизни и здоровья иностранцев в Чехии.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
             </div>
-            <div><img alt="знак гарантии" class="warranty__img" src="./images/warranty.png"></div>
-        </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка автострахование"
+                         src="./images/i2.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Автострахование</h3>
+                    <p>Комплексная защита вашего автомобиля на дорогах Чехии.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка страхование сотрудников"
+                         src="./images/i3.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Ответственности сотрудников</h3>
+                    <p>Охрана интересов сотрудников в рабочих ситуациях.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка страхование имущества"
+                         src="./images/i4.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Страхование имущества</h3>
+                    <p> Безопасность и защита вашего дома и имущества.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка страхование ипотеки"
+                         src="./images/i5.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Страхование ипотеки</h3>
+                    <p>Спокойствие за ваш ипотечный кредит и недвижимость.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка страхование"
+                         src="./images/i6.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Страхование для путешествий:</h3>
+                    <p>Беззаботные путешествия с полным страховым покрытием.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка страхование беременности и родов"
+                         src="./images/i7.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Страхование беременности и родов</h3>
+                    <p>Забота и поддержка для будущих мам на всех этапах.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка страхование детей"
+                         src="./images/i8.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Страхование детей и подростков</h3>
+                    <p>Защита здоровья и безопасности ваших детей.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка страхование животных"
+                         src="./images/i9.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Страхование животных (собак)</h3>
+                    <p>Страхование здоровья и безопасности вашего питомца.</p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+
+
+        </section>
     </div>
 </div>
-
-<br>
+<div><br></div>
 <div class="contact-form">
     <div class="container">
         <div class="main-block" id="forma">
             <form class="form__item form" onsubmit="sendEmailTelegram(event)">
-                <h2 class="form-heading">Заказать перевод</h2>
+                <h2 class="form-heading">Оставить заявку</h2>
                 <div class="info">
                     <input class="fname" name="name" placeholder="Имя" required type="text">
                     <input class="email" name="email" placeholder="Email" required type="text">
@@ -383,11 +432,11 @@
                               rows="4"></textarea>
                 </div>
                 <button class="btn btn-white form__submit-button" disabled=""
-                        name="submit" type="submit" value="Оставить заявку">Заказать перевод
+                        name="submit" type="submit" value="Оставить заявку">Оставить заявку
                 </button>
                 <div class="checkbox_form">
                     <input autocomplete="off" id="politics" onclick="check();" type="checkbox" value=""/>
-                    Нажимая на кнопку "Заказать перевод", я даю <a class="soglasie" href="zasady.html" target="_blank">cогласие
+                    Нажимая на кнопку "Оставить заявку", я даю <a class="soglasie" href="zasady.html" target="_blank">cогласие
                     на обработку персональных данных.</a>
                 </div>
                 <div class="form_send-result"></div>

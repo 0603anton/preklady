@@ -309,15 +309,15 @@ a {
     position: relative;
 }
 
-.header__content-img::after {
-    position: absolute;
-    content: " ";
-    background-size: cover;
-    background: linear-gradient(rgb(244 152 173 / 0) 10%, var(--main-yellow) 100%);
-    margin-left: 50%;
-    width: 30%;
-    min-height: calc(100vh - 119px);
-}
+/*.header__content-img::after {*/
+/*    position: absolute;*/
+/*    content: " ";*/
+/*    background-size: cover;*/
+/*    background: linear-gradient(rgb(244 152 173 / 0) 10%, var(--main-yellow) 100%);*/
+/*    margin-left: 50%;*/
+/*    width: 30%;*/
+/*    min-height: calc(100vh - 119px);*/
+/*}*/
 
 .header__subtitle {
     font-size: 18px;

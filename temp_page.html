@@ -92,7 +92,7 @@
 <header class="header">
     <a class="back-to-top" href="#top" id="back-to-top" title="Back to top">▲</a>
     <a href="#forma">
-        <button class="btn_rotate" id="btn_rotate">Заказать перевод</button>
+        <button class="btn_rotate" id="btn_rotate">Заявка</button>
     </a>
     <div class="header__top">
         <div class="container">
@@ -107,7 +107,7 @@
                     </div>
                     <div class="nav-menu__callback">
                         <a href="#forma">
-                            <button class="btn">Заказать перевод</button>
+                            <button class="btn">Оставить заявку</button>
                         </a>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                             <a class="menu__list-link" href="./index.html#ourpartners">Наши партнеры</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#forma">Заказать перевод</a>
+                            <a class="menu__list-link" href="#forma">Оставить заявку</a>
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="#kontakty">Контакты</a>
@@ -186,23 +186,23 @@
     <div class="container">
         <div class="main-block" id="forma">
             <form class="form__item form" onsubmit="sendEmailTelegram(event)">
-                <h2 class="form-heading">Заказать перевод</h2>
+                <h2 class="form-heading">Оставить заявку</h2>
                 <div class="info">
                     <input class="fname" name="name" placeholder="Имя" required type="text">
                     <input class="email" name="email" placeholder="Email" required type="text">
                     <input class="phone" name="phone" placeholder="+420" required type="text" value="+420">
-                    <input class="promocode" name="promocode" placeholder="Код на скидку" required type="text">
+                    <input class="promocode" name="promocode" placeholder="Код на скидку" type="text">
                 </div>
                 <div>
                     <textarea class="message" name="comment" placeholder=" Дополнительная информация"
                               rows="4"></textarea>
                 </div>
                 <button class="btn btn-white form__submit-button" disabled=""
-                        name="submit" type="submit" value="Оставить заявку">Заказать перевод
+                        name="submit" type="submit" value="Оставить заявку">Оставить заявку
                 </button>
                 <div class="checkbox_form">
                     <input autocomplete="off" id="politics" onclick="check();" type="checkbox" value=""/>
-                    Нажимая на кнопку "Заказать перевод", я даю <a class="soglasie" href="zasady.html" target="_blank">cогласие
+                    Нажимая на кнопку "Оставить заявку", я даю <a class="soglasie" href="zasady.html" target="_blank">cогласие
                     на обработку персональных данных.</a>
                 </div>
                 <div class="form_send-result"></div>
@@ -262,7 +262,7 @@
                     <li><a class="menu__list-link" href="#aboutus">О нас</a></li>
                     <li><a class="menu__list-link" href="#otzovy">Отзывы</a></li>
                     <li><a class="menu__list-link" href="#ourpartners">Наши партнеры</a></li>
-                    <li><a class="menu__list-link" href="#forma">Заказать перевод</a></li>
+                    <li><a class="menu__list-link" href="#forma">Оставтиь заявку</a></li>
                     <li><a class="menu__list-link" href="#kontakty">Контакты</a></li>
                 </ul>
             </div>
