@@ -1216,6 +1216,10 @@ body .hero_6{
     color: var(--main-yellow);
 }
 
+.transaction_fee_small_tex{
+    font-size: 0.8em
+}
+
 .transaction-fee h2 {
     margin: 0 0 10px;
     font-size: 1.2em;
