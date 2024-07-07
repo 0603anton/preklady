@@ -117,6 +117,10 @@ a {
 
 /*HEADER TOP*/
 
+.bez_dop_show_mobile{
+    display: none;
+}
+
 .header {
     margin-bottom: 45px;
 }
@@ -975,6 +979,14 @@ footer {
         /*align-items: center;*/
     }
 
+    .drop_menu_hide_mobile {
+        display: none;
+    }
+
+    .bez_dop_show_mobile{
+        display: block;
+    }
+
 }
 
 .row {
@@ -1363,17 +1375,18 @@ body .hero_6 {
     width: 20%;
     padding: 10px;
     background-color: var(--main-yellow);
-    height: 250px;
+    min-height: 250px;
 }
 
 /* Style links inside the columns */
 .column a {
     float: none;
     color: black;
-    padding: 16px;
+    padding: 5px;
     text-decoration: none;
     display: block;
     text-align: left;
+    font-size: 15px;
 }
 
 /* Add a background color on hover */
@@ -1393,3 +1406,9 @@ body .hero_6 {
     display: table;
     clear: both;
 }
+
+.dropdown_header{
+    padding: 0 0 10px 5px;
+    font-size: 18px;
+}
+

@@ -60,7 +60,7 @@
         });
     </script>
     <noscript>
-        <div><img src="https://mc.yandex.ru/watch/97172319" style="position:absolute; left:-9999px;" alt=""/></div>
+        <div><img alt="" src="https://mc.yandex.ru/watch/97172319" style="position:absolute; left:-9999px;"/></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
 
@@ -87,8 +87,8 @@
         fbq('init', '1048362040046368');
         fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=1048362040046368&ev=PageView&noscript=1"
+    <noscript><img height="1" src="https://www.facebook.com/tr?id=1048362040046368&ev=PageView&noscript=1" style="display:none"
+                   width="1"
     /></noscript>
     <!-- End Meta Pixel Code -->
 
@@ -109,7 +109,7 @@
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'
           rel="preload">
     <link href="./css/reset.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="css/stylenew.css" rel="stylesheet">
     <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>
     <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>
     <meta content="Судебный, официальный, заверенный, нотариальный перевод документов с украинского, русского, английского и чешского языков.
@@ -199,47 +199,92 @@
                         <li class="menu__list-item mobile_hide">
                             <img alt="" class="icon-item" src="./images/bars_staggered_icon%20(1).svg">
                         </li>
-                        <!--                        <li class="menu__list-item">-->
-                        <!--                            <a class="menu__list-link" href="#uslugy">Услуги</a>-->
-                        <!--                        </li>-->
+                        <li class="menu__list-item bez_dop_show_mobile">
+                            <a class="menu__list-link" href="#uslugy">Услуги</a>
+                        </li>
 
-                        <li class="menu__list-item">
+                        <li class="menu__list-item drop_menu_hide_mobile">
 
-                                <div class="dropdown">
-                                    <a href="#uslugy">
+                            <div class="dropdown">
+                                <a href="#uslugy">
                                     <button class="menu__list-link">Услуги
                                         <i class="fa fa-caret-down"></i>
                                     </button>
-                                    </a>
-                                    <div class="dropdown-content">
-                                        <div class="row_drop">
-                                            <div class="column">
-                                                <h3>Category 1</h3>
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
-                                            </div>
-                                            <div class="column">
-                                                <h3>Category 2</h3>
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
-                                            </div>
-                                            <div class="column">
-                                                <h3>Category 2</h3>
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
-                                            </div>
-                                            <div class="column">
-                                                <h3>Category 3</h3>
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
-                                            </div>
+                                </a>
+                                <div class="dropdown-content">
+                                    <div class="row_drop">
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Языковые услуги</h3>
+                                            <a href="./business_translations.html">Переводы</a>
+                                            <a href="./sud_perevod_dokumentov.html">Судебные переводы документов</a>
+                                            <a href="./other_translations.html">Устные переводы</a>
+                                            <a href="./other_translations.html">Сопровождение</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Документы</h3>
+                                            <a href="#">Нотариальное заверение копий</a>
+                                            <a href="#">Составление доверенности</a>
+                                            <a href="#">Сопровождение у нотариуса</a>
+                                            <a href="#">Апостилизация и легализация</a>
+                                            <a href="#">Нострификация</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Недвижимость</h3>
+                                            <a href="#">Помощь с арендой недвижимости</a>
+                                            <a href="#">Консультации по ипотеке</a>
+                                            <a href="#">Подключение интернета и связи</a>
+                                            <a href="#">Сборка мебели</a>
+                                            <a href="#">Уборка апартаментов</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Страхование</h3>
+                                            <a href="#">Страхование иностранцев в Чехии</a>
+                                            <a href="#">Страхование от несчастных случаев</a>
+                                            <a href="#">Страхование имущества</a>
+                                            <a href="#">Автострахование</a>
+                                            <a href="#">Страхование жизни</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Финансовые услуги</h3>
+                                            <a href="#">Оформление ипотеки</a>
+                                            <a href="#">Кредиты целевые и нецелевые</a>
+                                            <a href="#">Финансовый лизинг на авто</a>
+                                            <a href="#">Инвестирование</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Транспорт</h3>
+                                            <a href="#">Покупка автомобиля</a>
+                                            <a href="#">Автострахование</a>
+                                            <a href="#">Регистрация машины</a>
+                                            <a href="#">Кредит или лизинг на авто</a>
+                                            <a href="#">Подбор автомобиля</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Бизнес</h3>
+                                            <a href="#">Помощь с открытием ИП</a>
+                                            <a href="#">Помощь с открытием ООО</a>
+                                            <a href="#">Разрешения на деятельность</a>
+                                            <a href="#">Консультации для бизнеса</a>
+                                            <a href="#">Бухгалтерские услуги</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Другие услуги</h3>
+                                            <a href="#">Помощь с выбором школы/садика</a>
+                                            <a href="#">Открытие банковского счета</a>
+                                            <a href="#">Личный ассистент (различные поручения)</a>
+                                            <a href="#">Помощь с поступлением в Чешские ВУЗы</a>
+                                        </div>
+                                        <div class="column">
+                                            <h3 class="dropdown_header">Релокация и миграционные услуги</h3>
+                                            <a href="#">Релокация и миграционные услуги</a>
+                                            <a href="#">Оформление виз и ВНЖ</a>
+                                            <a href="#">Помощь с видом на жительство</a>
+                                            <a href="#">Сопровождение при переезде</a>
+                                            <a href="#">Регистрация по месту жительства</a>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
                         </li>
 
@@ -589,19 +634,19 @@
                 </div>
                 <div class="new_price_features">
                     <div class="new_price_feature">
-                        <img src="./images/price/calculator.svg" alt="No Hidden Charges">
+                        <img alt="No Hidden Charges" src="./images/price/calculator.svg">
                         <span><strong>Точная цена</strong> — Получите точную стоимость сразу без скрытых доплат и неожиданных расходов.</span>
                     </div>
                     <div class="new_price_feature">
-                        <img src="./images/price/fast.svg" alt="Get Onboard Instantly">
+                        <img alt="Get Onboard Instantly" src="./images/price/fast.svg">
                         <span><strong>Срок: 2–7 дней</strong> — Стандартный срок изготовления составляет всего 2–7 рабочих дней.</span>
                     </div>
                     <div class="new_price_feature">
-                        <img src="./images/price/warranty.svg" alt="Instant Access">
+                        <img alt="Instant Access" src="./images/price/warranty.svg">
                         <span><strong>Гарантия качества</strong> — Мы предоставляем гарантию на все наши услуги и переводы.</span>
                     </div>
                     <div class="new_price_feature">
-                        <img src="./images/price/affodable.svg" alt="Affordable Cost">
+                        <img alt="Affordable Cost" src="./images/price/affodable.svg">
                         <span><strong>Доступные цены</strong>  — Мы предлагаем конкурентоспособные и доступные цены для всех клиентов.</span>
                     </div>
                 </div>
