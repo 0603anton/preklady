@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
 
 
-
 :root {
     --main-yellow: #fbb512;
     --main-dark: #3e3e3e;
@@ -130,7 +129,7 @@ a {
     align-items: center;
 }
 
-.logobox{
+.logobox {
     display: flex;
     align-items: center;
 }
@@ -196,6 +195,15 @@ a {
     font-size: 16px;
     line-height: 14px;
     letter-spacing: 0.6px;
+
+
+    border: none;
+    outline: none;
+
+
+    background-color: inherit;
+
+
 }
 
 .icons {
@@ -367,7 +375,7 @@ a {
 
 /*NEW CARDS*/
 
-.cards{
+.cards {
     padding-top: 40px;
     display: flex;
     justify-content: center;
@@ -443,7 +451,7 @@ a {
 
 }
 
-.card-arrow img{
+.card-arrow img {
     min-width: 40px;
     min-height: 40px;
     /*filter: invert(85%) sepia(34%) saturate(4872%) hue-rotate(350deg) brightness(102%) contrast(97%);*/
@@ -485,11 +493,11 @@ a {
 
 /*PRICE*/
 
-.price{
+.price {
     margin-bottom: 3rem;
 }
 
-.price__main{
+.price__main {
     /*background-color: #dff9fb;*/
     /*min-height: 100vh;*/
     display: flex;
@@ -498,20 +506,20 @@ a {
 
 }
 
-.price__heading{
+.price__heading {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 4rem;
     color: var(--main-yellow);
 }
 
-.price__text{
+.price__text {
     text-align: left;
     margin-top: 2rem;
 }
 
-.price__link{
-    color: var(--main-dark );
+.price__link {
+    color: var(--main-dark);
 }
 
 .pricing {
@@ -519,6 +527,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .pricing .plan {
     background-color: #fff;
     padding: 2.5rem;
@@ -528,30 +537,38 @@ a {
     transition: 0.3s;
     cursor: pointer;
 }
+
 .pricing .plan h2 {
     font-size: 22px;
     margin-bottom: 12px;
 }
+
 .pricing .plan .price {
     margin-bottom: 1rem;
     font-size: 30px;
 }
+
 .pricing .plan ul.features_price {
     list-style-type: none;
     text-align: left;
 }
+
 .pricing .plan ul.features_price li {
     margin: 8px;
 }
+
 .pricing .plan ul.features_price li .fas {
     margin-right: 4px;
 }
+
 .pricing .plan ul.features_price li .fa-check-circle {
     color: var(--main-yellow);
 }
+
 .pricing .plan ul.features_price li .fa-question-circle {
     color: var(--main-yellow);
 }
+
 .pricing .plan button {
     border: none;
     width: 100%;
@@ -563,11 +580,13 @@ a {
     cursor: pointer;
     font-size: 16px;
 }
+
 .pricing .plan.popular {
     border: 2px solid var(--main-yellow);
     position: relative;
     transform: scale(1.08);
 }
+
 .pricing .plan.popular span {
     position: absolute;
     top: -20px;
@@ -580,6 +599,7 @@ a {
     border-radius: 5px;
     font-weight: 500;
 }
+
 .pricing .plan:hover {
     box-shadow: 5px 7px 67px -28px rgba(0, 0, 0, 0.37);
 }
@@ -598,18 +618,18 @@ a {
     /*min-height: 33vh;*/
 }
 
-.warranty__main{
+.warranty__main {
     margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.warranty__main_txt p{
+.warranty__main_txt p {
     max-width: 53vw;
 }
 
-.warranty__img{
+.warranty__img {
     max-width: 300px;
 }
 
@@ -789,9 +809,10 @@ footer {
 }
 
 /*FAQ*/
-.faq{
+.faq {
     margin-bottom: 35px;
 }
+
 .accordion {
     background-color: #eee;
     color: var(--main-dark);
@@ -810,7 +831,7 @@ footer {
     background-color: #ccc;
 }
 
-.accordion:hover{
+.accordion:hover {
     background-color: var(--main-yellow);
 
 }
@@ -898,18 +919,14 @@ footer {
     }
 
     /*NEW CARDS*/
-    .card{
+    .card {
         max-width: 100%;
     }
 
     /*TITLE без спец  шрифта*/
-/*    .fredericka{*/
-/*display: none;*/
-/*    }*/
-
-
-
-
+    /*    .fredericka{*/
+    /*display: none;*/
+    /*    }*/
     .advantages__content {
         flex-direction: column;
         justify-content: center;
@@ -928,7 +945,7 @@ footer {
         font-size: 1.36em;
     }
 
-    .warranty__main_txt p{
+    .warranty__main_txt p {
         max-width: 100vw;
     }
 
@@ -951,7 +968,7 @@ footer {
         background-color: #fff;
         padding: 20px;
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         max-width: 800px;
         width: 100%;
         flex-direction: column;
@@ -960,27 +977,31 @@ footer {
 
 }
 
-.row{
+.row {
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.footer{
+
+.footer {
     background-color: #24262b;
     padding: 70px 0;
 }
-.footer-col{
+
+.footer-col {
     width: 25%;
     padding: 0 15px;
 }
 
-.footer-col ul{
-padding: 0;
+.footer-col ul {
+    padding: 0;
 }
-.footer-col h4{
+
+.footer-col h4 {
     font-size: 18px;
     color: #ffffff;
     /*text-transform: capitalize;*/
@@ -988,20 +1009,23 @@ padding: 0;
     font-weight: 500;
     position: relative;
 }
-.footer-col h4::before{
+
+.footer-col h4::before {
     content: '';
     position: absolute;
-    left:0;
+    left: 0;
     bottom: -10px;
     background-color: var(--main-yellow);
     height: 2px;
     box-sizing: border-box;
     width: 50px;
 }
-.footer-col ul li:not(:last-child){
+
+.footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -1011,82 +1035,85 @@ padding: 0;
     display: block;
     transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+
+.footer-col ul li a:hover {
     color: #ffffff;
     padding-left: 8px;
 }
-.footer-col .social-links a, gpay{
+
+.footer-col .social-links a, gpay {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(255,255,255,0.2);
-    margin:0 10px 10px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
     color: #ffffff;
     transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
+
+.footer-col .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
 }
 
 /*responsive*/
-@media(max-width: 767px){
-    .footer-col{
+@media (max-width: 767px) {
+    .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
-@media(max-width: 574px){
-    .footer-col{
+
+@media (max-width: 574px) {
+    .footer-col {
         width: 100%;
     }
 }
 
 
-
 /*PRO FIRMY Партнерам*/
 
-body .hero_first{
+body .hero_first {
     height: calc(100vh - 119px);
-    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 0%), url('../images/partners/111.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
 }
 
-body .hero_2{
-    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/11.jpg');
+body .hero_2 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 0%), url('../images/partners/11.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
 }
 
-body .hero_3{
-    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/22.jpg');
+body .hero_3 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 0%), url('../images/partners/22.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
 }
 
-body .hero_4{
-    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/33.jpg');
+body .hero_4 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 0%), url('../images/partners/33.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
 }
 
-body .hero_5{
-    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/44.jpg');
+body .hero_5 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 0%), url('../images/partners/44.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
 }
 
-body .hero_6{
-    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 0%), url('../images/partners/55.jpg');
+body .hero_6 {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 0%), url('../images/partners/55.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -1106,7 +1133,7 @@ body .hero_6{
     /*z-index: -2;*/
 }
 
-.hero_item{
+.hero_item {
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -1134,7 +1161,7 @@ body .hero_6{
 /*    margin-bottom: 15px;*/
 /*}*/
 
-.partners_text{
+.partners_text {
     color: white;
     max-width: 30vw;
     margin-bottom: 15px;
@@ -1142,7 +1169,7 @@ body .hero_6{
 }
 
 /*КОНТАКТЫ*/
-.worktime__main{
+.worktime__main {
     margin-bottom: 25px;
     text-align: justify;
 }
@@ -1160,20 +1187,24 @@ body .hero_6{
     height: 2rem;
     line-height: 2rem;
 }
+
 .link--arrowed .arrow-icon {
     position: relative;
     top: -1px;
     transition: transform 0.3s ease;
     vertical-align: middle;
 }
+
 .link--arrowed .arrow-icon--circle {
     transition: stroke-dashoffset 0.3s ease;
     stroke-dasharray: 95;
     stroke-dashoffset: 95;
 }
+
 .link--arrowed:hover .arrow-icon {
     transform: translate3d(5px, 0, 0);
 }
+
 .link--arrowed:hover .arrow-icon--circle {
     stroke-dashoffset: 0;
 }
@@ -1185,38 +1216,42 @@ body .hero_6{
     align-items: center;
     padding: 20px;
 }
+
 .pricing-header {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .pricing-header h1 {
     margin: 0;
     font-size: 2em;
 }
+
 .pricing-content {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     width: 100%;
     /*align-items: center;*/
 }
+
 .transaction-fee {
     flex: 1;
     padding: 10px;
     /*flex-wrap: wrap;*/
 }
 
-.transaction_fee_text{
+.transaction_fee_text {
     font-size: 2em;
     font-weight: bold;
     color: var(--main-yellow);
 }
 
-.transaction_fee_small_tex{
+.transaction_fee_small_tex {
     font-size: 0.8em
 }
 
@@ -1224,9 +1259,11 @@ body .hero_6{
     margin: 0 0 10px;
     font-size: 1.2em;
 }
+
 .transaction-fee p {
     margin: 5px 0;
 }
+
 .new_price_features {
     flex: 1;
     display: flex;
@@ -1234,12 +1271,14 @@ body .hero_6{
     justify-content: space-between;
     padding: 10px;
 }
+
 .new_price_feature {
     display: flex;
     align-items: center;
     margin: 10px 0;
     /*flex-wrap: wrap;*/
 }
+
 .new_price_feature img {
     /*width: 45px;*/
     /*height: 45px;*/
@@ -1249,13 +1288,16 @@ body .hero_6{
     min-height: 65px;
     filter: invert(85%) sepia(34%) saturate(4872%) hue-rotate(350deg) brightness(102%) contrast(97%);
 }
+
 .new_price_feature span {
     font-size: 1em;
 }
+
 .cta-button {
     text-align: center;
     margin-top: 20px;
 }
+
 .cta-button a {
     background-color: var(--main-yellow);
     color: var(--main-dark);
@@ -1264,6 +1306,90 @@ body .hero_6{
     text-decoration: none;
 }
 
-.price_table{
+.price_table {
     margin-bottom: 25px;
+}
+
+
+/* The dropdown container */
+.dropdown {
+    /*float: left;*/
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: var(--main-yellow);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 80%;
+    left: 10%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Mega Menu header, if needed */
+.dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: var(--main-yellow);
+    height: 250px;
+}
+
+/* Style links inside the columns */
+.column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+    background-color: var(--main-dark);
+    color: white;
+}
+
+/* Clear floats after the columns */
+.row_drop{
+    background-color: var(--main-yellow);
+}
+
+
+.row_drop:after {
+    content: "";
+    display: table;
+    clear: both;
 }
