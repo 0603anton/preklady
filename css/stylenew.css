@@ -773,6 +773,15 @@ a {
     margin-top: 10px;
 }
 
+select.city, select.service_select {
+    background-color: var(--main-yellow);
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-bottom: 25px;
+    min-width: 30vw;
+}
+
 /*CONTACTS*/
 
 .map-item {
