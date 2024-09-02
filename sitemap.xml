@@ -9,68 +9,83 @@
 
 <url>
   <loc>https://prekladovna.cz/</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:39+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/index.html</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/partners.html</loc>
-  <lastmod>2024-07-02T05:22:44+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/cz.html</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/sud_perevod_dokumentov.html</loc>
-  <lastmod>2024-07-02T05:22:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/localization.html</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/business_translations.html</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/sud_perevod_dokumentov.html</loc>
+  <lastmod>2024-08-21T08:15:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/other_translations.html</loc>
+  <lastmod>2024-08-21T08:15:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/blog.html</loc>
+  <lastmod>2024-08-21T08:15:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/localization.html</loc>
+  <lastmod>2024-08-21T08:15:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/nostrif.html</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/insurance.html</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/temp_page.html</loc>
-  <lastmod>2024-07-02T05:22:44+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/about_price.html</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/zasady.html</loc>
-  <lastmod>2024-07-02T05:22:44+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/contacts.html</loc>
-  <lastmod>2024-07-02T05:22:43+00:00</lastmod>
+  <lastmod>2024-08-21T08:15:38+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/blog_translation_price.html</loc>
+  <lastmod>2024-08-21T08:15:29+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
