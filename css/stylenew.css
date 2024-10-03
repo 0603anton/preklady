@@ -138,6 +138,7 @@ a {
 .logobox {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .red-tag {
@@ -169,6 +170,7 @@ a {
 
 .lang-item {
     margin-right: 15px;
+    margin-left: 15px;
     padding: 0 0 9px 0;
     color: var(--main-dark);
     font-weight: bold;
