@@ -217,6 +217,11 @@ a {
     justify-content: center;
 }
 
+.contacts .icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .icons a {
     margin: 0 10px;
 }
