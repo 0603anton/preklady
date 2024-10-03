@@ -167,7 +167,7 @@
 <header class="header">
     <a class="back-to-top" href="#top" id="back-to-top" title="Back to top">▲</a>
     <a href="#forma">
-        <button class="btn_rotate" id="btn_rotate">Заказать перевод</button>
+        <button class="btn_rotate" id="btn_rotate"><img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg"></button>
     </a>
     <div class="header__top">
         <div class="container">
@@ -196,8 +196,42 @@
         <div class="container">
             <div class="header__nav-inner">
                 <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__list-item mobile_hide">
+                    <div id="mySidepanel" class="sidepanel desktop_hide">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+                            <a onclick="closeNav()" class="menu__list-link" href="#uslugy">Услуги</a>
+
+
+                            <a onclick="closeNav()" class="menu__list-link" href="./blog.html">Блог</a>
+
+
+
+                            <a onclick="closeNav()" class="menu__list-link" href="#price">Стоимость</a>
+
+
+                            <a onclick="closeNav()" class="menu__list-link" href="#aboutus">О нас</a>
+
+
+                            <a onclick="closeNav()" class="menu__list-link" href="#otzovy">Отзывы</a>
+
+
+                            <a onclick="closeNav()" class="menu__list-link" href="#ourpartners">Наши партнеры</a>
+
+
+                            <a onclick="closeNav()" class="menu__list-link" href="#forma">Заказать перевод</a>
+
+
+                            <a onclick="closeNav()" class="menu__list-link" href="#kontakty">Контакты</a>
+
+
+                            <a onclick="closeNav()" class="menu__list-link" href="#faq">FAQ</a>
+
+                    </div>
+
+                    <button id="openbtn" class="openbtn desktop_hide desktop_hide_special" onclick="openNav()">☰</button>
+
+                    <ul class="menu__list mobile_hide">
+                        <li class="menu__list-item">
                             <img alt="" class="icon-item" src="./images/bars_staggered_icon%20(1).svg">
                         </li>
                         <li class="menu__list-item bez_dop_show_mobile">

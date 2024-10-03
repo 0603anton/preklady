@@ -30,3 +30,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const btnRotate = document.getElementById("openbtn");
+
+    // Показать/скрыть кнопку при прокрутке страницы
+    window.addEventListener("scroll", function () {
+        if (window.pageYOffset>=300) {
+            btnRotate.style.display = "block";
+        } else {
+            btnRotate.style.display = "none";
+        }
+    });
+
+});
+
