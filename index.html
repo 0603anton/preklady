@@ -110,17 +110,54 @@
         языков в Праге, Чехия |
         Судебный переводчик в Праге, Чехия | Бюро переводов Prekladovna</title>
     <link href="./images/logo1.png" rel="shortcut icon"/>
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-          rel="stylesheet" rel="preload">
-    <!--    rel="preload"-->
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'
-          rel="preload">
+    <!-- Предварительная загрузка и preconnect для Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link  rel="preconnect" crossorigin href="https://fonts.gstatic.com">
+
+    <!-- Предварительная загрузка шрифтов с добавлением onload и оптимизацией загрузки -->
+    <link rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"></noscript>
+
+
+<!--старый код-->
+<!--    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"-->
+<!--          rel="stylesheet" >-->
+    <!--    конец кода старого-->
+
+    <!-- Предварительная загрузка Font Awesome CSS с отложенной активацией -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
+
+    <!--старый код-->
+<!--    <link rel="preload" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'>-->
+    <!--    конец кода старого-->
+
+
+
+    <!-- Локальные CSS файлы -->
     <link href="./css/reset.css" rel="stylesheet">
     <link href="css/stylenew.css" rel="stylesheet">
-    <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>
-    <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Отложенная загрузка Slick CSS -->
+    <link rel="preload" href="./slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./slick/slick.css"></noscript>
+
+    <link rel="preload" href="./slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./slick/slick-theme.css"></noscript>
+
+
+
+
+    <!--старый код-->
+<!--    <link href="./css/reset.css" rel="stylesheet">-->
+<!--    <link href="css/stylenew.css" rel="stylesheet">-->
+<!--    <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>-->
+<!--    <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>-->
+
+    <!--    конец кода старого-->
     <meta content="Судебный, официальный, заверенный, нотариальный перевод документов с украинского, русского, английского и чешского языков.
      Prekladovna предлагает комплексные услуги в сфере письменного перевода, заверения документов и нострификации.
      Опытные судебные переводчики. Низкие цены."
