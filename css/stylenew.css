@@ -125,6 +125,7 @@ a {
 
 .header {
     margin-bottom: 45px;
+    min-height: 100vh;
 }
 
 .header__top-inner {
@@ -322,13 +323,13 @@ a {
 
 .header__content-img {
     /*background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.9) 20%, rgba(255, 255, 255, 0) 35%), url("../images/main-img2.png");*/
-    background-image: url("../images/test_background.png");
-    background-repeat: no-repeat;
-    background-position: center center;
+    /*background-image: url("../images/test_background.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
     /*background-size: 140%;*/
     min-width: 50%;
-    min-height: calc(100vh - 119px);
-    position: relative;
+    /*min-height: calc(100vh - 119px);*/
+    /*position: relative;*/
 }
 
 /*.header__content-img::after {*/
