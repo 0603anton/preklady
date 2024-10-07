@@ -4,6 +4,8 @@
 :root {
     --main-yellow: #fbb512;
     --main-dark: #3e3e3e;
+    --main-white: #ffffff;
+    --hover-yellow: #e6a400;
 }
 
 
@@ -423,7 +425,7 @@ a {
 .service-description {
     font-size: 1em;
     line-height: 1.5;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 .service-list {
@@ -456,7 +458,7 @@ a {
 
 @media (min-width: 1024px) {
     .services-container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
     }
 }
 
@@ -570,7 +572,7 @@ a {
     display: flex;
     align-items: center;
     height: 100%;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url("../images/temp/dok1.jpg");
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url("../images/temp/dok1С.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -582,7 +584,7 @@ a {
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url("../images/temp/fun1.jpg");
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url("../images/temp/fun1с.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -594,7 +596,7 @@ a {
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url("../images/temp/fam.jpg");
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url("../images/temp/famс.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -606,7 +608,7 @@ a {
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url("../images/temp/stud1.jpg");
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 0%), url("../images/temp/stud1С.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -648,47 +650,114 @@ a {
     padding: 20px;
 }
 
-.welcome-text {
-    color: var(--main-yellow);
-    border-bottom: var(--main-yellow) 1px solid;
-    font-size: 1.2em;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
-
+/* Стиль для основного заголовка */
 .hero-title {
-    font-size: 2em;
-    font-weight: bold;
-    margin: 10px 0;
-    color: white;
+    font-size: 2em; /* Увеличен размер заголовка для большего акцента */
+    font-weight: 800;
+    margin: 15px 0;
+    color: var(--main-white);
+    line-height: 1.4;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Добавлен теневой эффект для лучшего контраста */
 }
 
+/* Стиль для подзаголовка */
 .hero-subtitle {
-    font-size: 1.25em;
-    margin-bottom: 20px;
-    color: white;
+    font-size: 1em;
+    margin-bottom: 25px;
+    color: var(--main-white);
+    font-weight: 300;
+    max-width: 550px; /* Ограничение ширины для улучшения читаемости */
+    line-height: 1.4;
 }
 
-.phone_hero, .phone_hero a {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-    font-weight: bold;
-    color: var(--main-yellow);
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 10px;
+        max-width: 100%; /* Полная ширина для мобильных */
+    }
+
+    .hero-title {
+        font-size: 1.5em; /* Уменьшение размера заголовка на мобильных */
+        line-height: 1.3;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9em; /* Уменьшение размера подзаголовка для лучшей читаемости */
+        margin-bottom: 20px;
+    }
+
+    .hero-btn {
+        padding: 8px 15px; /* Уменьшение отступов кнопки */
+        font-size: 0.9em; /* Уменьшение размера текста для мобильных */
+    }
+
+    .hero-btn::after {
+        font-size: 1em; /* Уменьшение размера стрелки для мобильных */
+    }
 }
 
+/* Адаптация для небольших экранов, таких как телефоны */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.2em; /* Еще большее уменьшение заголовка */
+    }
+
+    .hero-subtitle {
+        font-size: 0.85em;
+    }
+
+    .hero-btn {
+        padding: 6px 10px; /* Уменьшение кнопки для удобства */
+        font-size: 0.85em;
+    }
+
+    .hero-btn::after {
+        font-size: 0.9em;
+    }
+}
+
+/* Кнопка */
 .hero-btn {
     display: inline-block;
-    padding: 15px 30px;
-    background: #fca311;
-    color: #000;
+    padding: 5px 15px;
+    background: var(--main-yellow);
+    color: var(--main-dark);
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background 0.3s ease;
+    /*font-weight: bold;*/
+    width: auto; /* Сохраняет ширину кнопки автоматически в зависимости от текста */
+    max-width: fit-content; /* Ограничивает кнопку по размеру контента */
+    /*text-transform: uppercase;*/
+    border-radius: 50px; /* Округленные углы для более современного стиля */
+    /*transition: all 0.3s ease-in-out;*/
+    /*box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); !* Добавлен теневой эффект для выделения кнопки *!*/
 }
 
-.hero-btn:hover {
-    background: #ffa500;
+.hero-btn::after {
+    content: '➔'; /* Символ стрелки */
+    font-size: 1.2em; /* Размер стрелки */
+    margin-left: 10px; /* Отступ слева от текста кнопки */
+    position: relative; /* Относительное позиционирование для подстраивания под текст */
+    transition: transform 0.3s ease; /* Плавная анимация движения стрелки */
+}
+
+/* Анимация появления текста */
+.hero-content > * {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.hero-content > *:nth-child(1) { animation-delay: 0.3s; }
+.hero-content > *:nth-child(2) { animation-delay: 0.5s; }
+.hero-content > *:nth-child(3) { animation-delay: 0.7s; }
+.hero-content > *:nth-child(4) { animation-delay: 0.9s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
@@ -710,7 +779,7 @@ a {
 /*SERVICE*/
 
 .service {
-    /*padding-top: 40px;*/
+    padding-top: 40px;
     /*margin-bottom: 70px;*/
 }
 
@@ -1729,8 +1798,8 @@ body .hero_6 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    width: 80%;
-    left: 10%;
+    width: 20%;
+    left: 15%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -1750,10 +1819,10 @@ body .hero_6 {
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
-    width: 20%;
+    width: 100%;
     padding: 10px;
     background-color: var(--main-yellow);
-    min-height: 250px;
+    min-height: 150px;
 }
 
 /* Style links inside the columns */
