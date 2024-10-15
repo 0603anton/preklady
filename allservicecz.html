@@ -7,27 +7,29 @@
 
     <meta charset="UTF-8">
 
-<!--    &lt;!&ndash; Google tag (gtag.js) &ndash;&gt;-->
-<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7HCZ1BJK3"></script>-->
-<!--    <script>-->
-<!--        window.dataLayer = window.dataLayer || [];-->
+    <!--    &lt;!&ndash; Google tag (gtag.js) &ndash;&gt;-->
+    <!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7HCZ1BJK3"></script>-->
+    <!--    <script>-->
+    <!--        window.dataLayer = window.dataLayer || [];-->
 
-<!--        function gtag() {-->
-<!--            dataLayer.push(arguments);-->
-<!--        }-->
+    <!--        function gtag() {-->
+    <!--            dataLayer.push(arguments);-->
+    <!--        }-->
 
-<!--        gtag('js', new Date());-->
+    <!--        gtag('js', new Date());-->
 
-<!--        gtag('config', 'G-M7HCZ1BJK3');-->
-<!--    </script>-->
+    <!--        gtag('config', 'G-M7HCZ1BJK3');-->
+    <!--    </script>-->
 
-    <script src="./js/accordion.js" defer></script>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" defer></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript" defer></script>
-    <script src="./slick/slick.js" type="text/javascript" defer></script>
-    <script src="./js/main.js" defer></script>
-    <script src="./js/backtotop.js" defer></script>
-    <script src="./js/formsend.js" async></script>
+    <script defer src="./js/accordion.js"></script>
+    <script defer src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script defer src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script defer src="./slick/slick.js" type="text/javascript"></script>
+    <script defer src="./js/main.js"></script>
+    <script defer src="./js/backtotop.js"></script>
+    <script async src="./js/formsend.js"></script>
+    <script src="./js/splide.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NMEXD3YDWQ">
@@ -45,31 +47,31 @@
     </script>
 
     <!-- Yandex.Metrika counter -->
-<!--    <script async type="text/javascript">-->
-<!--        (function (m, e, t, r, i, k, a) {-->
-<!--            m[i] = m[i] || function () {-->
-<!--                (m[i].a = m[i].a || []).push(arguments)-->
-<!--            };-->
-<!--            m[i].l = 1 * new Date();-->
-<!--            for (var j = 0; j < document.scripts.length; j++) {-->
-<!--                if (document.scripts[j].src === r) {-->
-<!--                    return;-->
-<!--                }-->
-<!--            }-->
-<!--            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)-->
-<!--        })-->
-<!--        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");-->
+    <!--    <script async type="text/javascript">-->
+    <!--        (function (m, e, t, r, i, k, a) {-->
+    <!--            m[i] = m[i] || function () {-->
+    <!--                (m[i].a = m[i].a || []).push(arguments)-->
+    <!--            };-->
+    <!--            m[i].l = 1 * new Date();-->
+    <!--            for (var j = 0; j < document.scripts.length; j++) {-->
+    <!--                if (document.scripts[j].src === r) {-->
+    <!--                    return;-->
+    <!--                }-->
+    <!--            }-->
+    <!--            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)-->
+    <!--        })-->
+    <!--        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");-->
 
-<!--        ym(97172319, "init", {-->
-<!--            clickmap: true,-->
-<!--            trackLinks: true,-->
-<!--            accurateTrackBounce: true,-->
-<!--            webvisor: true-->
-<!--        });-->
-<!--    </script>-->
-<!--    <noscript>-->
-<!--        <div><img alt="" src="https://mc.yandex.ru/watch/97172319" style="position:absolute; left:-9999px;"/></div>-->
-<!--    </noscript>-->
+    <!--        ym(97172319, "init", {-->
+    <!--            clickmap: true,-->
+    <!--            trackLinks: true,-->
+    <!--            accurateTrackBounce: true,-->
+    <!--            webvisor: true-->
+    <!--        });-->
+    <!--    </script>-->
+    <!--    <noscript>-->
+    <!--        <div><img alt="" src="https://mc.yandex.ru/watch/97172319" style="position:absolute; left:-9999px;"/></div>-->
+    <!--    </noscript>-->
     <!-- /Yandex.Metrika counter -->
 
     <!-- Meta Pixel Code -->
@@ -111,51 +113,60 @@
         Судебный переводчик в Праге, Чехия | Бюро переводов Prekladovna</title>
     <link href="./images/logo1.png" rel="shortcut icon"/>
     <!-- Предварительная загрузка и preconnect для Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link  rel="preconnect" crossorigin href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
 
     <!-- Предварительная загрузка шрифтов с добавлением onload и оптимизацией загрузки -->
-    <link rel="preload"
+    <link as="style"
           href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-          as="style" onload="this.onload=null;this.rel='stylesheet'">
+          onload="this.onload=null;this.rel='stylesheet'" rel="preload">
     <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"></noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+              rel="stylesheet">
+    </noscript>
 
 
-<!--старый код-->
-<!--    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"-->
-<!--          rel="stylesheet" >-->
+    <!--старый код-->
+    <!--    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"-->
+    <!--          rel="stylesheet" >-->
     <!--    конец кода старого-->
 
     <!-- Предварительная загрузка Font Awesome CSS с отложенной активацией -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
+    <link as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          onload="this.onload=null;this.rel='stylesheet'"
+          rel="preload">
+    <noscript>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    </noscript>
 
     <!--старый код-->
-<!--    <link rel="preload" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'>-->
+    <!--    <link rel="preload" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'>-->
     <!--    конец кода старого-->
-
 
 
     <!-- Локальные CSS файлы -->
     <link href="./css/reset.css" rel="stylesheet">
-    <link href="css/stylenew.css" rel="stylesheet">
+    <link href="./css/stylenew.css" rel="stylesheet">
+    <link href="./css/splide.min.css" rel="stylesheet">
+    <link href="./css/swiper.min.css" rel="stylesheet">
 
     <!-- Отложенная загрузка Slick CSS -->
-    <link rel="preload" href="./slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="./slick/slick.css"></noscript>
+    <link as="style" href="./slick/slick.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload">
+    <noscript>
+        <link href="./slick/slick.css" rel="stylesheet">
+    </noscript>
 
-    <link rel="preload" href="./slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="./slick/slick-theme.css"></noscript>
-
-
+    <link as="style" href="./slick/slick-theme.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload">
+    <noscript>
+        <link href="./slick/slick-theme.css" rel="stylesheet">
+    </noscript>
 
 
     <!--старый код-->
-<!--    <link href="./css/reset.css" rel="stylesheet">-->
-<!--    <link href="css/stylenew.css" rel="stylesheet">-->
-<!--    <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>-->
-<!--    <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>-->
+    <!--    <link href="./css/reset.css" rel="stylesheet">-->
+    <!--    <link href="css/stylenew.css" rel="stylesheet">-->
+    <!--    <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>-->
+    <!--    <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>-->
 
     <!--    конец кода старого-->
     <meta content="Судебный, официальный, заверенный, нотариальный перевод документов с украинского, русского, английского и чешского языков.
@@ -209,28 +220,30 @@
 
 </head>
 <body>
-<header class="header_main_page">
+<header class="header_main_page ">
     <a class="back-to-top" href="#top" id="back-to-top" title="Back to top">▲</a>
     <a href="#forma">
-        <button class="btn_rotate" id="btn_rotate"><img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg"></button>
+        <button class="btn_rotate" id="btn_rotate"><img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg">
+        </button>
     </a>
+
     <div class="header__top">
         <div class="container">
             <div class="header__top-inner">
                 <div class="logobox">
-                    <a class="logo" href="./allservice.html">
+                    <a class="logo" href="./allservicecz.html">
                         <img alt="logo" class="logo__img" src="./images/logo.svg">
                     </a>
-                    <a href="./partners.html"><span class="red-tag">Для компаний</span></a>
+                    <a href="./partners.html"><span class="red-tag">Pro firmy</span></a>
                 </div>
                 <div class="nav-menu">
                     <div class="nav-menu__lang">
-                        <a class="lang-item" href="./expresstranslationcz.html">Cz</a>
-                        <a class="lang-item" href="./expresstranslation.html">Ru</a>
+                        <a class="lang-item" href="./allservicecz.html">Cz</a>
+                        <a class="lang-item" href="./allservice.html">Ru</a>
                     </div>
                     <div class="nav-menu__callback">
                         <a href="#forma">
-                            <button class="btn">Заказать</button>
+                            <button class="btn">Objednat překlad</button>
                         </a>
                     </div>
                 </div>
@@ -241,39 +254,39 @@
         <div class="container">
             <div class="header__nav-inner">
                 <nav class="menu">
-                    <div id="mySidepanel" class="sidepanel desktop_hide">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <div class="sidepanel desktop_hide" id="mySidepanel">
+                        <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#uslugy">Услуги</a>
-
-
-                        <a onclick="closeNav()" class="menu__list-link" href="./blog.html">Блог</a>
+                        <a class="menu__list-link" href="./index.html#uslugy" onclick="closeNav()">Služby</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#price">Стоимость</a>
+                        <a class="menu__list-link" href="./blog.html" onclick="closeNav()">Blog</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#aboutus">О нас</a>
+                        <a class="menu__list-link" href="./index.html#price" onclick="closeNav()">Cenová nabídka</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#otzovy">Отзывы</a>
+                        <a class="menu__list-link" href="./index.html#aboutus" onclick="closeNav()">O nás</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#ourpartners">Наши
-                            партнеры</a>
+                        <a class="menu__list-link" href="./index.html#otzovy" onclick="closeNav()">Recenze</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="#forma">Заказать</a>
+                        <a class="menu__list-link" href="./index.html#ourpartners" onclick="closeNav()">Naše
+                            partneři </a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="#kontakty">Контакты</a>
+                        <a class="menu__list-link" href="#forma" onclick="closeNav()">Objednat překlad </a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#faq">FAQ</a>
+                        <a class="menu__list-link" href="#kontakty" onclick="closeNav()">Kontakty</a>
+
+
+                        <a class="menu__list-link" href="./index.html#faq" onclick="closeNav()">FAQ</a>
 
                     </div>
 
-                    <button id="openbtn" class="openbtn desktop_hide desktop_hide_special" onclick="openNav()">☰
+                    <button class="openbtn desktop_hide desktop_hide_special" id="openbtn" onclick="openNav()">☰
                     </button>
 
                     <ul class="menu__list mobile_hide">
@@ -281,14 +294,14 @@
                             <img alt="" class="icon-item" src="./images/bars_staggered_icon%20(1).svg">
                         </li>
                         <li class="menu__list-item bez_dop_show_mobile">
-                            <a class="menu__list-link" href="#uslugy">Услуги</a>
+                            <a class="menu__list-link" href="#uslugy">Služby</a>
                         </li>
 
                         <li class="menu__list-item drop_menu_hide_mobile">
 
                             <div class="dropdown">
-                                <a href="./allservice.html#service">
-                                    <button class="menu__list-link">Услуги
+                                <a href="#uslugy">
+                                    <button class="menu__list-link">Služby
                                         <i class="fa fa-caret-down"></i>
                                     </button>
                                 </a>
@@ -296,10 +309,10 @@
                                     <div class="row_drop">
                                         <div class="column">
                                             <!--                                                <h3 class="dropdown_header">Языковые услуги</h3>-->
-                                            <a href="./index.html">Языковые услуги</a>
-                                            <a href="./temp_page.html">Финансовые услуги</a>
-                                            <a href="./temp_page.html">Подготовка к учебе</a>
-                                            <a href="./temp_page.html">Помощь иностранцам в Чехии</a>
+                                            <a href="./prekladycz.html">Jazykové služby</a>
+                                            <a href="./sud_perevod_dokumentov.html">Finanční služby</a>
+                                            <a href="./other_translations.html">Příprava ke studiu v Evropě </a>
+                                            <a href="./other_translations.html">Podpora a pomoc v zahraničí </a>
                                         </div>
                                     </div>
                                 </div>
@@ -309,26 +322,26 @@
 
 
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="./blog.html">Блог</a>
+                            <a class="menu__list-link" href="./blog.html">Blog</a>
                         </li>
-                        </li>
-                        <!--                            <li class="menu__list-item">-->
-                        <!--                                <a class="menu__list-link" href="./index.html#price">Стоимость</a>-->
-                        <!--                            </li>-->
-                        <li class="menu__list-item">
-                            <a class="menu__list-link" href="./index.html#aboutus">О нас</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="./index.html#otzovy">Отзывы</a>
+                            <a class="menu__list-link" href="./index.html#price">Cenová nabídka</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="./index.html#ourpartners">Наши партнеры</a>
+                            <a class="menu__list-link" href="./index.html#aboutus">O nás</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#forma">Заказать</a>
+                            <a class="menu__list-link" href="./index.html#otzovy">Recenze</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#kontakty">Контакты</a>
+                            <a class="menu__list-link" href="./index.html#ourpartners">Naše partneři</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#forma">Objednat překlad </a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#kontakty">Kontakty</a>
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="./index.html#faq">FAQ</a>
@@ -364,322 +377,568 @@
             </div>
         </div>
     </div>
-    <div class="header__content">
-        <div class="container">
-            <div class="header__content-inner">
-                <div class="text">
-                    <!--                    <h1 class="header__title"><span class="highlight-word fredericka">Zastavte se,</span><br>-->
-                    <!--                        Jste tu spravne.</h1>-->
-                    <h1 class="header__title"><span class="highlight-word fredericka">Prekladovna -</span><br>
-                        компания №1 Чешского рынка судебных переводов.</h1>
-                    <h4 class="header__subtitle highlight-word">Мы переводим с чешского, украинского,<br> русского и
-                        других языков.</h4>
-                </div>
-                <div class="header__content-img">
-                    <img src="./images/test_background.jpg" alt="hero img">
-                </div>
 
+    <div class="header__content header_allservice_page">
+
+        <section aria-label="Beautiful Images" class="splide" id="image-carousel">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="splide__slide_content_1">
+                            <div class="splide__slide_content_text hero-content">
+                                <!--                                                        <h2 class="welcome-text">ДОБРО ПОЖАЛОВАТЬ!</h2>-->
+                                <h1 class="hero-title">Языковые услуги для вашего успеха</h1>
+                                <p class="hero-subtitle">Prekladovna — ваш надежный партнёр в сфере переводов. Широкий
+                                    спектр услуг: письменные, судебные и устные переводы, заверение, локализация,
+                                    переводы для бизнеса и многое другое. Оперативно и качественно.</p>
+                                <!--                                                        <p class="phone_hero"><a href="tel:+420603776909"> +420 603 776 909</a></p>-->
+                                <a class="hero-btn" href="./index.html">Узнать больше</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide_content_2">
+                            <div class="splide__slide_content_text hero-content">
+                                <!--                                                        <h2 class="welcome-text">ДОБРО ПОЖАЛОВАТЬ!</h2>-->
+                                <h1 class="hero-title">Финансовые услуги</h1>
+                                <p class="hero-subtitle">Prekladovna — ваш надежный партнер в мире финансов. Широкий
+                                    спектр услуг: ипотека, кредиты, лизинг, инвестиции и страхование для иностранцев в
+                                    Чехии. Профессиональный подход к вашему финансовому благополучию.</p>
+                                <!--                                                        <p class="phone_hero"><a href="tel:+420603776909"> +420 603 776 909</a></p>-->
+                                <a class="hero-btn" href="#">Узнать больше</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide_content_3">
+                            <div class="splide__slide_content_text hero-content">
+                                <!--                                                        <h2 class="welcome-text">ДОБРО ПОЖАЛОВАТЬ!</h2>-->
+                                <h1 class="hero-title">Поддержка и помощь за границей</h1>
+                                <p class="hero-subtitle">Prekladovna — ваш комплексный помощник в адаптации за рубежом.
+                                    От апостилирования документов до поиска жилья, от выбора школ до медицинского
+                                    обслуживания. Профессиональная поддержка на каждом этапе вашей новой жизни за
+                                    границей.</p>
+                                <!--                                                        <p class="phone_hero"><a href="tel:+420603776909"> +420 603 776 909</a></p>-->
+                                <a class="hero-btn" href="#">Узнать больше</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="splide__slide_content_4">
+                            <div class="splide__slide_content_text hero-content">
+                                <!--                                                        <h2 class="welcome-text">ДОБРО ПОЖАЛОВАТЬ!</h2>-->
+                                <h1 class="hero-title">Подготовка к учебе в Европе</h1>
+                                <p class="hero-subtitle">Prekladovna — ваш надежный проводник в мир европейских знаний.
+                                    Комплексная подготовка: от языковых курсов до нострификации документов, от выбора
+                                    вуза до получения визы. Профессиональная поддержка на каждом шаге к вашему успеху в
+                                    Чехии и Европе.</p>
+                                <!--                                                        <p class="phone_hero"><a href="tel:+420603776909"> +420 603 776 909</a></p>-->
+                                <a class="hero-btn" href="#">Узнать больше</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </section>
+
+
+        <!--        <div class="container">-->
+        <!--            <div class="header__content-inner">-->
+        <!--                <div class="text">-->
+        <!--                    &lt;!&ndash;                    <h1 class="header__title"><span class="highlight-word fredericka">Zastavte se,</span><br>&ndash;&gt;-->
+        <!--                    &lt;!&ndash;                        Jste tu spravne.</h1>&ndash;&gt;-->
+        <!--                    <h1 class="header__title"><span class="highlight-word fredericka">Prekladovna -</span><br>-->
+        <!--                        компания №1 Чешского рынка судебных переводов.</h1>-->
+        <!--                    <h4 class="header__subtitle highlight-word">Мы переводим с чешского, украинского,<br> русского и-->
+        <!--                        других языков.</h4>-->
+        <!--                </div>-->
+        <!--                <div class="header__content-img">-->
+        <!--                    <img src="./images/test_background.jpg" alt="hero img">-->
+        <!--                </div>-->
+
+        <!--            </div>-->
+        <!--        </div>-->
     </div>
 </header>
 
 
-<div class="service">
+<div class="service" id="service">
     <div class="container">
-        <h2 class="heading-2 highlight-word" id="uslugy">Услуги</h2>
-        <section class="cards">
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Судебный перевод"
-                         src="./images/stamp_icon.svg">
-                </div>
-                <div class="card-content">
-                    <h3>Судебный перевод</h3>
-                    <p>Профессиональный и точный судебный перевод любых документов по доступным ценам.</p>
-                </div>
-                <a href="./sud_perevod_dokumentov.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
+        <section class="services-section">
+            <h2 class="heading-2 highlight-word section-title">Služby</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="icon">
+                        <i aria-hidden="true" class="fa fa-language"></i>
                     </div>
-                </a>
-            </div>
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Иконка локализация"
-                         src="./images/globe_fill_icon.svg">
-                </div>
-                <div class="card-content">
-                    <h3>Локализация</h3>
-                    <p>Адаптация вашего продукта под чешский рынок для максимальной эффективности.</p>
-                </div>
-                <a href="./localization.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
+                    <h3 class="service-title">Jazykové služby</h3>
+                    <p class="service-description">Vaše dokumenty, jednání a podnikání – v jakémkoliv jazyce, kvalitně a
+                        rychle! Překladovna – profesionální jazykové služby pro Váš úspěch ve všech zemích!</p>
+                    <ul class="service-list">
+                        <li><a href="#">Письменные переводы <i class="fas fa-arrow-right fa-lg fa-lg"></i></a></li>
+                        <li><a href="#">Судебные переводы документов <i class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <!--                        <li><a href="#">Устные переводы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Экспресс-переводы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Бизнес-переводы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Локализация <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Нотариальное заверение переводов <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Устные переводы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                    </ul>
+                    <div class="cta-button">
+                        <a href="./index.html">Подробнее</a>
                     </div>
-                </a>
-            </div>
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Иконка переводы для бизнеса"
-                         src="./images/ic_work_icon.svg">
                 </div>
-                <div class="card-content">
-                    <h3>Переводы для бизнеса</h3>
-                    <p>Профессиональные бизнес-переводы для успеха на международных рынках.</p>
-                </div>
-                <a href="./business_translations.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fa-solid fa-piggy-bank"></i>
                     </div>
-                </a>
-            </div>
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Иконка нострификация"
-                         src="./images/education-1.svg">
-                </div>
-                <div class="card-content">
-                    <h3>Нострификация</h3>
-                    <p>Нострификация документов для обучения, работы и легализации в Чехии.</p>
-                </div>
-                <a href="./nostrif.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
+                    <h3 class="service-title">Finanční služby</h3>
+                    <p class="service-description">Finanční řešení, kterým můžete důvěřovat! Spolehlivé půjčky a investice – pro Vaši stabilitu a jistotu v jakékoliv nečekané životní situaci.</p>
+                    <ul class="service-list">
+                        <li><a href="#">Sjednání hypotéky<i class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <li><a href="#">Účelové a neúčelové úvěry <i class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <!--                        <li><a href="#">Finanční leasing automobilů<i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Investování a správa kapitálu  <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Pojištění cizinců v České republice  <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Životní pojištění <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Pojištění majetku<i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Úrazové pojištění<i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                    </ul>
+                    <div class="cta-button">
+                        <a href="./temp_page.html">Подробнее</a>
                     </div>
-                </a>
-            </div>
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Иконка страхование"
-                         src="./images/apostile.svg">
                 </div>
-                <div class="card-content">
-                    <h3>Апостиль</h3>
-                    <p>Полный спектр страховых услуг для вашей безопасности и уверенности.</p>
-                </div>
-                <a href="./apostila.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
+                <div class="service-card">
+                    <div class="icon">
+                        <i aria-hidden="true" class="fa fa-language"></i>
                     </div>
-                </a>
-            </div>
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Иконка устные переводы"
-                         src="./images/noun-translation.svg">
-                </div>
-                <div class="card-content">
-                    <h3>Устные переводы (сопровождение)</h3>
-                    <p>Для уверенного общения на важных встречах и мероприятиях.</p>
-                </div>
-                <a href="./oraltranslation.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
+                    <h3 class="service-title">Příprava ke studiu v Evropě </h3>
+                    <p class="service-description">Otevřete si dveře ke vzdělávání v Evropě! S námi bude Vaše vzdělávání snadné a zábavné a vaše sny o evropském diplomu budou dosažitelné a reálné. </p>
+                    <ul class="service-list">
+                        <li><a href="#">Jazykové kurzy pro přijetí na vysokou školu v České republice<i
+                                class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <li><a href="#">Konzultace ohledně výběru vysněné vysoké školy <i
+                                class="fas fa-arrow-right fa-lg"></i></a>
+                        </li>
+                        <!--                        <li><a href="#">Pomoc při podávání přihlášek na vysoké školy <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Nostrifikace dokumentů o vzdělávání <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Přípravné předmětové kurzy <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Příprava dokumentů pro vízum <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Doprovod ve všech fázích přijímacího řízení <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Zastoupení ve vaší zemí (Rusko, Ukrajina, Kazachstán, Kyrgyzstán a další)<i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                    </ul>
+                    <div class="cta-button">
+                        <a href="./temp_page.html">Подробнее</a>
                     </div>
-                </a>
-            </div>
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Иконка бухгалтерские услуги"
-src="./images/noun-notary.svg">
                 </div>
-                <div class="card-content">
-                    <h3>Нотариально заверенные переводы</h3>
-                    <p>Официально заверенные переводы для любых целей</p>
-                </div>
-                <a href="./notarskeovereni.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
+                <div class="service-card">
+                    <div class="icon">
+                        <i aria-hidden="true" class="fa fa-language"></i>
                     </div>
-                </a>
-            </div>
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Иконка юридические услуги"
-                         src="./images/file_document_paper_page_icon.svg">
-                </div>
-                <div class="card-content">
-                    <h3>Письменные переводы</h3>
-                    <p>Профессиональные переводы документов любой сложности.</p>
-                </div>
-                <a href="./translation.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
+                    <!--                    <h3 class="service-title">Поддержка и помощь для комфортной жизни за границей</h3>-->
+                    <h3 class="service-title">Podpora a pomoc v zahraničí </h3>
+                    <p class="service-description">Postaráme se o každý aspekt Vašeho života v zahraničí, počínajíc vyřízením apostily, až po zajištění ideálního ubytování a adaptaci v nové zemi. </p>
+                    <ul class="service-list">
+                        <li><a href="#">Zajištění ubytování a adaptace <i class="fas fa-arrow-right fa-lg"></i></a>
+                        </li>
+                        <li><a href="#">Ověření, vyšší ověření a apostily na dokumenty<i class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <!--                        <li><a href="#">Pomoc s výběrem škol a školek, kontaktování a doprovod na jednání s ředitelem<i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Pomoc při výběru lékařů a zdravotních zařízení <i-->
+                        <!--                                class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Nostrifikace dokladů o vzdělávání  <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Konzultace ohledně koupí nebo prodeje majetků <i-->
+                        <!--                                class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Doprovod při uzavírání smluv <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Pomoc a konzultace při podání žádosti nebo prodloužení dlouhodobého či trvalého pobytu, podání žádosti o vysněné české občanství.  <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                    </ul>
+                    <div class="cta-button">
+                        <a href="./temp_page.html">Смотреть больше услуг</a>
                     </div>
-                </a>
-            </div>
-            <div class="card">
-                <div class="card-icon">
-                    <img alt="Иконка финансовые услуги"
-src="./images/noun-express.svg">
                 </div>
-                <div class="card-content">
-                    <h3>Экспресс-переводы</h3>
-                    <p>Быстрые и качественные переводы в кратчайшие сроки.</p>
-                </div>
-                <a href="./expresstranslation.html">
-                    <div class="card-arrow">
-                        <img alt="Right arrow Icon"
-                             src="./images/arrow-right-circle-thin.svg">
-                    </div>
-                </a>
             </div>
-
         </section>
     </div>
 </div>
 
 
-<div class="price" id="price">
-    <div class="container">
-        <!--        <div class="price__main">-->
-        <!--            <h1 class="price__heading">Выберите ваш тариф</h1>-->
-        <!--            <div class="pricing">-->
-        <!--                <div class="plan">-->
-        <!--                    <div class="price__link">-->
-        <!--                        <h2>Стандарт+</h2>-->
-        <!--                        <div class="price">от 400 Kč</div>-->
-        <!--                        <ul class="features_price">-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Приложения к дипломам</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Доверенности</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Решения суда</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Договоры</li>-->
-        <!--                            <li><i class="fas fas fa-question-circle"></i>-->
-
-        <!--                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости-->
-        <!--                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"-->
-        <!--                                         xmlns="http://www.w3.org/2000/svg">-->
-        <!--                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"-->
-        <!--                                           stroke-width="1.5">-->
-        <!--                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>-->
-        <!--                                            <path class="arrow-icon&#45;&#45;arrow"-->
-        <!--                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>-->
-        <!--                                        </g>-->
-        <!--                                    </svg>-->
-        <!--                                </a>-->
-
-        <!--                            </li>-->
-        <!--                        </ul>-->
-        <!--                    </div>-->
-        <!--                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>-->
-        <!--                </div>-->
-
-        <!--                <div class="plan popular">-->
-        <!--                    <div class="price__link">-->
-        <!--                        <span>Популярно</span>-->
-        <!--                        <h2>Стандарт</h2>-->
-        <!--                        <div class="price">от 350 Kč</div>-->
-
-        <!--                        <ul class="features_price">-->
-        <!--                            <li><i class="fas fa-check-circle"></i>Справки о несудимости</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i>Свидетельства о рождении</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i>Школьные аттестаты</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Свидетельства о браке</li>-->
-        <!--                            <li><i class="fas fas fa-question-circle"></i>-->
-
-        <!--                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости-->
-        <!--                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"-->
-        <!--                                         xmlns="http://www.w3.org/2000/svg">-->
-        <!--                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"-->
-        <!--                                           stroke-width="1.5">-->
-        <!--                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>-->
-        <!--                                            <path class="arrow-icon&#45;&#45;arrow"-->
-        <!--                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>-->
-        <!--                                        </g>-->
-        <!--                                    </svg>-->
-        <!--                                </a>-->
-
-        <!--                            </li>-->
-        <!--                        </ul>-->
-        <!--                    </div>-->
-        <!--                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>-->
-
-        <!--                </div>-->
-
-        <!--                <div class="plan">-->
-        <!--                    <div class="price__link">-->
-        <!--                        <h2>Сложные документы</h2>-->
-        <!--                        <div class="price">Индивидуально</div>-->
-        <!--                        <ul class="features_price">-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Коммерческие и рекламные тексты</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Техническая документация</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Медицинские тексты</li>-->
-        <!--                            <li><i class="fas fa-check-circle"></i> Другие сложные документы</li>-->
-        <!--                            <li><i class="fas fas fa-question-circle"></i>-->
-
-        <!--                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости-->
-        <!--                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"-->
-        <!--                                         xmlns="http://www.w3.org/2000/svg">-->
-        <!--                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"-->
-        <!--                                           stroke-width="1.5">-->
-        <!--                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>-->
-        <!--                                            <path class="arrow-icon&#45;&#45;arrow"-->
-        <!--                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>-->
-        <!--                                        </g>-->
-        <!--                                    </svg>-->
-        <!--                                </a>-->
-
-        <!--                            </li>-->
-        <!--                        </ul>-->
-        <!--                    </div>-->
-        <!--                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--                    <h1 class="price__heading">Наши цены</h1>-->
-        <h2 class="heading-2 highlight-word heading-margin">Наши цены</h2>
-        <div class="new_price_container">
-            <div class="pricing-header">
-                <!--                <h1 class="price__heading">Наши цены</h1>-->
-            </div>
-            <div class="pricing-content">
-                <div class="transaction-fee">
-                    <h2>Стоимость перевода, для:</h2>
-                    <p>русского, украинского, английского и немецкого языков </p>
-                    <p class="transaction_fee_text">от 450 Kč</p>
-                    <!--                    <p>Per successful transaction*</p>-->
-                    <p class="transaction_fee_small_text">*Обычно мы берем плату в стандартных страницах. 1 стандартная
-                        страница (NS) соответствует 1800 символам, включая пробелы, из текста перевода (готового
-                        перевода).</p>
-                </div>
-                <div class="new_price_features">
-                    <div class="new_price_feature">
-                        <img alt="No Hidden Charges" src="./images/price/calculator.svg">
-                        <span><strong>Точная цена</strong> — Получите точную стоимость сразу без скрытых доплат и неожиданных расходов.</span>
-                    </div>
-                    <div class="new_price_feature">
-                        <img alt="Get Onboard Instantly" src="./images/price/fast.svg">
-                        <span><strong>Срок: 2–7 дней</strong> — Стандартный срок изготовления составляет всего 2–7 рабочих дней.</span>
-                    </div>
-                    <div class="new_price_feature">
-                        <img loading="lazy" alt="Instant Access" src="./images/price/warranty.svg">
-                        <span><strong>Гарантия качества</strong> — Мы предоставляем гарантию на все наши услуги и переводы.</span>
-                    </div>
-                    <div class="new_price_feature">
-                        <img alt="Affordable Cost" src="./images/price/affodable.svg">
-                        <span><strong>Доступные цены</strong>  — Мы предлагаем конкурентоспособные и доступные цены для всех клиентов.</span>
-                    </div>
-                </div>
-            </div>
-            <div class="cta-button">
-                <a href="./about_price.html">Подробнее о стоимости</a>
-            </div>
+<div class="team-section">
+    <h2>Наша команда</h2>
+    <div class="team-cards">
+        <div class="team-card">
+            <img alt="Александр" src="./images/team/2.jpg">
+            <h3>Иван Иванов</h3>
+            <p>Старший переводчик</p>
+            <!--            <div class="social-icons">-->
+            <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
+            <!--            </div>-->
         </div>
-        <!--        <p class="price__text">-->
-        <!--            *Обычно мы берем плату в стандартных страницах. 1 стандартная страница (NS) соответствует 1800 символам,-->
-        <!--            включая пробелы, из текста перевода (готового перевода).-->
-        <!--        </p>-->
+
+        <div class="team-card">
+            <img alt="Евгений" src="./images/team/1.jpg">
+            <h3>Анна Петрова</h3>
+            <p>Менеджер проектов</p>
+            <!--            <div class="social-icons">-->
+            <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
+            <!--            </div>-->
+        </div>
+
+        <div class="team-card">
+            <img alt="Иван Иванов" src="./images/team/3.jpg">
+            <h3>Влада</h3>
+            <p>Редактор переводов</p>
+            <!--            <div class="social-icons">-->
+            <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
+            <!--            </div>-->
+        </div>
+
+
+    </div>
+    <div class="team-cards">
+        <div class="team-card">
+            <img alt="Иван Иванов" src="./images/team/4.jpg">
+            <h3>Александр</h3>
+            <p>Координатор клиентских услуг</p>
+            <!--            <div class="social-icons">-->
+            <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
+            <!--            </div>-->
+        </div>
+        <div class="team-card">
+            <img alt="Иван Иванов" src="./images/team/5.jpg">
+            <h3>Виктория</h3>
+            <p>Координатор клиентских услуг</p>
+            <!--            <div class="social-icons">-->
+            <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
+            <!--            </div>-->
+        </div>
+        <div class="team-card">
+            <img alt="Иван Иванов" src="./images/team/6.jpg">
+            <h3>Антон</h3>
+            <p>Координатор клиентских услуг</p>
+            <!--            <div class="social-icons">-->
+            <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
+            <!--            </div>-->
+        </div>
     </div>
 </div>
+
+
+<!--СТАРЫЕ УСЛУГИ НАЧАЛО-->
+<!--<div class="service">-->
+<!--    <div class="container">-->
+<!--        <h2 class="heading-2 highlight-word" id="uslugy">Услуги</h2>-->
+<!--        <section class="cards">-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Судебный перевод"-->
+<!--                         src="./images/stamp_icon.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Судебный перевод</h3>-->
+<!--                    <p>Профессиональный и точный судебный перевод любых документов по доступным ценам.</p>-->
+<!--                </div>-->
+<!--                <a href="./sud_perevod_dokumentov.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Иконка локализация"-->
+<!--                         src="./images/globe_fill_icon.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Локализация</h3>-->
+<!--                    <p>Адаптация вашего продукта под чешский рынок для максимальной эффективности.</p>-->
+<!--                </div>-->
+<!--                <a href="./localization.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Иконка переводы для бизнеса"-->
+<!--                         src="./images/ic_work_icon.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Переводы для бизнеса</h3>-->
+<!--                    <p>Профессиональные бизнес-переводы для успеха на международных рынках.</p>-->
+<!--                </div>-->
+<!--                <a href="./business_translations.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Иконка нострификация"-->
+<!--                         src="./images/education-1.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Нострификация</h3>-->
+<!--                    <p>Нострификация документов для обучения, работы и легализации в Чехии.</p>-->
+<!--                </div>-->
+<!--                <a href="./nostrif.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Иконка страхование"-->
+<!--                         src="./images/umbrella-15.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Страхование</h3>-->
+<!--                    <p>Полный спектр страховых услуг для вашей безопасности и уверенности.</p>-->
+<!--                </div>-->
+<!--                <a href="./insurance.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Иконка устные переводы"-->
+<!--                         src="./images/noun-translation.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Устные переводы (сопровождение)</h3>-->
+<!--                    <p>Для уверенного общения на важных встречах и мероприятиях.</p>-->
+<!--                </div>-->
+<!--                <a href="./temp_page.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Иконка бухгалтерские услуги"-->
+<!--src="./images/noun-notary.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Бухгалтерские услуги</h3>-->
+<!--                    <p>Профессиональные бухгалтерские услуги для вашего бизнеса в Чехии.</p>-->
+<!--                </div>-->
+<!--                <a href="./temp_page.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Иконка юридические услуги"-->
+<!--                         src="./images/file_document_paper_page_icon.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Юридические услуги</h3>-->
+<!--                    <p>Комплексные юридические консультации и поддержка для вас и вашего бизнеса в Чехии.</p>-->
+<!--                </div>-->
+<!--                <a href="./temp_page.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="card">-->
+<!--                <div class="card-icon">-->
+<!--                    <img alt="Иконка финансовые услуги"-->
+<!--src="./images/noun-express.svg">-->
+<!--                </div>-->
+<!--                <div class="card-content">-->
+<!--                    <h3>Финансовые услуги</h3>-->
+<!--                    <p>Полный спектр финансовых услуг для вашего бизнеса и личных нужд.</p>-->
+<!--                </div>-->
+<!--                <a href="./temp_page.html">-->
+<!--                    <div class="card-arrow">-->
+<!--                        <img alt="Right arrow Icon"-->
+<!--                             src="./images/arrow-right-circle-thin.svg">-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </div>-->
+
+<!--        </section>-->
+<!--    </div>-->
+<!--</div>-->
+<!--СТАРЫЕ УСЛУГИ КОНЕЦ-->
+<!---->
+<!--ЦЕНЫ НАЧАЛО-->
+<!--<div class="price" id="price">-->
+<!--    <div class="container">-->
+<!--        &lt;!&ndash;        <div class="price__main">&ndash;&gt;-->
+<!--        &lt;!&ndash;            <h1 class="price__heading">Выберите ваш тариф</h1>&ndash;&gt;-->
+<!--        &lt;!&ndash;            <div class="pricing">&ndash;&gt;-->
+<!--        &lt;!&ndash;                <div class="plan">&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <div class="price__link">&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <h2>Стандарт+</h2>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <div class="price">от 400 Kč</div>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <ul class="features_price">&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Приложения к дипломам</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Доверенности</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Решения суда</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Договоры</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fas fa-question-circle"></i>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости&ndash;&gt;-->
+<!--        &lt;!&ndash;                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                         xmlns="http://www.w3.org/2000/svg">&ndash;&gt;-->
+<!--        &lt;!&ndash;                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                           stroke-width="1.5">&ndash;&gt;-->
+<!--        &lt;!&ndash;                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                            <path class="arrow-icon&#45;&#45;arrow"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                        </g>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                    </svg>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                </a>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        </ul>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>&ndash;&gt;-->
+<!--        &lt;!&ndash;                </div>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                <div class="plan popular">&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <div class="price__link">&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <span>Популярно</span>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <h2>Стандарт</h2>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <div class="price">от 350 Kč</div>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                        <ul class="features_price">&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i>Справки о несудимости</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i>Свидетельства о рождении</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i>Школьные аттестаты</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Свидетельства о браке</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fas fa-question-circle"></i>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости&ndash;&gt;-->
+<!--        &lt;!&ndash;                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                         xmlns="http://www.w3.org/2000/svg">&ndash;&gt;-->
+<!--        &lt;!&ndash;                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                           stroke-width="1.5">&ndash;&gt;-->
+<!--        &lt;!&ndash;                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                            <path class="arrow-icon&#45;&#45;arrow"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                        </g>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                    </svg>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                </a>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        </ul>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                </div>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                <div class="plan">&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <div class="price__link">&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <h2>Сложные документы</h2>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <div class="price">Индивидуально</div>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        <ul class="features_price">&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Коммерческие и рекламные тексты</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Техническая документация</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Медицинские тексты</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fa-check-circle"></i> Другие сложные документы</li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                            <li><i class="fas fas fa-question-circle"></i>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости&ndash;&gt;-->
+<!--        &lt;!&ndash;                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                         xmlns="http://www.w3.org/2000/svg">&ndash;&gt;-->
+<!--        &lt;!&ndash;                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                           stroke-width="1.5">&ndash;&gt;-->
+<!--        &lt;!&ndash;                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                            <path class="arrow-icon&#45;&#45;arrow"&ndash;&gt;-->
+<!--        &lt;!&ndash;                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                        </g>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                    </svg>&ndash;&gt;-->
+<!--        &lt;!&ndash;                                </a>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                            </li>&ndash;&gt;-->
+<!--        &lt;!&ndash;                        </ul>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>&ndash;&gt;-->
+<!--        &lt;!&ndash;                </div>&ndash;&gt;-->
+<!--        &lt;!&ndash;            </div>&ndash;&gt;-->
+<!--        &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <h1 class="price__heading">Наши цены</h1>&ndash;&gt;-->
+<!--        <h2 class="heading-2 highlight-word heading-margin">Наши цены</h2>-->
+<!--        <div class="new_price_container">-->
+<!--            <div class="pricing-header">-->
+<!--                &lt;!&ndash;                <h1 class="price__heading">Наши цены</h1>&ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="pricing-content">-->
+<!--                <div class="transaction-fee">-->
+<!--                    <h2>Стоимость перевода, для:</h2>-->
+<!--                    <p>русского, украинского, английского и немецкого языков </p>-->
+<!--                    <p class="transaction_fee_text">от 450 Kč</p>-->
+<!--                    &lt;!&ndash;                    <p>Per successful transaction*</p>&ndash;&gt;-->
+<!--                    <p class="transaction_fee_small_text">*Обычно мы берем плату в стандартных страницах. 1 стандартная-->
+<!--                        страница (NS) соответствует 1800 символам, включая пробелы, из текста перевода (готового-->
+<!--                        перевода).</p>-->
+<!--                </div>-->
+<!--                <div class="new_price_features">-->
+<!--                    <div class="new_price_feature">-->
+<!--                        <img alt="No Hidden Charges" src="./images/price/calculator.svg">-->
+<!--                        <span><strong>Точная цена</strong> — Получите точную стоимость сразу без скрытых доплат и неожиданных расходов.</span>-->
+<!--                    </div>-->
+<!--                    <div class="new_price_feature">-->
+<!--                        <img alt="Get Onboard Instantly" src="./images/price/fast.svg">-->
+<!--                        <span><strong>Срок: 2–7 дней</strong> — Стандартный срок изготовления составляет всего 2–7 рабочих дней.</span>-->
+<!--                    </div>-->
+<!--                    <div class="new_price_feature">-->
+<!--                        <img loading="lazy" alt="Instant Access" src="./images/price/warranty.svg">-->
+<!--                        <span><strong>Гарантия качества</strong> — Мы предоставляем гарантию на все наши услуги и переводы.</span>-->
+<!--                    </div>-->
+<!--                    <div class="new_price_feature">-->
+<!--                        <img alt="Affordable Cost" src="./images/price/affodable.svg">-->
+<!--                        <span><strong>Доступные цены</strong>  — Мы предлагаем конкурентоспособные и доступные цены для всех клиентов.</span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="cta-button">-->
+<!--                <a href="./about_price.html">Подробнее о стоимости</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        &lt;!&ndash;        <p class="price__text">&ndash;&gt;-->
+<!--        &lt;!&ndash;            *Обычно мы берем плату в стандартных страницах. 1 стандартная страница (NS) соответствует 1800 символам,&ndash;&gt;-->
+<!--        &lt;!&ndash;            включая пробелы, из текста перевода (готового перевода).&ndash;&gt;-->
+<!--        &lt;!&ndash;        </p>&ndash;&gt;-->
+<!--    </div>-->
+<!--</div>-->
+<!--ЦЕНЫ КОНЕЦ-->
+<!---->
 <div class="advantages">
     <div class="container">
         <h2 class="heading-2 highlight-word" id="aboutus">Наши преимущества</h2>
@@ -702,40 +961,42 @@ src="./images/noun-express.svg">
 
     </div>
 </div>
-<div class="warranty">
-    <div class="container">
-        <h2 class="highlight-word heading-2">Гарантия качества перевода в Праге</h2>
-        <div class="warranty__main">
+<!--ГАРАНТИЯ НАЧАЛО-->
+<!--<div class="warranty">-->
+<!--    <div class="container">-->
+<!--        <h2 class="highlight-word heading-2">Гарантия качества перевода в Праге</h2>-->
+<!--        <div class="warranty__main">-->
 
-            <div class="warranty__main_txt">
-                <p>У нас вы получаете не только профессиональные переводы, но и гарантированное спокойствие. Если были
-                    допущены ошибки, мы исправим их бесплатно и в кратчайшие сроки.</p>
+<!--            <div class="warranty__main_txt">-->
+<!--                <p>У нас вы получаете не только профессиональные переводы, но и гарантированное спокойствие. Если были-->
+<!--                    допущены ошибки, мы исправим их бесплатно и в кратчайшие сроки.</p>-->
 
-                <!--                <h3 class="highlight-word heading-2">Наши гарантии:</h3>-->
-                <ul>
-                    <li><strong>Профессионализм:</strong> Мы работаем с опытными переводчиками, гарантируя высокое
-                        качество перевода.
-                    </li>
-                    <li><strong>Бесплатные исправления:</strong> Если вы обнаружите ошибку, мы исправим ее без
-                        дополнительной оплаты.
-                    </li>
-                    <li><strong>Минимальные сроки: </strong>Мы ценим ваше время и оперативно исправляем любые
-                        неточности.
-                    </li>
-                </ul>
-                <p>Доверьтесь нам, и ваш перевод будет безупречным.</p>
-            </div>
-            <div><img alt="знак гарантии" class="warranty__img" src="./images/warranty_compr.png"></div>
-        </div>
-    </div>
-</div>
+<!--                &lt;!&ndash;                <h3 class="highlight-word heading-2">Наши гарантии:</h3>&ndash;&gt;-->
+<!--                <ul>-->
+<!--                    <li><strong>Профессионализм:</strong> Мы работаем с опытными переводчиками, гарантируя высокое-->
+<!--                        качество перевода.-->
+<!--                    </li>-->
+<!--                    <li><strong>Бесплатные исправления:</strong> Если вы обнаружите ошибку, мы исправим ее без-->
+<!--                        дополнительной оплаты.-->
+<!--                    </li>-->
+<!--                    <li><strong>Минимальные сроки: </strong>Мы ценим ваше время и оперативно исправляем любые-->
+<!--                        неточности.-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <p>Доверьтесь нам, и ваш перевод будет безупречным.</p>-->
+<!--            </div>-->
+<!--            <div><img alt="знак гарантии" class="warranty__img" src="./images/warranty_compr.png"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--ГАРАНТИЯ КОНЕЦ-->
 <div class="testimonials">
     <div class="container">
         <h2 class="heading-2 highlight-word" id="otzovy">Отзывы</h2>
         <div class="testimonials__items">
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjWYTVJ9Gh1lSUtGAouPUzpvyfYSZra1b-Y9sUqLPIOR7BHY0_L1=w60-h60-p-rp-mo-ba4-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Юлия Борисова</p>
@@ -819,7 +1080,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/kover.png">
                     <div class="testimonial-author-info">
                         <p class="name">KOVER assistance s.r.o.</p>
@@ -919,7 +1180,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
                         <p class="name">Laszlo Kijak</p>
@@ -1003,7 +1264,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
                         <p class="name">Arevik Papikan</p>
@@ -1087,7 +1348,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
                         <p class="name">Artem Kravchenko</p>
@@ -1170,7 +1431,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjWbH8HWBTncxkoKMpvf3yjz1s6oGHRGoINOKdPgig63dw=w60-h60-p-rp-mo-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Наталья Чулюкина</p>
@@ -1252,7 +1513,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a/ACg8ocKu8Ar87Moi1Rkqgiw4H4qdD5Y7wHuVIvD0jlc6lQyh=w60-h60-p-rp-mo-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Евдокименко Виктория</p>
@@ -1337,7 +1598,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjU-4z-DjrPD9-LHp6fJUkd9wZ_naB3pDUJfCVy8Edl2J9w=w60-h60-p-rp-mo-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Тамирлан Какишев</p>
@@ -1421,7 +1682,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
                         <p class="name">Анастасия Паламарчук</p>
@@ -1503,7 +1764,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjU5Lhoj1wgPARHU8coLhHgcIgxCAG2VjQphE5i-dWb5mlA=w60-h60-p-rp-mo-ba2-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Екатерина Богданова</p>
@@ -1586,7 +1847,7 @@ src="./images/noun-express.svg">
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjVuhM_HYvqQWQ1tQsFezquTZKi7y7bkVnIuUNpU7Zl-V4Y=w60-h60-p-rp-mo-ba4-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Tamila Mila</p>
@@ -1674,10 +1935,10 @@ src="./images/noun-express.svg">
     <div class="container">
         <h2 class="heading-2 highlight-word heading-margin" id="ourpartners">Наши партнёры</h2>
         <div class="partners__items">
-            <img loading="lazy" alt="" class="partner__item" src="./images/partners/1.png">
-            <img loading="lazy" alt="" class="partner__item" src="./images/partners/2.png">
-            <img loading="lazy" alt="" class="partner__item" src="./images/partners/3.svg">
-            <img loading="lazy" alt="" class="partner__item" src="./images/partners/4.png">
+            <img alt="" class="partner__item" loading="lazy" src="./images/partners/1.png">
+            <img alt="" class="partner__item" loading="lazy" src="./images/partners/2.png">
+            <img alt="" class="partner__item" loading="lazy" src="./images/partners/3.svg">
+            <img alt="" class="partner__item" loading="lazy" src="./images/partners/4.png">
             <a href="https://kover.education/"><img alt="" class="partner__item" src="./images/partners/5.png"></a>
         </div>
     </div>
@@ -1686,7 +1947,7 @@ src="./images/noun-express.svg">
     <div class="container">
         <div class="main-block" id="forma">
             <form class="form__item form" onsubmit="sendEmailTelegram(event)">
-                <h2 class="form-heading">Заказать перевод</h2>
+                <h2 class="form-heading">Заказать</h2>
                 <div class="info">
                     <input class="fname" name="name" placeholder="Имя" required type="text">
                     <input class="email" name="email" placeholder="Email" required type="text">
@@ -1695,7 +1956,7 @@ src="./images/noun-express.svg">
                 </div>
                 <!— Выбор города —>
                 <select class="city" id="city" name="city" required>
-                    <option value="" disabled selected>Выберите город</option>
+                    <option disabled selected value="">Выберите город</option>
                     <option value="Прага">Прага</option>
                     <option value="Карловы Вары">Карловы Вары</option>
                     <option value="Другой">Другой</option>
@@ -1703,7 +1964,7 @@ src="./images/noun-express.svg">
 
                 <!— Выбор услуги —>
                 <select class="service_select" id="service_select" name="service_select" required>
-                    <option value="" disabled selected>Выберите услугу</option>
+                    <option disabled selected value="">Выберите услугу</option>
                     <option value="Языковые услуги">Языковые услуги</option>
                     <option value="Документы">Документы</option>
                     <option value="Недвижимость">Недвижимость</option>
@@ -1731,72 +1992,76 @@ src="./images/noun-express.svg">
         </div>
     </div>
 </div>
-<div class="map" id="kontakty">
-    <div class="container">
-        <div class="map-item">
-            <div class="contacts">
-                <h4>Работаем для вас:</h4>
-                <p>Понедельник-Пятница: 09:00 - 17:00</p>
 
-                <p>Иногда случается, что в офисе никого нет.
-                    Не стесняйтесь звонить Александру
-                    по телефону <a href="tel:+420603776909"> +420 603 776 909</a>.</p>
-                <h4>Свяжитесь с нами удобным для вас способом:</h4>
-                <p> </p>
-<!--                <br>-->
-                <div class="icons">
-                    <a href="https://www.facebook.com/profile.php?id=61556728345328" target="_blank">
-                        <img alt="Facebook Icon" src="./images/facebook_icon.svg">
-                    </a>
-                    <a href="https://www.instagram.com/prekladovna.cz/" target="_blank">
-                        <img alt="Instagram Icon" src="./images/instagram_logo_fill_icon.svg">
-                    </a>
-                    <a href="https://t.me/+54kfyLdvt1I3YjFi" target="_blank">
-                        <img alt="Telegram Icon" src="./images/telegram_plane_icon.svg">
-                    </a>
+<!--КОНАТКТЫ НАЧАЛО-->
+<!--<div class="map" id="kontakty">-->
+<!--    <div class="container">-->
+<!--        <div class="map-item">-->
+<!--            <div class="contacts">-->
+<!--                <h4>Работаем для вас:</h4>-->
+<!--                <p>Понедельник-Пятница: 09:00 - 17:00</p>-->
 
-                    <a href="https://api.whatsapp.com/send/?phone=%2B420603776909&text&type=phone_number&app_absent=0"
-                       target="_blank">
-                        <img alt="WhatsUp Icon" src="./images/call_chat_mobile_whatsapp_whatsapp%20logo_icon.svg">
-                    </a>
-                    <!--                    <a href="" target="_blank">-->
-                    <!--                        <img alt="ViberIcon" src="./images/media_messenger_social_viber_icon.svg">-->
-                    <!--                    </a>-->
-                    <a href="mailto:info@prekladovna.cz" target="_blank">
-                        <img alt="email Icon" src="./images/email_mail_open_outline_icon.svg">
-                    </a>
-                    <a href="tel:+420603776909" target="_blank">
-                        <img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg">
-                    </a>
+<!--                <p>Иногда случается, что в офисе никого нет.-->
+<!--                    Не стесняйтесь звонить Александру-->
+<!--                    по телефону <a href="tel:+420603776909"> +420 603 776 909</a>.</p>-->
+<!--                <h4>Свяжитесь с нами удобным для вас способом:</h4>-->
+<!--                <p></p>-->
+<!--                &lt;!&ndash;                <br>&ndash;&gt;-->
+<!--                <div class="icons">-->
+<!--                    <a href="https://www.facebook.com/profile.php?id=61556728345328" target="_blank">-->
+<!--                        <img alt="Facebook Icon" src="./images/facebook_icon.svg">-->
+<!--                    </a>-->
+<!--                    <a href="https://www.instagram.com/prekladovna.cz/" target="_blank">-->
+<!--                        <img alt="Instagram Icon" src="./images/instagram_logo_fill_icon.svg">-->
+<!--                    </a>-->
+<!--                    <a href="https://t.me/+54kfyLdvt1I3YjFi" target="_blank">-->
+<!--                        <img alt="Telegram Icon" src="./images/telegram_plane_icon.svg">-->
+<!--                    </a>-->
 
-                </div>
-                <p> </p>
-<!--                <br>-->
-                <h4>ДЛЯ НОВЫХ КОРПОРАТИВНЫХ КЛИЕНТОВ.</h4>
-                <p>Вы заинтересованы в сотрудничестве? Свяжитесь с Evgenij Marandici по телефону <a
-                        href="tel:+420773095315"> +420 773 095 315</a> или почте <a
-                        href="mailto:marandici@prekladovna.cz" target="_blank"> marandici@prekladovna.cz</a>.</p>
+<!--                    <a href="https://api.whatsapp.com/send/?phone=%2B420603776909&text&type=phone_number&app_absent=0"-->
+<!--                       target="_blank">-->
+<!--                        <img alt="WhatsUp Icon" src="./images/call_chat_mobile_whatsapp_whatsapp%20logo_icon.svg">-->
+<!--                    </a>-->
+<!--                    &lt;!&ndash;                    <a href="" target="_blank">&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        <img alt="ViberIcon" src="./images/media_messenger_social_viber_icon.svg">&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    </a>&ndash;&gt;-->
+<!--                    <a href="mailto:info@prekladovna.cz" target="_blank">-->
+<!--                        <img alt="email Icon" src="./images/email_mail_open_outline_icon.svg">-->
+<!--                    </a>-->
+<!--                    <a href="tel:+420603776909" target="_blank">-->
+<!--                        <img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg">-->
+<!--                    </a>-->
 
-                <h4>Прага 3</h4>
-                <p>Телефон:<a href="tel:+420603776909"> +420 603 776 909</a></p>
-                <p>Email:<a href="mailto:info@prekladovna.cz" target="_blank"> info@prekladovna.cz</a></p>
-                <p>Адрес: Rokycanova 240/27</p>
-                <h4>Карловы Вары</h4>
-                <p>Телефон:<a href="tel:+420777850286"> +420 777 850 286</a></p>
-                <p>Email:<a href="mailto:info@prekladovna.cz" target="_blank"> info@prekladovna.cz</a></p>
-                <p>Адрес: Truhlářská 1074/13a</p>
+<!--                </div>-->
+<!--                <p></p>-->
+<!--                &lt;!&ndash;                <br>&ndash;&gt;-->
+<!--                <h4>ДЛЯ НОВЫХ КОРПОРАТИВНЫХ КЛИЕНТОВ.</h4>-->
+<!--                <p>Вы заинтересованы в сотрудничестве? Свяжитесь с Evgenij Marandici по телефону <a-->
+<!--                        href="tel:+420773095315"> +420 773 095 315</a> или почте <a-->
+<!--                        href="mailto:marandici@prekladovna.cz" target="_blank"> marandici@prekladovna.cz</a>.</p>-->
+
+<!--                <h4>Прага 3</h4>-->
+<!--                <p>Телефон:<a href="tel:+420603776909"> +420 603 776 909</a></p>-->
+<!--                <p>Email:<a href="mailto:info@prekladovna.cz" target="_blank"> info@prekladovna.cz</a></p>-->
+<!--                <p>Адрес: Rokycanova 240/27</p>-->
+<!--                <h4>Карловы Вары</h4>-->
+<!--                <p>Телефон:<a href="tel:+420777850286"> +420 777 850 286</a></p>-->
+<!--                <p>Email:<a href="mailto:info@prekladovna.cz" target="_blank"> info@prekladovna.cz</a></p>-->
+<!--                <p>Адрес: Truhlářská 1074/13a</p>-->
 
 
-            </div>
-            <iframe allowfullscreen="" height="600"
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.032484277256!2d14.452840876535815!3d50.08567867152483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9549c6e26c17%3A0x28f38016ca08dc12!2sP%C5%99ekladovna!5e0!3m2!1sen!2sru!4v1711924265863!5m2!1sen!2sru"
-                    style="border:0;"
-                    title="google_map"
-                    width="800"></iframe>
-        </div>
-    </div>
-</div>
+<!--            </div>-->
+<!--            <iframe allowfullscreen="" height="600"-->
+<!--                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"-->
+<!--                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.032484277256!2d14.452840876535815!3d50.08567867152483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9549c6e26c17%3A0x28f38016ca08dc12!2sP%C5%99ekladovna!5e0!3m2!1sen!2sru!4v1711924265863!5m2!1sen!2sru"-->
+<!--                    style="border:0;"-->
+<!--                    title="google_map"-->
+<!--                    width="800"></iframe>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--КОНАТКТЫ КОНЕЦ-->
+
 <div class="faq" id="faq">
     <div class="container">
         <h2 class="highlight-word price__heading">FAQ - Часто задаваемые вопросы</h2>
@@ -1807,21 +2072,23 @@ src="./images/noun-express.svg">
             </button>
             <div class="panel">
                 <p>Prekladovna занимает лидирующие позиции на рынке услуг перевода в Чехии. Наши переводчики
-                    обеспечивают высококачественный перевод документов с различных языков, включая чешский язык, украинский язык. Мы гордимся тем, что наши услуги востребованы и соответствуют самым высоким стандартам.</p>
+                    обеспечивают высококачественный перевод документов с различных языков, включая чешский язык,
+                    украинский язык. Мы гордимся тем, что наши услуги востребованы и соответствуют самым высоким
+                    стандартам.</p>
                 <br>
                 <p> Наша команда профессиональных переводчиков обладает богатым опытом и готова взяться за любые задачи.
                     Независимо от сложности текста, каждый переводчик Prekladovna уделяет внимание каждой детали, чтобы
                     обеспечить точный и качественный перевод.</p>
                 <br>
-                <p>  Если вам нужен переводчик для важных документов, который сможет выполнить работу в кратчайшие сроки,
+                <p> Если вам нужен переводчик для важных документов, который сможет выполнить работу в кратчайшие сроки,
                     Prekladovna — это ваш лучший выбор. Мы понимаем важность точности и конфиденциальности, поэтому наш
                     переводчик всегда соблюдает эти принципы при работе с вашими материалами.</p>
                 <br>
-                <p>  Наши услуги перевода включают в себя также возможность работы с юридическими и бизнес-документами.
+                <p> Наши услуги перевода включают в себя также возможность работы с юридическими и бизнес-документами.
                     Мы предлагаем квалифицированного переводчика, который сможет работать с такими документами,
                     обеспечивая их корректность и юридическую силу.</p>
                 <br>
-                <p>  Prekladovna — это команда профессионалов, которая предоставляет комплексные услуги перевода,
+                <p> Prekladovna — это команда профессионалов, которая предоставляет комплексные услуги перевода,
                     гарантируя высокий уровень сервиса и удовлетворение потребностей клиентов. Вы можете быть уверены,
                     что наш переводчик выполнит свою работу на высшем уровне. </p>
             </div>
@@ -1924,11 +2191,11 @@ src="./images/noun-express.svg">
                 <h4>О компании</h4>
                 <ul>
                     <li><a class="menu__list-link" href="#uslugy">Услуги</a></li>
-                    <li><a class="menu__list-link" href="#price">Стоимость</a></li>
+                    <!--                    <li><a class="menu__list-link" href="#price">Стоимость</a></li>-->
                     <li><a class="menu__list-link" href="#aboutus">О нас</a></li>
                     <li><a class="menu__list-link" href="#otzovy">Отзывы</a></li>
                     <li><a class="menu__list-link" href="#ourpartners">Наши партнеры</a></li>
-                    <li><a class="menu__list-link" href="#forma">Заказать перевод</a></li>
+                    <li><a class="menu__list-link" href="#forma">Заказать</a></li>
                     <li><a class="menu__list-link" href="#kontakty">Контакты</a></li>
                 </ul>
             </div>
@@ -1938,8 +2205,8 @@ src="./images/noun-express.svg">
                     <li><a href="#faq">FAQ - Часто задаваемые вопросы</a></li>
                     <li><a href="#">Как оформить заказ</a></li>
                     <li><a href="./contacts.html">Контакты</a></li>
-                    <li><a href="./about_price.html">Стоимость услуг</a></li>
-                    <li><a href="#">Сроки выполнения</a></li>
+                    <!--                    <li><a href="./about_price.html">Стоимость услуг</a></li>-->
+                    <!--                    <li><a href="#">Сроки выполнения</a></li>-->
                 </ul>
             </div>
             <div class="footer-col">

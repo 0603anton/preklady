@@ -56,10 +56,30 @@ document.addEventListener( 'DOMContentLoaded', function () {
         },
         height: '70vh',
         autoplay: true,
-        interval: 50000,
+        interval: 5000,
         pauseOnHover: true,
         type   : 'loop',
     } ).mount();
 } );
+
+document.addEventListener("DOMContentLoaded", function() {
+    const fadeInElements = document.querySelectorAll(".fade-in");
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const fadeInOnScroll = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    fadeInElements.forEach(element => {
+        fadeInOnScroll.observe(element);
+    });
+});
 
 

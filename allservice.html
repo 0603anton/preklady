@@ -21,13 +21,13 @@
     <!--        gtag('config', 'G-M7HCZ1BJK3');-->
     <!--    </script>-->
 
-    <script src="./js/accordion.js" defer></script>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" defer></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript" defer></script>
-    <script src="./slick/slick.js" type="text/javascript" defer></script>
-    <script src="./js/main.js" defer></script>
-    <script src="./js/backtotop.js" defer></script>
-    <script src="./js/formsend.js" async></script>
+    <script defer src="./js/accordion.js"></script>
+    <script defer src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script defer src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script defer src="./slick/slick.js" type="text/javascript"></script>
+    <script defer src="./js/main.js"></script>
+    <script defer src="./js/backtotop.js"></script>
+    <script async src="./js/formsend.js"></script>
     <script src="./js/splide.min.js"></script>
     <script src="./js/swiper.min.js"></script>
 
@@ -113,16 +113,16 @@
         Судебный переводчик в Праге, Чехия | Бюро переводов Prekladovna</title>
     <link href="./images/logo1.png" rel="shortcut icon"/>
     <!-- Предварительная загрузка и preconnect для Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" crossorigin href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
 
     <!-- Предварительная загрузка шрифтов с добавлением onload и оптимизацией загрузки -->
-    <link rel="preload"
+    <link as="style"
           href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-          as="style" onload="this.onload=null;this.rel='stylesheet'">
+          onload="this.onload=null;this.rel='stylesheet'" rel="preload">
     <noscript>
-        <link rel="stylesheet"
-              href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+              rel="stylesheet">
     </noscript>
 
 
@@ -132,10 +132,11 @@
     <!--    конец кода старого-->
 
     <!-- Предварительная загрузка Font Awesome CSS с отложенной активацией -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style"
-          onload="this.onload=null;this.rel='stylesheet'">
+    <link as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          onload="this.onload=null;this.rel='stylesheet'"
+          rel="preload">
     <noscript>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     </noscript>
 
     <!--старый код-->
@@ -150,14 +151,14 @@
     <link href="./css/swiper.min.css" rel="stylesheet">
 
     <!-- Отложенная загрузка Slick CSS -->
-    <link rel="preload" href="./slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link as="style" href="./slick/slick.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload">
     <noscript>
-        <link rel="stylesheet" href="./slick/slick.css">
+        <link href="./slick/slick.css" rel="stylesheet">
     </noscript>
 
-    <link rel="preload" href="./slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link as="style" href="./slick/slick-theme.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload">
     <noscript>
-        <link rel="stylesheet" href="./slick/slick-theme.css">
+        <link href="./slick/slick-theme.css" rel="stylesheet">
     </noscript>
 
 
@@ -230,15 +231,15 @@
         <div class="container">
             <div class="header__top-inner">
                 <div class="logobox">
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="./allservice.html">
                         <img alt="logo" class="logo__img" src="./images/logo.svg">
                     </a>
                     <a href="./partners.html"><span class="red-tag">Для компаний</span></a>
                 </div>
                 <div class="nav-menu">
                     <div class="nav-menu__lang">
-                        <a class="lang-item" href="./cz.html">Cz</a>
-                        <a class="lang-item" href="index.html">Ru</a>
+                        <a class="lang-item" href="./prekladycz.html">Cz</a>
+                        <a class="lang-item" href="./allservice.html">Ru</a>
                     </div>
                     <div class="nav-menu__callback">
                         <a href="#forma">
@@ -253,39 +254,38 @@
         <div class="container">
             <div class="header__nav-inner">
                 <nav class="menu">
-                    <div id="mySidepanel" class="sidepanel desktop_hide">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <div class="sidepanel desktop_hide" id="mySidepanel">
+                        <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#uslugy">Услуги</a>
-
-
-                        <a onclick="closeNav()" class="menu__list-link" href="./blog.html">Блог</a>
+                        <a class="menu__list-link" href="./allservice.html#service" onclick="closeNav()">Услуги</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#price">Стоимость</a>
+                        <a class="menu__list-link" href="./blog.html" onclick="closeNav()">Блог</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#aboutus">О нас</a>
+                        <a class="menu__list-link" href="./allservice.html#aboutus" onclick="closeNav()">О нас</a>
+
+                        <a class="menu__list-link" href="./allservice.html#team-section" onclick="closeNav()">Наша
+                            команда</a>
+
+                        <a class="menu__list-link" href="./allservice.html#otzovy" onclick="closeNav()">Отзывы</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#otzovy">Отзывы</a>
-
-
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#ourpartners">Наши
+                        <a class="menu__list-link" href="./allservice.html#ourpartners" onclick="closeNav()">Наши
                             партнеры</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="#forma">Заказать</a>
+                        <a class="menu__list-link" href="#forma" onclick="closeNav()">Заказать</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="#kontakty">Контакты</a>
+                        <a class="menu__list-link" href="./contacts.html" onclick="closeNav()">Контакты</a>
 
 
-                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#faq">FAQ</a>
+                        <a class="menu__list-link" href="./allservice.html#faq" onclick="closeNav()">FAQ</a>
 
                     </div>
 
-                    <button id="openbtn" class="openbtn desktop_hide desktop_hide_special" onclick="openNav()">☰
+                    <button class="openbtn desktop_hide desktop_hide_special" id="openbtn" onclick="openNav()">☰
                     </button>
 
                     <ul class="menu__list mobile_hide">
@@ -308,10 +308,10 @@
                                     <div class="row_drop">
                                         <div class="column">
                                             <!--                                                <h3 class="dropdown_header">Языковые услуги</h3>-->
-                                            <a href="./business_translations.html">Языковые услуги</a>
-                                            <a href="./sud_perevod_dokumentov.html">Финансовые услуги</a>
-                                            <a href="./other_translations.html">Подготовка к учебе</a>
-                                            <a href="./other_translations.html">Помощь иностранцам в Чехии</a>
+                                            <a href="./index.html">Языковые услуги</a>
+                                            <a href="./temp_page.html">Финансовые услуги</a>
+                                            <a href="./temp_page.html">Подготовка к учебе</a>
+                                            <a href="./temp_page.html">Помощь иностранцам в Чехии</a>
                                         </div>
                                     </div>
                                 </div>
@@ -379,7 +379,7 @@
 
     <div class="header__content header_allservice_page">
 
-        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+        <section aria-label="Beautiful Images" class="splide" id="image-carousel">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
@@ -391,7 +391,7 @@
                                     спектр услуг: письменные, судебные и устные переводы, заверение, локализация,
                                     переводы для бизнеса и многое другое. Оперативно и качественно.</p>
                                 <!--                                                        <p class="phone_hero"><a href="tel:+420603776909"> +420 603 776 909</a></p>-->
-                                <a href="#" class="hero-btn">Узнать больше</a>
+                                <a class="hero-btn" href="./index.html">Узнать больше</a>
                             </div>
                         </div>
                     </li>
@@ -399,12 +399,12 @@
                         <div class="splide__slide_content_2">
                             <div class="splide__slide_content_text hero-content">
                                 <!--                                                        <h2 class="welcome-text">ДОБРО ПОЖАЛОВАТЬ!</h2>-->
-                                <h1 class="hero-title">Языковые услуги для вашего успеха</h1>
-                                <p class="hero-subtitle">Prekladovna — ваш надежный партнёр в сфере переводов. Широкий
-                                    спектр услуг: письменные, судебные и устные переводы, заверение, локализация,
-                                    переводы для бизнеса и многое другое. Оперативно и качественно.</p>
+                                <h1 class="hero-title">Финансовые услуги</h1>
+                                <p class="hero-subtitle">Prekladovna — ваш надежный партнер в мире финансов. Широкий
+                                    спектр услуг: ипотека, кредиты, лизинг, инвестиции и страхование для иностранцев в
+                                    Чехии. Профессиональный подход к вашему финансовому благополучию.</p>
                                 <!--                                                        <p class="phone_hero"><a href="tel:+420603776909"> +420 603 776 909</a></p>-->
-                                <a href="#" class="hero-btn">Узнать больше</a>
+                                <a class="hero-btn" href="#">Узнать больше</a>
                             </div>
                         </div>
                     </li>
@@ -412,12 +412,13 @@
                         <div class="splide__slide_content_3">
                             <div class="splide__slide_content_text hero-content">
                                 <!--                                                        <h2 class="welcome-text">ДОБРО ПОЖАЛОВАТЬ!</h2>-->
-                                <h1 class="hero-title">Языковые услуги для вашего успеха</h1>
-                                <p class="hero-subtitle">Prekladovna — ваш надежный партнёр в сфере переводов. Широкий
-                                    спектр услуг: письменные, судебные и устные переводы, заверение, локализация,
-                                    переводы для бизнеса и многое другое. Оперативно и качественно.</p>
+                                <h1 class="hero-title">Поддержка и помощь за границей</h1>
+                                <p class="hero-subtitle">Prekladovna — ваш комплексный помощник в адаптации за рубежом.
+                                    От апостилирования документов до поиска жилья, от выбора школ до медицинского
+                                    обслуживания. Профессиональная поддержка на каждом этапе вашей новой жизни за
+                                    границей.</p>
                                 <!--                                                        <p class="phone_hero"><a href="tel:+420603776909"> +420 603 776 909</a></p>-->
-                                <a href="#" class="hero-btn">Узнать больше</a>
+                                <a class="hero-btn" href="#">Узнать больше</a>
                             </div>
                         </div>
                     </li>
@@ -425,12 +426,13 @@
                         <div class="splide__slide_content_4">
                             <div class="splide__slide_content_text hero-content">
                                 <!--                                                        <h2 class="welcome-text">ДОБРО ПОЖАЛОВАТЬ!</h2>-->
-                                <h1 class="hero-title">Языковые услуги для вашего успеха</h1>
-                                <p class="hero-subtitle">Prekladovna — ваш надежный партнёр в сфере переводов. Широкий
-                                    спектр услуг: письменные, судебные и устные переводы, заверение, локализация,
-                                    переводы для бизнеса и многое другое. Оперативно и качественно.</p>
+                                <h1 class="hero-title">Подготовка к учебе в Европе</h1>
+                                <p class="hero-subtitle">Prekladovna — ваш надежный проводник в мир европейских знаний.
+                                    Комплексная подготовка: от языковых курсов до нострификации документов, от выбора
+                                    вуза до получения визы. Профессиональная поддержка на каждом шаге к вашему успеху в
+                                    Чехии и Европе.</p>
                                 <!--                                                        <p class="phone_hero"><a href="tel:+420603776909"> +420 603 776 909</a></p>-->
-                                <a href="#" class="hero-btn">Узнать больше</a>
+                                <a class="hero-btn" href="#">Узнать больше</a>
                             </div>
                         </div>
                     </li>
@@ -459,96 +461,106 @@
 </header>
 
 
-<div class="service">
+<div class="service" id="service">
     <div class="container">
         <section class="services-section">
             <h2 class="heading-2 highlight-word section-title">Услуги</h2>
             <div class="services-container">
                 <div class="service-card">
                     <div class="icon">
-                        <i class="fa fa-language" aria-hidden="true"></i>
+                        <i aria-hidden="true" class="fa fa-language"></i>
                     </div>
                     <h3 class="service-title">Языковые услуги</h3>
                     <p class="service-description">Ваши документы, переговоры и бизнес — на любом языке, качественно и
                         быстро. Prekladovna — профессиональные языковые услуги для успеха в любой стране!</p>
                     <ul class="service-list">
-                        <li><a href="#">Письменные переводы <i class="fas fa-arrow-right"></i></a></li>
-                        <li><a href="#">Судебные переводы документов <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Устные переводы <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Экспресс-переводы <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Бизнес-переводы <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Локализация <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Нотариальное заверение переводов <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Устные переводы <i class="fas fa-arrow-right"></i></a></li>
+                        <li><a href="#">Письменные переводы <i class="fas fa-arrow-right fa-lg fa-lg"></i></a></li>
+                        <li><a href="#">Судебные переводы документов <i class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <!--                        <li><a href="#">Устные переводы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Экспресс-переводы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Бизнес-переводы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Локализация <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Нотариальное заверение переводов <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Устные переводы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
                     </ul>
                     <div class="cta-button">
-                        <a href="./about_price.html">Больше о языковых услугах</a>
+                        <a href="./index.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="icon">
                         <i class="fa-solid fa-piggy-bank"></i>
                     </div>
-                    <h3 class="service-title">Финансовые услуги услуги</h3>
+                    <h3 class="service-title">Финансовые услуги</h3>
                     <p class="service-description">Финансовые решения, которым можно доверять! Надёжные кредиты,
                         страхование и инвестиции — для вашей стабильности и безопасности в любой жизненной ситуации.</p>
                     <ul class="service-list">
-                        <li><a href="#">Оформление ипотеки<i class="fas fa-arrow-right"></i></a></li>
-                        <li><a href="#">Целевые и нецелевые кредиты <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Финансовый лизинг на авто<i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Инвестирование и управление капиталом <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Страхование иностранцев в Чехии <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Страхование жизни <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Страхование имущества<i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Страхование от несчастных случаев<i class="fas fa-arrow-right"></i></a></li>
+                        <li><a href="#">Оформление ипотеки<i class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <li><a href="#">Целевые и нецелевые кредиты <i class="fas fa-arrow-right fa-lg"></i></a></li>
+                                                <li><a href="#">Финансовый лизинг на авто<i class="fas fa-arrow-right fa-lg"></i></a></li>
+                                                <li><a href="#">Инвестирование и управление капиталом <i class="fas fa-arrow-right fa-lg"></i></a>
+                                                </li>
+                                                <li><a href="#">Страхование иностранцев в Чехии <i class="fas fa-arrow-right fa-lg"></i></a></li>
+                                                <li><a href="#">Страхование жизни <i class="fas fa-arrow-right fa-lg"></i></a></li>
+                                                <li><a href="#">Страхование имущества<i class="fas fa-arrow-right fa-lg"></i></a></li>
+                                                <li><a href="#">Страхование от несчастных случаев<i class="fas fa-arrow-right fa-lg"></i></a></li>
                     </ul>
                     <div class="cta-button">
-                        <a href="./about_price.html">Подробнее</a>
+                        <a href="./temp_page.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="icon">
-                        <i class="fa fa-language" aria-hidden="true"></i>
+                        <i aria-hidden="true" class="fa fa-language"></i>
                     </div>
                     <h3 class="service-title">Подготовка к учебе в Европе</h3>
                     <p class="service-description">Откройте двери к образованию в Европе! С нами ваша подготовка будет
                         легкой и увлекательной, а мечты о европейском дипломе — достижимыми и реальными.</p>
                     <ul class="service-list">
                         <li><a href="#">Языковые курсы для поступления в университеты Чехии<i
-                                class="fas fa-arrow-right"></i></a></li>
-                        <li><a href="#">Консультации по выбору учебного заведения <i class="fas fa-arrow-right"></i></a>
+                                class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <li><a href="#">Консультации по выбору учебного заведения <i
+                                class="fas fa-arrow-right fa-lg"></i></a>
                         </li>
-                                                <li><a href="#">Помощь с подачей документов в вузы <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Нострификация документов об образовании<i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Подготовительные курсы по предметам <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Подготовка документов для визы <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Сопровождение на всех этапах поступления <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Представительство в РФ <i class="fas fa-arrow-right"></i></a></li>
+                        <!--                        <li><a href="#">Помощь с подачей документов в вузы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Нострификация документов об образовании<i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Подготовительные курсы по предметам <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Подготовка документов для визы <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Сопровождение на всех этапах поступления <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Представительство в РФ <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
                     </ul>
                     <div class="cta-button">
-                        <a href="./about_price.html">Ознакомиться с другими услугами</a>
+                        <a href="./temp_page.html">Подробнее</a>
                     </div>
                 </div>
                 <div class="service-card">
                     <div class="icon">
-                        <i class="fa fa-language" aria-hidden="true"></i>
+                        <i aria-hidden="true" class="fa fa-language"></i>
                     </div>
                     <!--                    <h3 class="service-title">Поддержка и помощь для комфортной жизни за границей</h3>-->
                     <h3 class="service-title">Поддержка и помощь за границей</h3>
                     <p class="service-description">Мы позаботимся о каждом аспекте вашей жизни за границей — от
                         оформления апостилей до поиска комфортного жилья и адаптации в новой стране.</p>
                     <ul class="service-list">
-                        <li><a href="#">Организация переезда и адаптации <i class="fas fa-arrow-right"></i></a></li>
-                        <li><a href="#">Апостилирование документов <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Подбор детских садов и школ <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Помощь в выборе врачей и медицинских учреждений<i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Нострификация документов об образовании <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Консультации по купле/продаже недвижимости <i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Сопровождение при заключении договоров<i class="fas fa-arrow-right"></i></a></li>
-                                                <li><a href="#">Помощь с регистрацией по месту жительства <i class="fas fa-arrow-right"></i></a></li>
+                        <li><a href="#">Организация переезда и адаптации <i class="fas fa-arrow-right fa-lg"></i></a>
+                        </li>
+                        <li><a href="#">Апостилирование документов <i class="fas fa-arrow-right fa-lg"></i></a></li>
+                        <!--                        <li><a href="#">Подбор детских садов и школ <i class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Помощь в выборе врачей и медицинских учреждений<i-->
+                        <!--                                class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Нострификация документов об образовании <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Консультации по купле/продаже недвижимости <i-->
+                        <!--                                class="fas fa-arrow-right fa-lg"></i></a></li>-->
+                        <!--                        <li><a href="#">Сопровождение при заключении договоров<i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
+                        <!--                        <li><a href="#">Помощь с регистрацией по месту жительства <i class="fas fa-arrow-right fa-lg"></i></a>-->
+                        <!--                        </li>-->
                     </ul>
                     <div class="cta-button">
-                        <a href="./about_price.html">Смотреть больше услуг</a>
+                        <a href="./temp_page.html">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -557,13 +569,13 @@
 </div>
 
 
-<div class="team-section">
+<div class="team-section" id="team-section">
     <h2>Наша команда</h2>
     <div class="team-cards">
         <div class="team-card">
-            <img src="https://via.placeholder.com/120" alt="Иван Иванов">
-            <h3>Иван Иванов</h3>
-            <p>Старший переводчик</p>
+            <img alt="Александр" src="./images/team/2.jpg">
+            <h3>Александр</h3>
+            <p>Руководитель бюро переводов</p>
             <!--            <div class="social-icons">-->
             <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
             <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
@@ -572,9 +584,9 @@
         </div>
 
         <div class="team-card">
-            <img src="https://via.placeholder.com/120" alt="Анна Петрова">
-            <h3>Анна Петрова</h3>
-            <p>Менеджер проектов</p>
+            <img alt="Евгений" src="./images/team/1.jpg">
+            <h3>Евгений</h3>
+            <p>Финансовый консультант</p>
             <!--            <div class="social-icons">-->
             <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
             <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
@@ -583,9 +595,9 @@
         </div>
 
         <div class="team-card">
-            <img src="https://via.placeholder.com/120" alt="Олег Смирнов">
-            <h3>Олег Смирнов</h3>
-            <p>Редактор переводов</p>
+            <img alt="Влада" src="./images/team/3.jpg">
+            <h3>Влада</h3>
+            <p>Переводчик</p>
             <!--            <div class="social-icons">-->
             <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
             <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
@@ -593,10 +605,33 @@
             <!--            </div>-->
         </div>
 
+
+    </div>
+    <div class="team-cards">
         <div class="team-card">
-            <img src="https://via.placeholder.com/120" alt="Екатерина Сидорова">
-            <h3>Екатерина Сидорова</h3>
+            <img alt="Александр" src="./images/team/4.jpg">
+            <h3>Александр</h3>
             <p>Координатор клиентских услуг</p>
+            <!--            <div class="social-icons">-->
+            <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
+            <!--            </div>-->
+        </div>
+        <div class="team-card">
+            <img alt="Виктория" src="./images/team/5.jpg">
+            <h3>Виктория</h3>
+            <p>Переводчик</p>
+            <!--            <div class="social-icons">-->
+            <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
+            <!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
+            <!--            </div>-->
+        </div>
+        <div class="team-card">
+            <img alt="Антон" src="./images/team/6.jpg">
+            <h3>Антон</h3>
+            <p>Маркетинг</p>
             <!--            <div class="social-icons">-->
             <!--                <a href="#"><i class="fab fa-linkedin"></i></a>-->
             <!--                <a href="#"><i class="fab fa-facebook"></i></a>-->
@@ -695,7 +730,7 @@
 <!--            <div class="card">-->
 <!--                <div class="card-icon">-->
 <!--                    <img alt="Иконка устные переводы"-->
-<!--                         src="./images/passport_icon.svg">-->
+<!--                         src="./images/noun-translation.svg">-->
 <!--                </div>-->
 <!--                <div class="card-content">-->
 <!--                    <h3>Устные переводы (сопровождение)</h3>-->
@@ -711,7 +746,7 @@
 <!--            <div class="card">-->
 <!--                <div class="card-icon">-->
 <!--                    <img alt="Иконка бухгалтерские услуги"-->
-<!--                         src="./images/calculator-10.svg">-->
+<!--src="./images/noun-notary.svg">-->
 <!--                </div>-->
 <!--                <div class="card-content">-->
 <!--                    <h3>Бухгалтерские услуги</h3>-->
@@ -743,7 +778,7 @@
 <!--            <div class="card">-->
 <!--                <div class="card-icon">-->
 <!--                    <img alt="Иконка финансовые услуги"-->
-<!--                         src="./images/bank_business_cash_finance_house_icon.svg">-->
+<!--src="./images/noun-express.svg">-->
 <!--                </div>-->
 <!--                <div class="card-content">-->
 <!--                    <h3>Финансовые услуги</h3>-->
@@ -963,7 +998,7 @@
         <div class="testimonials__items">
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjWYTVJ9Gh1lSUtGAouPUzpvyfYSZra1b-Y9sUqLPIOR7BHY0_L1=w60-h60-p-rp-mo-ba4-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Юлия Борисова</p>
@@ -1047,7 +1082,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/kover.png">
                     <div class="testimonial-author-info">
                         <p class="name">KOVER assistance s.r.o.</p>
@@ -1147,7 +1182,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
                         <p class="name">Laszlo Kijak</p>
@@ -1231,7 +1266,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
                         <p class="name">Arevik Papikan</p>
@@ -1315,7 +1350,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
                         <p class="name">Artem Kravchenko</p>
@@ -1398,7 +1433,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjWbH8HWBTncxkoKMpvf3yjz1s6oGHRGoINOKdPgig63dw=w60-h60-p-rp-mo-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Наталья Чулюкина</p>
@@ -1480,7 +1515,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a/ACg8ocKu8Ar87Moi1Rkqgiw4H4qdD5Y7wHuVIvD0jlc6lQyh=w60-h60-p-rp-mo-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Евдокименко Виктория</p>
@@ -1565,7 +1600,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjU-4z-DjrPD9-LHp6fJUkd9wZ_naB3pDUJfCVy8Edl2J9w=w60-h60-p-rp-mo-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Тамирлан Какишев</p>
@@ -1649,7 +1684,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="./images/testimonials/account_profile_user_avatar_man_icon.svg">
                     <div class="testimonial-author-info">
                         <p class="name">Анастасия Паламарчук</p>
@@ -1731,7 +1766,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjU5Lhoj1wgPARHU8coLhHgcIgxCAG2VjQphE5i-dWb5mlA=w60-h60-p-rp-mo-ba2-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Екатерина Богданова</p>
@@ -1814,7 +1849,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-item__up">
-                    <img loading="lazy" alt="" class="testimonial-avatar"
+                    <img alt="" class="testimonial-avatar" loading="lazy"
                          src="https://lh3.googleusercontent.com/a-/ALV-UjVuhM_HYvqQWQ1tQsFezquTZKi7y7bkVnIuUNpU7Zl-V4Y=w60-h60-p-rp-mo-ba4-br100">
                     <div class="testimonial-author-info">
                         <p class="name">Tamila Mila</p>
@@ -1902,10 +1937,10 @@
     <div class="container">
         <h2 class="heading-2 highlight-word heading-margin" id="ourpartners">Наши партнёры</h2>
         <div class="partners__items">
-            <img loading="lazy" alt="" class="partner__item" src="./images/partners/1.png">
-            <img loading="lazy" alt="" class="partner__item" src="./images/partners/2.png">
-            <img loading="lazy" alt="" class="partner__item" src="./images/partners/3.svg">
-            <img loading="lazy" alt="" class="partner__item" src="./images/partners/4.png">
+            <img alt="" class="partner__item" loading="lazy" src="./images/partners/1.png">
+            <img alt="" class="partner__item" loading="lazy" src="./images/partners/2.png">
+            <img alt="" class="partner__item" loading="lazy" src="./images/partners/3.svg">
+            <img alt="" class="partner__item" loading="lazy" src="./images/partners/4.png">
             <a href="https://kover.education/"><img alt="" class="partner__item" src="./images/partners/5.png"></a>
         </div>
     </div>
@@ -1923,7 +1958,7 @@
                 </div>
                 <!— Выбор города —>
                 <select class="city" id="city" name="city" required>
-                    <option value="" disabled selected>Выберите город</option>
+                    <option disabled selected value="">Выберите город</option>
                     <option value="Прага">Прага</option>
                     <option value="Карловы Вары">Карловы Вары</option>
                     <option value="Другой">Другой</option>
@@ -1931,7 +1966,7 @@
 
                 <!— Выбор услуги —>
                 <select class="service_select" id="service_select" name="service_select" required>
-                    <option value="" disabled selected>Выберите услугу</option>
+                    <option disabled selected value="">Выберите услугу</option>
                     <option value="Языковые услуги">Языковые услуги</option>
                     <option value="Документы">Документы</option>
                     <option value="Недвижимость">Недвижимость</option>
@@ -2040,7 +2075,8 @@
             <div class="panel">
                 <p>Prekladovna занимает лидирующие позиции на рынке услуг перевода в Чехии. Наши переводчики
                     обеспечивают высококачественный перевод документов с различных языков, включая чешский язык,
-                    украинский язык. Мы гордимся тем, что наши услуги востребованы и соответствуют самым высоким стандартам.</p>
+                    украинский язык. Мы гордимся тем, что наши услуги востребованы и соответствуют самым высоким
+                    стандартам.</p>
                 <br>
                 <p> Наша команда профессиональных переводчиков обладает богатым опытом и готова взяться за любые задачи.
                     Независимо от сложности текста, каждый переводчик Prekladovna уделяет внимание каждой детали, чтобы
