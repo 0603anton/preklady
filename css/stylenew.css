@@ -2230,3 +2230,129 @@ body .hero_6 {
     }
 }
 
+
+
+.service-item {
+    /*background-color: var(--white-color);*/
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-item h3 {
+    margin-top: 0;
+    color: var(--text-color);
+}
+
+.service-item p {
+    display: none;
+    margin-top: 10px;
+}
+
+.service-item.open p {
+    display: block;
+}
+
+.dropdown-arrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    color: var(--main-dark);
+    transition: transform 0.3s;
+}
+
+.service-item.open .dropdown-arrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.package-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    color: var(--main-dark);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.package-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.package-item h3 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.package-item ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+.package-item ul li {
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    border-radius: 5px;
+}
+
+.package-item h4 {
+    margin-top: 20px;
+    color: var(--main-dark);
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .service-item {
+        padding: 15px;
+    }
+
+    .package-item {
+        padding: 20px;
+    }
+    .dropdown-arrow {
+
+        font-size: 1.0em;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 30px 10px;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .services h2 {
+        font-size: 1.2em;
+    }
+
+     .package-item h3 {
+        font-size: 1.1em;
+    }
+
+    .dropdown-arrow {
+
+        font-size: 1.0em;
+
+    }
+}
+
