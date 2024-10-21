@@ -766,6 +766,9 @@ a {
 .heading-2 {
     text-align: center;
 }
+.container .heading-start{
+    text-align: start;
+}
 
 .highlight-word {
     color: var(--main-yellow);
@@ -958,6 +961,7 @@ a {
     text-align: center;
     transition: 0.3s;
     cursor: pointer;
+    max-width: 30%;
 }
 
 .pricing .plan h2 {
@@ -971,6 +975,7 @@ a {
 }
 
 .pricing .plan ul.features_price {
+
     list-style-type: none;
     text-align: left;
 }
