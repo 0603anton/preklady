@@ -153,7 +153,8 @@
     <!--    конец кода старого-->
 
     <!-- Предварительная загрузка Font Awesome CSS с отложенной активацией -->
-    <link as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'"
+    <link as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          onload="this.onload=null;this.rel='stylesheet'"
           rel="preload">
     <noscript>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
@@ -278,7 +279,8 @@
 
                         <a class="menu__list-link" href="./allservice.html" onclick="closeNav()">Все услуги</a>
                         <a class="menu__list-link" href="./index.html" onclick="closeNav()">Языковые услуги</a>
-                        <a class="menu__list-link" href="./financialservice.html" onclick="closeNav()">Финансовые услуги</a>
+                        <a class="menu__list-link" href="./financialservice.html" onclick="closeNav()">Финансовые
+                            услуги</a>
                         <a class="menu__list-link" href="./eduservice.html" onclick="closeNav()">Подготовка к учебе</a>
                         <a class="menu__list-link" href="./dopuslugi.html" onclick="closeNav()">Интеграция в Чехии</a>
 
@@ -849,7 +851,9 @@
                 <div class="testimonial-item__down">
                     <blockquote
                             cite="https://www.google.com/search?hl=en-RU&gl=ru&q=P%C5%99ekladovna,+Rokycanova+240/27,+130+00+Praha+3-%C5%BDi%C5%BEkov,+Czechia&ludocid=2950843016225020946&lsig=AB86z5XpwhckX3ZGw589zvKGyrY8&hl=en&gl=RU#lrd=0x470b9549c6e26c17:0x28f38016ca08dc12,1">
-                        Очень довольна качеством общения с клиентом. Александр очень вежливый, позитивный, приятный в общении человек. К работе относиться ответственно, с переводом еще не было проблем. Стоимость услуг не завышена.
+                        Очень довольна качеством общения с клиентом. Александр очень вежливый, позитивный, приятный в
+                        общении человек. К работе относиться ответственно, с переводом еще не было проблем. Стоимость
+                        услуг не завышена.
                         Уверенно могу рекомендовать данное агентство переводов.
 
                     </blockquote>
@@ -1016,7 +1020,8 @@
                 <div class="testimonial-item__down">
                     <blockquote
                             cite="https://www.google.com/search?hl=en-RU&gl=ru&q=P%C5%99ekladovna,+Rokycanova+240/27,+130+00+Praha+3-%C5%BDi%C5%BEkov,+Czechia&ludocid=2950843016225020946&lsig=AB86z5XpwhckX3ZGw589zvKGyrY8&hl=en&gl=RU#lrd=0x470b9549c6e26c17:0x28f38016ca08dc12,1">
-                        Большое спасибо за быстрый и качественный перевод документов. Александр сделал все в тот же день. Безусловно, рекомендую!
+                        Большое спасибо за быстрый и качественный перевод документов. Александр сделал все в тот же
+                        день. Безусловно, рекомендую!
 
                     </blockquote>
                 </div>
@@ -2060,12 +2065,12 @@
                 <h2 class="form-heading">Заказать перевод</h2>
                 <div class="info">
                     <input class="fname" name="name" placeholder="Имя" required type="text">
-                    <input class="email" name="email" placeholder="Email" required type="text">
+                    <input class="email" name="email" placeholder="Email" type="text">
                     <input class="phone" name="phone" placeholder="+420" required type="text" value="+420">
                     <input class="promocode" name="promocode" placeholder="Код на скидку" type="text">
                 </div>
                 <!— Выбор города —>
-                <select class="city" id="city" name="city" required>
+                <select class="city" id="city" name="city">
                     <option disabled selected value="">Выберите город</option>
                     <option value="Прага">Прага</option>
                     <option value="Карловы Вары">Карловы Вары</option>
@@ -2073,7 +2078,7 @@
                 </select>
 
                 <!— Выбор услуги —>
-                <select class="service_select" id="service_select" name="service_select" required>
+                <select class="service_select" id="service_select" name="service_select">
                     <option disabled selected value="">Выберите услугу</option>
                     <option value="Языковые услуги">Языковые услуги</option>
                     <option value="Документы">Документы</option>
@@ -2089,13 +2094,17 @@
                     <textarea class="message" name="comment" placeholder=" Дополнительная информация"
                               rows="4"></textarea>
                 </div>
-                <button class="btn btn-white form__submit-button" disabled=""
+                <button class="btn btn-white form__submit-button"
                         name="submit" type="submit" value="Оставить заявку">Заказать перевод
                 </button>
                 <div class="checkbox_form">
-                    <input autocomplete="off" id="politics" onclick="check();" type="checkbox" value=""/>
+                    <!--                    <input autocomplete="off" id="politics" onclick="check();" type="checkbox" value=""/>-->
                     Нажимая на кнопку "Заказать перевод", я даю <a class="soglasie" href="zasady.html" target="_blank">cогласие
                     на обработку персональных данных.</a>
+                </div>
+                <div class="checkbox_form">
+                    * Время ответа в рабочие часы — до 15 минут. Заявки, поступившие в нерабочее время, обрабатываются с
+                    начала следующего рабочего дня.
                 </div>
                 <div class="form_send-result"></div>
             </form>
