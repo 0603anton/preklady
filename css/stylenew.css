@@ -1132,6 +1132,11 @@ a {
 
 /*FORM*/
 
+.form_margin_btn{
+    margin-bottom: 35px;
+}
+
+
 .main-block {
     background-color: var(--main-yellow);
     margin-bottom: 60px;
