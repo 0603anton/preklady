@@ -1136,6 +1136,11 @@ a {
     margin-bottom: 35px;
 }
 
+.kalkulace{
+    display: flex;
+    gap: 15px;
+}
+
 
 .main-block {
     background-color: var(--main-yellow);
@@ -1710,11 +1715,15 @@ body .hero_6 {
 }
 
 .transaction-fee {
+    align-items: flex-start;
     flex: 1;
     padding: 10px;
     /*flex-wrap: wrap;*/
 }
 
+.transaction-fee .kalkulace-button{
+    text-align: start;
+}
 .transaction_fee_text {
     font-size: 2em;
     font-weight: bold;
