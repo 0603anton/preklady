@@ -96,13 +96,13 @@ a {
 
 .back-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 12px;
+    right: 65px;
     display: none;
-    font-size: 24px;
+    font-size: 15px;
     color: #fff;
     background: var(--main-dark);
-    padding: 1px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     z-index: 1000;
@@ -2269,7 +2269,7 @@ body .hero_6 {
 
 .service-item h3 {
     margin-top: 0;
-    color: var(--text-color);
+    /*color: var(--text-color);*/
 }
 
 .service-item p {
