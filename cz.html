@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cs" prefix="og: http://ogp.me/ns#">
 
 <head>
+
+    <!--    PIXEL FACEBOOK-->
+
     <meta charset="UTF-8">
+
     <script defer src="./js/accordion.js"></script>
     <script defer src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
     <script defer src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
@@ -10,36 +14,7 @@
     <script defer src="./js/main.js"></script>
     <script defer src="./js/backtotop.js"></script>
     <script async src="./js/formsend.js"></script>
-    <!-- Meta Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1048362040046368');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=1048362040046368&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7HCZ1BJK3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-M7HCZ1BJK3');
-    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NMEXD3YDWQ">
     </script>
@@ -56,67 +31,198 @@
     </script>
 
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(97172319, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
+    <script async>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1048362040046368');
+        fbq('track', 'PageView');
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/97172319" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><img height="1" src="https://www.facebook.com/tr?id=1048362040046368&ev=PageView&noscript=1"
+                   style="display:none"
+                   width="1"
+    /></noscript>
     <!-- /Yandex.Metrika counter -->
+
+    <!-- Meta Pixel Code -->
+    <script async>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1048362040046368');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" src="https://www.facebook.com/tr?id=1048362040046368&ev=PageView&noscript=1"
+                   style="display:none"
+                   width="1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
 
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Soudní překlady, úřední překlady, ověřené překlady dokumentů | Заверенные переводы, официальные переводы,
-        заверенные переводы документов | Prekladovna Praha | Č. 1 NA TRHU PŘEKLADATELSKÝCH SLUŽEB V ČESKÉ
-        REPUBLICE</title>
+    <!--    <meta name="description" content="Судебные переводы с украинского, русского и английского языка в Праге по низким ценам. Нотариальные переводы на чешский и с чешского языка.">-->
+    <!--    <meta name="keywords" content="Нотариальные переводы , судебные переводы с чешского языка, Прага , Чехия , переводы с украинского языка , переводы с русского языка">-->
+
     <link href="./images/logo1.png" rel="shortcut icon"/>
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-          rel="stylesheet">
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'
-          rel="preload">
-    <link href="./css/all.min.css" rel="preload" rel="stylesheet">
+    <!-- Предварительная загрузка и preconnect для Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" crossorigin href="https://fonts.gstatic.com">
+
+    <!-- Предварительная загрузка шрифтов с добавлением onload и оптимизацией загрузки -->
+    <link rel="preload"
+          href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    </noscript>
+
+
+    <!--старый код-->
+    <!--    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"-->
+    <!--          rel="stylesheet" >-->
+    <!--    конец кода старого-->
+
+    <!-- Предварительная загрузка Font Awesome CSS с отложенной активацией -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style"
+          onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </noscript>
+
+    <!--старый код-->
+    <!--    <link rel="preload" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' rel='stylesheet'>-->
+    <!--    конец кода старого-->
+
+
+    <!-- Локальные CSS файлы -->
     <link href="./css/reset.css" rel="stylesheet">
     <link href="css/stylenew.css" rel="stylesheet">
-    <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>
-    <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>
-    <meta content="Jsme certifikovaným dodavatelem překladatelských a tlumočnických služeb. Naše překladatelské služby jsou založené na individuálním a flexibilním přístupu k zákazníkům. PŘEKLADY V ČESKÉ REPUBLICE - ČEŠTINA, UKRAJINŠTINA A RUŠTINA."
+
+    <!-- Отложенная загрузка Slick CSS -->
+    <link rel="preload" href="./slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./slick/slick.css">
+    </noscript>
+
+    <link rel="preload" href="./slick/slick-theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./slick/slick-theme.css">
+    </noscript>
+
+
+    <!--старый код-->
+    <!--    <link href="./css/reset.css" rel="stylesheet">-->
+    <!--    <link href="css/stylenew.css" rel="stylesheet">-->
+    <!--    <link href="./slick/slick.css" rel="stylesheet" type="text/css"/>-->
+    <!--    <link href="./slick/slick-theme.css" rel="stylesheet" type="text/css"/>-->
+
+    <!--    конец кода старого-->
+    <title> Překladovna - Profesionální překladatelské služby, soudní překlady a lokalizace v ČR</title>
+    <meta content="Překladovna je jedničkou na českém trhu soudních překladů. Nabízíme profesionální překlady dokumentů, lokalizaci, nostrifikaci, apostilu a další služby. Překládáme z češtiny, ukrajinštiny, ruštiny a dalších jazyků."
           name="description">
-    <meta content="PŘEKLADATELSKÁ AGENTURA,překlady,tlumočení,mezinárodní překlady,překlady pro EU,expresní překlady,on line překlady,tlumočnické služby,tlumočníci,tlumočnice,tlumočník,konsekutivní tlumočení,lokalizace,DTP,audio/video"
+    <meta content=" soudní překlady, profesionální překlady, lokalizace, nostrifikace, apostila, notářsky ověřené překlady, překlady pro firmy, překlady dokumentů, expresní překlady, Překladovna, překlady z češtiny, překlady z ukrajinštiny, překlady z ruštiny."
           name="keywords">
 
+    <meta name="author" content="Překladovna">
+    <meta name="language" content="cs">
+    <meta name="robots" content="index, follow">
+
+
+    <!--OPEN GRAPH-->
+    <meta content="Překladovna - Profesionální překladatelské služby, soudní překlady a lokalizace v ČR" property="og:title">
+    <meta content="Prekladovna.cz" property="og:site_name">
+    <meta content="https://prekladovna.cz/" property="og:url">
+    <meta content="Překladovna je jedničkou na českém trhu soudních překladů. Nabízíme profesionální překlady dokumentů, lokalizaci, nostrifikaci, apostilu a další služby. Překládáme z češtiny, ukrajinštiny, ruštiny a dalších jazyků."
+          property="og:description">
+    <meta content="https://prekladovna.cz/images/logo.svg" property="og:image">
+    <meta content="968" property="og:image:width">
+    <meta content="504" property="og:image:height">
+
+
+    <!--SCHEMA.ORG-->
+
+    <script async type='application/ld+json'>
+        {
+            "@context": "http://www.schema.org",
+            "@type": "Organization",
+            "name": "Překladovna",
+            "url": "https://prekladovna.cz/",
+            "logo": "https://prekladovna.cz/images/logo.svg",
+            "description": "Překladovna je jedničkou na českém trhu soudních překladů. Nabízíme profesionální překlady dokumentů, lokalizaci, nostrifikaci, apostilu a další služby. Překládáme z češtiny, ukrajinštiny, ruštiny a dalších jazyků.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Rokycanova 240/27, 130 00 Praha 3-Žižkov, Чехия",
+                "addressLocality": "Praha",
+                "addressCountry": "Чехия"
+            },
+            "hasMap": "https://maps.app.goo.gl/c7uNPWE5U6PqcH2r8",
+            "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00 Sa",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+420603776909"
+            }
+        }
+    </script>
+    <link href="https://prekladovna.cz/prekladycz.html" rel="canonical"/>
 </head>
 <body>
-<header class="header">
+<header class="header_main_page">
     <a class="back-to-top" href="#top" id="back-to-top" title="Back to top">▲</a>
-<!--    <a href="#forma">-->
-<!--        <button class="btn_rotate" id="btn_rotate"><img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg">-->
-<!--        </button>-->
-<!--    </a>-->
+    <!--    <a href="#forma">-->
+    <!--        <button class="btn_rotate" id="btn_rotate"><img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg">-->
+    <!--        </button>-->
+    <!--    </a>-->
     <div class="header__top">
         <div class="container">
             <div class="header__top-inner">
-                <a class="logo" href="">
-                    <img alt="logo" class="logo__img" src="./images/logo.svg">
-                </a>
+                <div class="logobox">
+                    <a class="logo" href="./allservicecz.html">
+                        <img alt="logo" class="logo__img" src="./images/logo.svg">
+                    </a>
+                    <a href="./partners.html"><span class="red-tag">Pro firmy</span></a>
+                </div>
                 <div class="nav-menu">
                     <div class="nav-menu__lang">
-                        <a class="lang-item" href="./cz.html">Cz</a>
-                        <a class="lang-item" href="index.html">Ru</a>
+                        <a class="lang-item" href="./prekladycz.html">Cz</a>
+                        <a class="lang-item" href="./index.html">Ru</a>
+                        <a class="lang-item" href="./prekladyukr.html">Uk</a>
+                        <a class="lang-item" href="./prekladyeng.html">Eng</a>
                     </div>
                     <div class="nav-menu__callback">
                         <a href="#forma">
-                            <button class="btn">Objednávka</button>
+                            <button class="btn">Objednat překlad</button>
                         </a>
                     </div>
                 </div>
@@ -127,31 +233,97 @@
         <div class="container">
             <div class="header__nav-inner">
                 <nav class="menu">
-                    <ul class="menu__list">
+                    <div id="mySidepanel" class="sidepanel desktop_hide">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#uslugy">Služby</a>
+
+
+                        <a onclick="closeNav()" class="menu__list-link" href="./blog.html">Blog</a>
+
+
+                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#price">Cenová nabídka</a>
+
+
+                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#aboutus">O nás</a>
+
+
+                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#otzovy">Recenze</a>
+
+
+                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#ourpartners">Naše
+                            partneři </a>
+
+
+                        <a onclick="closeNav()" class="menu__list-link" href="#forma">Objednat překlad </a>
+
+
+                        <a onclick="closeNav()" class="menu__list-link" href="#kontakty">Kontakty</a>
+
+
+                        <a onclick="closeNav()" class="menu__list-link" href="./index.html#faq">FAQ</a>
+
+                    </div>
+
+                    <button id="openbtn" class="openbtn desktop_hide desktop_hide_special" onclick="openNav()">☰
+                    </button>
+
+                    <ul class="menu__list mobile_hide">
                         <li class="menu__list-item">
                             <img alt="" class="icon-item" src="./images/bars_staggered_icon%20(1).svg">
                         </li>
-                        <li class="menu__list-item">
+                        <li class="menu__list-item bez_dop_show_mobile">
                             <a class="menu__list-link" href="#uslugy">Služby</a>
                         </li>
+
+                        <li class="menu__list-item drop_menu_hide_mobile">
+
+                            <div class="dropdown">
+                                <a href="#uslugy">
+                                    <button class="menu__list-link">Služby
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                </a>
+                                <div class="dropdown-content">
+                                    <div class="row_drop">
+                                        <div class="column">
+                                            <!--                                                <h3 class="dropdown_header">Языковые услуги</h3>-->
+                                            <a href="./prekladycz.html">Jazykové služby</a>
+                                            <a href="./temp_page.html">Finanční služby</a>
+                                            <a href="./temp_page.html">Příprava ke studiu v Evropě </a>
+                                            <a href="./temp_page.html">Podpora a pomoc v zahraničí </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+
+
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#price">Ceník Služeb</a>
+                            <a class="menu__list-link" href="./blog.html">Blog</a>
+                        </li>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#aboutus">O nás </a>
+                            <a class="menu__list-link" href="./index.html#price">Cenová nabídka</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#otzovy">Recenze </a>
+                            <a class="menu__list-link" href="./index.html#aboutus">O nás</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#ourpartners">Partnery </a>
+                            <a class="menu__list-link" href="./index.html#otzovy">Recenze</a>
                         </li>
                         <li class="menu__list-item">
+                            <a class="menu__list-link" href="./index.html#ourpartners">Naše partneři</a>
+                        </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link" href="#forma">Objednávka</a>
+                            <a class="menu__list-link" href="#forma">Objednat překlad </a>
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="#kontakty">Kontakty</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="./index.html#faq">FAQ</a>
                         </li>
                     </ul>
                 </nav>
@@ -188,13 +360,15 @@
         <div class="container">
             <div class="header__content-inner">
                 <div class="text">
-                    <h1 class="header__title"><span class="highlight-word fredericka">Zastavte se,</span><br>
-                        jste tu správně.</h1>
-                    <h4 class="header__subtitle highlight-word">Překládáme z a do češtiny, ukrajinštiny,<br> ruštiny a
-                        dalších jazyků.</h4>
+                    <!--                    <h1 class="header__title"><span class="highlight-word fredericka">Zastavte se,</span><br>-->
+                    <!--                        Jste tu spravne.</h1>-->
+                    <h1 class="header__title"><span class="highlight-word fredericka">Prekladovna -</span><br>
+                        firma č. 1 na Českém trhu soudních překladů.</h1>
+                    <h4 class="header__subtitle highlight-word">Překládáme z českého, ukrajinského, <br> ruského a
+                        ostatních jazyku.</h4>
                 </div>
                 <div class="header__content-img">
-
+                    <img src="./images/test_background.jpg" alt="hero img">
                 </div>
 
             </div>
@@ -202,125 +376,347 @@
     </div>
 </header>
 
+
 <div class="service">
     <div class="container">
         <h2 class="heading-2 highlight-word" id="uslugy">Služby</h2>
-        <section class="features">
-            <div class="feature">
-                <img alt="Written Translation Icon" class="feature__img"
-                     src="./images/file_document_paper_page_icon.svg">
-                <h4 class="heading-4">Překlady textů</h4>
-                <p class="feature__text">Zahrnuje překlady různých typů dokumentů, jako jsou právní, lékařské,
-                    technické, finanční a další odborné texty. Tento typ překladu je schopen provést pouze vysoce
-                    kvalifikovaný překladatel se znalostmi v daném oboru.</p>
+        <section class="cards">
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Судебный перевод"
+                         src="./images/stamp_icon.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Soudní překlad</h3>
+                    <p>Profesionální a přesný soudní překlad jakýchkoliv dokumentů za přijatelné ceny. </p>
+                </div>
+                <a href="./sud_perevod_dokumentovcz.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
             </div>
-            <div class="feature">
-                <img alt="Written Translation Icon" class="feature__img" src="./images/stamp_icon.svg">
-                <h4 class="heading-4 heading-4--dark">Soudní překlady</h4>
-                <p class="feature__text">Jedná se o úředně ověřený překlad dokumentu s razítkem soudního překladatele.
-                    Takto zpracovaný překlad je určen k oficiálnímu použití na úřadech, soudech, matričních úřadech a
-                    dalších státních orgánech. </p>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка локализация"
+                         src="./images/globe_fill_icon.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Lokalizace</h3>
+                    <p>Adaptace vašeho produktu pro český trh pro maximální efektivitu.</p>
+                </div>
+                <a href="./localizationcz.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
             </div>
-            <div class="feature">
-                <img alt="Written Translation Icon" class="feature__img" src="./images/ic_work_icon.svg">
-                <h4 class="heading-4 heading-4--dark">Úprava a korektura </h4>
-                <p class="feature__text">Jedná se o kontrolu již přeloženého textu z hlediska gramatických,
-                    stylistických a terminologických chyb. Tato služba je důležitá zejména pro ty, kteří chtějí mít
-                    jistotu, že jejich překlad je kvalitní.</p>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка переводы для бизнеса"
+                         src="./images/ic_work_icon.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Překlady pro firmy </h3>
+                    <p>Profesionální business-překlady pro úspěch na mezinárodních trzích.</p>
+                </div>
+                <a href="./business_translationscz.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
             </div>
-            <div class="feature">
-                <img alt="Written Translation Icon" class="feature__img" src="./images/globe_fill_icon.svg">
-                <h4 class="heading-4 heading-4--dark">Lokalizace webových stránek a softwaru </h4>
-                <p class="feature__text">Jedná se o proces přizpůsobení produktu určitému jazyku a kultuře. Zahrnuje
-                    překlad webových stránek, textu, grafiky, uživatelského rozhraní a dalších součástí produktu.</p>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка нострификация"
+                         src="./images/education-1.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Nostrifikace</h3>
+                    <p>Nostrifikace dokumentů pro účely studia, práce a legalizace v České republice.</p>
+                </div>
+                <a href="./nostrifcz.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
             </div>
-            <div class="feature">
-                <img alt="Written Translation Icon" class="feature__img"
-                     src="./images/bank_business_cash_finance_house_icon.svg">
-                <h4 class="heading-4 heading-4--dark">Překlady pro firmy </h4>
-                <p class="feature__text">Můžeme pro vás přeložit a lokalizovat firemní smlouvy a dokumentaci,
-                    spolupracujeme s realitními kancelářemi na překladech smluv pro jejich zahraniční klienty. Zabýváme
-                    se tvorbou a překladem titulků k videím, kreativními překlady obsahu na sociálních sítích,
-                    reklamních kampaní a další. </p>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка страхование"
+                         src="./images/apostile.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Apostila (legalizace+ superlegalizace)</h3>
+                    <p>Legalizace dokumentů pro používání v zahraničí </p>
+                </div>
+                <a href="./temp_page.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
             </div>
-            <div class="feature">
-                <img alt="Written Translation Icon" class="feature__img" src="./images/noun-translation.svg">
-                <h4 class="heading-4 heading-4--dark">Překlady všech typů dokumentů</h4>
-                <p class="feature__text">
-                    Překlady s razítkem soudního tlumočníka, mj. zahrnují: výpis z rejstříku trestů, rodný list, oddací
-                    list, diplom, maturitní vysvědčení atd. Stejně tak nestandardní dokumenty, obvykle dodatky k
-                    diplomům, plné moci, smlouvy, soudní rozhodnutí. </p>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка устные переводы"
+                         src="./images/noun-translation.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Ústní soudní tlumočení (doprovod)</h3>
+                    <p>Kvalifikované ústní překlady pro soudní jednání. </p>
+                </div>
+                <a href="./oraltranslationcz.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
             </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка бухгалтерские услуги"
+                         src="./images/noun-notary.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Notářské ověřené překlady</h3>
+                    <p>Úředně ověřené překlady pro všechny účely a jednání se státními orgány</p>
+                </div>
+                <a href="./notarskeoverenicz.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка юридические услуги"
+                         src="./images/file_document_paper_page_icon.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Písemné překlady</h3>
+                    <p>Profesionální překlady dokumentů jakékoliv obtížností. </p>
+                </div>
+                <a href="./translationscz.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <div class="card-icon">
+                    <img alt="Иконка финансовые услуги"
+                         src="./images/noun-express.svg">
+                </div>
+                <div class="card-content">
+                    <h3>Express překlady</h3>
+                    <p>Rychlé a kvalitní překlady v co v nejkratší době.</p>
+                </div>
+                <a href="./expresstranslation.html">
+                    <div class="card-arrow">
+                        <img alt="Right arrow Icon"
+                             src="./images/arrow-right-circle-thin.svg">
+                    </div>
+                </a>
+            </div>
+
         </section>
     </div>
 </div>
+
+
 <div class="price" id="price">
     <div class="container">
-        <div class="price__main">
-            <h1 class="price__heading">Ceník Služeb</h1>
-            <div class="pricing">
-                <div class="plan">
-                    <h2>Standard+</h2>
-                    <div class="price">od 500,- Kč</div>
-                    <ul class="features_price">
-                        <li><i class="fas fa-check-circle"></i> Dodatky k diplomům</li>
-                        <li><i class="fas fa-check-circle"></i> Smlouvy</li>
-                        <li><i class="fas fa-check-circle"></i> Plné moci</li>
-                        <li><i class="fas fa-check-circle"></i> Rozhodnutí soudu</li>
-                        <li><i class="fas fas fa-question-circle"></i> Přečtěte si více o ceně za překlad...</li>
-                        <!--                    <li><i class="fas fa-times-circle"></i> 4</li>-->
-                    </ul>
-                    <button><a class="menu__list-link" href="#forma">Objednávka</a></button>
+        <!--        <div class="price__main">-->
+        <!--            <h1 class="price__heading">Выберите ваш тариф</h1>-->
+        <!--            <div class="pricing">-->
+        <!--                <div class="plan">-->
+        <!--                    <div class="price__link">-->
+        <!--                        <h2>Стандарт+</h2>-->
+        <!--                        <div class="price">от 400 Kč</div>-->
+        <!--                        <ul class="features_price">-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Приложения к дипломам</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Доверенности</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Решения суда</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Договоры</li>-->
+        <!--                            <li><i class="fas fas fa-question-circle"></i>-->
+
+        <!--                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости-->
+        <!--                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"-->
+        <!--                                         xmlns="http://www.w3.org/2000/svg">-->
+        <!--                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"-->
+        <!--                                           stroke-width="1.5">-->
+        <!--                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>-->
+        <!--                                            <path class="arrow-icon&#45;&#45;arrow"-->
+        <!--                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>-->
+        <!--                                        </g>-->
+        <!--                                    </svg>-->
+        <!--                                </a>-->
+
+        <!--                            </li>-->
+        <!--                        </ul>-->
+        <!--                    </div>-->
+        <!--                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>-->
+        <!--                </div>-->
+
+        <!--                <div class="plan popular">-->
+        <!--                    <div class="price__link">-->
+        <!--                        <span>Популярно</span>-->
+        <!--                        <h2>Стандарт</h2>-->
+        <!--                        <div class="price">от 350 Kč</div>-->
+
+        <!--                        <ul class="features_price">-->
+        <!--                            <li><i class="fas fa-check-circle"></i>Справки о несудимости</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i>Свидетельства о рождении</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i>Школьные аттестаты</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Свидетельства о браке</li>-->
+        <!--                            <li><i class="fas fas fa-question-circle"></i>-->
+
+        <!--                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости-->
+        <!--                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"-->
+        <!--                                         xmlns="http://www.w3.org/2000/svg">-->
+        <!--                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"-->
+        <!--                                           stroke-width="1.5">-->
+        <!--                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>-->
+        <!--                                            <path class="arrow-icon&#45;&#45;arrow"-->
+        <!--                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>-->
+        <!--                                        </g>-->
+        <!--                                    </svg>-->
+        <!--                                </a>-->
+
+        <!--                            </li>-->
+        <!--                        </ul>-->
+        <!--                    </div>-->
+        <!--                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>-->
+
+        <!--                </div>-->
+
+        <!--                <div class="plan">-->
+        <!--                    <div class="price__link">-->
+        <!--                        <h2>Сложные документы</h2>-->
+        <!--                        <div class="price">Индивидуально</div>-->
+        <!--                        <ul class="features_price">-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Коммерческие и рекламные тексты</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Техническая документация</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Медицинские тексты</li>-->
+        <!--                            <li><i class="fas fa-check-circle"></i> Другие сложные документы</li>-->
+        <!--                            <li><i class="fas fas fa-question-circle"></i>-->
+
+        <!--                                <a class="link link&#45;&#45;arrowed" href="./about_price.html">Подробнее о стоимости-->
+        <!--                                    <svg class="arrow-icon" height="32" viewBox="0 0 32 32" width="32"-->
+        <!--                                         xmlns="http://www.w3.org/2000/svg">-->
+        <!--                                        <g fill="none" stroke="#fbb512" stroke-linejoin="round" stroke-miterlimit="10"-->
+        <!--                                           stroke-width="1.5">-->
+        <!--                                            <circle class="arrow-icon&#45;&#45;circle" cx="16" cy="16" r="15.12"></circle>-->
+        <!--                                            <path class="arrow-icon&#45;&#45;arrow"-->
+        <!--                                                  d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>-->
+        <!--                                        </g>-->
+        <!--                                    </svg>-->
+        <!--                                </a>-->
+
+        <!--                            </li>-->
+        <!--                        </ul>-->
+        <!--                    </div>-->
+        <!--                    <button><a class="menu__list-link" href="#forma">Заказать перевод</a></button>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--                    <h1 class="price__heading">Наши цены</h1>-->
+        <h2 class="heading-2 highlight-word heading-margin">Naše ceny</h2>
+        <div class="new_price_container">
+            <div class="pricing-header">
+                <!--                <h1 class="price__heading">Наши цены</h1>-->
+            </div>
+            <div class="pricing-content">
+                <div class="transaction-fee">
+                    <h2>Cena překladu pro: </h2>
+                    <p>ruský, ukrajinský, anglický a německý jazyk </p>
+                    <p class="transaction_fee_text">od 450 kč </p>
+                    <!--                    <p>Per successful transaction*</p>-->
+                    <p class="transaction_fee_small_text">*Obvykle účtujeme platbu v normostránkách. 1 normostránka (NS)
+                        odpovídá rozsahu 1800 znaků, včetně mezer z textu překladu (hotové překlady).</p>
+                    <div class="cta-button kalkulace-button">
+                        <a href="./online-kalkulace-prekladu-cz.html">Kalkulace ceny zdarma</a>
+                    </div>
                 </div>
-                <div class="plan popular">
-                    <span>Populární</span>
-                    <h2>Standard</h2>
-                    <div class="price">od 450,- Kč</div>
-                    <ul class="features_price">
-                        <li><i class="fas fa-check-circle"></i>Školní dokumenty</li>
-                        <li><i class="fas fa-check-circle"></i> Potvrzení, rodný list</li>
-                        <li><i class="fas fa-check-circle"></i> Oddací list</li>
-                        <li><i class="fas fa-check-circle"></i> Výpisy z rejstříku trestů</li>
-                        <li><i class="fas fas fa-question-circle"></i> Přečtěte si více o ceně za překlad...</li>
-                    </ul>
-                    <button><a class="menu__list-link" href="#forma">Objednávka</a></button>
-                </div>
-                <div class="plan">
-                    <h2>Komplexní dokumenty</h2>
-                    <div class="price">Individual</div>
-                    <ul class="features_price">
-                        <li><i class="fas fa-check-circle"></i> Komerční texty</li>
-                        <li><i class="fas fa-check-circle"></i> Technická dokumentace</li>
-                        <li><i class="fas fa-check-circle"></i> Reklamní texty</li>
-                        <li><i class="fas fa-check-circle"></i> Jiné náročné dokumenty</li>
-                        <li><i class="fas fas fa-question-circle"></i> Přečtěte si více o ceně za překlad...</li>
-                    </ul>
-                    <button><a class="menu__list-link" href="#forma">Objednávka</a></button>
+                <div class="new_price_features">
+                    <div class="new_price_feature">
+                        <img alt="No Hidden Charges" src="./images/price/calculator.svg">
+                        <span><strong>Přesná cena </strong> — Získejte přesnou cenu hned, bez skrytých doplatku a neočekávaných nákladu.</span>
+                    </div>
+                    <div class="new_price_feature">
+                        <img alt="Get Onboard Instantly" src="./images/price/fast.svg">
+                        <span><strong>Doba: 2–7 dní </strong> — standardní doba vyhotovení překladu je pouze 2 až 7 pracovních dnů.</span>
+                    </div>
+                    <div class="new_price_feature">
+                        <img loading="lazy" alt="Instant Access" src="./images/price/warranty.svg">
+                        <span><strong>Garance kvality </strong> — Poskytujeme záruku na všechny naše služby a překlady.</span>
+                    </div>
+                    <div class="new_price_feature">
+                        <img alt="Affordable Cost" src="./images/price/affodable.svg">
+                        <span><strong>Příznivé ceny </strong>  — Nabízíme konkurenční a příznivé ceny pro všechny naše zákazníky.</span>
+                    </div>
                 </div>
             </div>
+            <div class="cta-button">
+                <a href="./about_pricecz.html">Podrobněji o cenách </a>
+            </div>
         </div>
-        <p class="price__text">
-            * Standardně účtujeme v normostranách. 1 normostrana (NS) odpovídá 1800 znakům včetně mezer z cílového textu
-            (vyhotoveného překladu).
-        </p>
+        <!--        <p class="price__text">-->
+        <!--            *Обычно мы берем плату в стандартных страницах. 1 стандартная страница (NS) соответствует 1800 символам,-->
+        <!--            включая пробелы, из текста перевода (готового перевода).-->
+        <!--        </p>-->
     </div>
 </div>
 <div class="advantages">
     <div class="container">
-        <h2 class="heading-2 highlight-word" id="aboutus">Proč si vybrat právě nás</h2>
+        <h2 class="heading-2 highlight-word" id="aboutus">Naše výhody</h2>
         <div class="advantages__content">
-            <p class="plane_text">Překladovna je vaším průvodcem ve světě jazyků. Jsme hrdí na to, že se naši klienti k
-                nám opakovaně vracejí a doporučují svým známým. Naše tajemství je jednoduché: děláme to, co nás baví, a
-                milujeme to, co děláme. Náš tým profesionálních překladatelů je připraven na jakýkoliv úkol, ať se jedná
-                o překlad jednoduchého dopisu či o náročný odborný text. Naším cílem je poskytovat správné a kvalitní
-                překlady, které pomohou uspět právě Vám. </p>
+            <p class="plane_text">Překladovna – Váš průvodce ve světě českého jazyka. Jsme hrdí na to, že naši klienti
+                vybírají nás znovu a znovu. Naše tajemství je jednoduché: děláme to, co máme rádi a máme rádi to, co
+                děláme. Tým profesionálních a zkušených překladatelů je připraven ujmout se jakýchkoliv úkolů, ať to je
+                obyčejný dopis či náročný technický text. Naším cílem je vyhotovení přesného a kvalitního překladu,
+                který pomůže Vám dosáhnout úspěchu v jakékoliv záležitosti.</p>
             <ul class="advantages__list">
-                <li class="advantages__list-item"><p>Na trhu působíme více než 7 let</p></li>
-                <li class="advantages__list-item"><p>10 000+ realizovaných překladů </p></li>
-                <li class="advantages__list-item"><p>Vice než 3 000 spokojených zákazníků </p></li>
-                <li class="advantages__list-item"><p>Možnost expresního vyhotovení překladu do 24 hodin</p></li>
-                <li class="advantages__list-item"><p>Nízké ceny již od 350 Kč</p></li>
+                <li class="advantages__list-item"><p>Jsme na trhu překladů více než 7 let</p></li>
+                <li class="advantages__list-item"><p>Více než 1000 úspěšných překladů </p></li>
+                <li class="advantages__list-item"><p>Více než 3000 spokojených zákazníků </p></li>
+                <li class="advantages__list-item"><p>Možnost express překladu do 24 hodin</p></li>
+                <li class="advantages__list-item"><p>Konkurenční ceny od 450 kč</p></li>
             </ul>
+
+        </div>
+
+    </div>
+</div>
+<div class="warranty">
+    <div class="container">
+        <h2 class="highlight-word heading-2">Garance kvality překladu v Praze</h2>
+        <div class="warranty__main">
+
+            <div class="warranty__main_txt marked_list">
+                <p>U nás získáte jednak profesionální překlady, jednak garanci Vašeho klidu. Pokud došlo k chybám,
+                    opravíme je zdarma a v nejkratší době.</p>
+
+                <!--                <h3 class="highlight-word heading-2">Наши гарантии:</h3>-->
+                <ul>
+                    <li><strong>Profesionalita:</strong> pracujeme se zkušenými překladateli, zaručujeme vysokou kvalitu
+                        překladu.
+                    </li>
+                    <li><strong>Opravy zdarma:</strong> Pokud naleznete chybu, opravíme ji bez dodatečných nákladů.
+                    </li>
+                    <li><strong>Minimální doba: </strong>Ceníme Váš čas a rychle opravujeme jakékoliv nepřesnosti.
+                    </li>
+                </ul>
+                <p>Spolehněte se na nás a získejte dokonalý překlad. </p>
+            </div>
+            <div><img alt="знак гарантии" class="warranty__img" src="./images/warranty_compr.png"></div>
         </div>
     </div>
 </div>
@@ -831,13 +1227,13 @@
 </div>
 <div class="partners">
     <div class="container">
-        <h2 class="heading-2 highlight-word heading-margin" id="ourpartners">Partnery</h2>
+        <h2 class="heading-2 highlight-word heading-margin" id="ourpartners">Naši partneři </h2>
         <div class="partners__items">
-            <img alt="" class="partner__item" src="./images/partners/1.png">
-            <img alt="" class="partner__item" src="./images/partners/2.png">
-            <img alt="" class="partner__item" src="./images/partners/3.svg">
-            <img alt="" class="partner__item" src="./images/partners/4.png">
-            <img alt="" class="partner__item" src="./images/partners/5.png">
+            <img loading="lazy" alt="" class="partner__item" src="./images/partners/1.png">
+            <img loading="lazy" alt="" class="partner__item" src="./images/partners/2.png">
+            <img loading="lazy" alt="" class="partner__item" src="./images/partners/3.svg">
+            <img loading="lazy" alt="" class="partner__item" src="./images/partners/4.png">
+            <a href="#"><img alt="" class="partner__item" src="./images/partners/5.png"></a>
         </div>
     </div>
 </div>
@@ -845,23 +1241,45 @@
     <div class="container">
         <div class="main-block" id="forma">
             <form class="form__item form" onsubmit="sendEmailTelegram(event)">
-                <h2 class="form-heading">Objednávka</h2>
+                <h2 class="form-heading">Objednat překlad</h2>
                 <div class="info">
-                    <input class="fname" name="name" placeholder="Jméne" required type="text">
+                    <input class="fname" name="name" placeholder="Jméno " required type="text">
                     <input class="email" name="email" placeholder="E-mail" required type="text">
                     <input class="phone" name="phone" placeholder="+420" required type="text" value="+420">
+                    <input class="promocode" name="promocode" placeholder="Slevový kód " type="text">
                 </div>
+                <!— Выбор города —>
+                <select class="city" id="city" name="city" required>
+                    <option value="" disabled selected>Vyberte město</option>
+                    <option value="Прага">Praha</option>
+                    <option value="Карловы Вары">Karlovy Vary</option>
+                    <option value="Другой">Další</option>
+                </select>
+
+                <!— Выбор услуги —>
+                <select class="service_select" id="service_select" name="service_select" required>
+                    <option value="" disabled selected>Vyberte službu</option>
+                    <option value="Языковые услуги">Jazykové služby</option>
+                    <option value="Документы">Dokumenty</option>
+                    <option value="Недвижимость">Majetek</option>
+                    <option value="Страхование">Pojištění </option>
+                    <option value="Финансовые услуги">Finanční služby</option>
+                    <option value="Транспорт">Doprava</option>
+                    <option value="Бизнес">Podnikání </option>
+                    <option value="Другие услуги">Další služby</option>
+                    <option value="Релокация и миграционные услуги">Stěhovací a migrační služby</option>
+                </select>
                 <div>
-                    <textarea class="message" name="comment" placeholder=" Komentář"
+                    <textarea class="message" name="comment" placeholder=" Další informace "
                               rows="4"></textarea>
                 </div>
                 <button class="btn btn-white form__submit-button" disabled=""
-                        name="submit" type="submit" value="Оставить заявку">Odeslat objednávku
+                        name="submit" type="submit" value="Оставить заявку">Objednat překlad
                 </button>
                 <div class="checkbox_form">
                     <input autocomplete="off" id="politics" onclick="check();" type="checkbox" value=""/>
-                    Odesláním poptávkového formuláře <a class="soglasie" href="zasady.html" target="_blank">udělujete
-                    souhlas se zpracováním osobních údajů.</a>
+                    Stisknutím tlačítka Objednat překlad <a class="soglasie" href="zasady.html" target="_blank">souhlasíte
+                    se zpracováním osobních údajů.</a>
                 </div>
                 <div class="form_send-result"></div>
             </form>
@@ -872,23 +1290,56 @@
     <div class="container">
         <div class="map-item">
             <div class="contacts">
-                <h4>JSME JENOM LIDÉ.</h4>
-                    <p>Otevírací doba:</p>
-                    <p>Pondělí – Pátek od 09:00 do 17:00</p>
+                <h4>Pracujeme pro Vás:</h4>
+                <p>Pondělí-Pátek: 09:00-17:00</p>
 
-                    <p>Občase se stane, že v kanceláři nikdo není.Neváhejte
-                        a volejte Alexandrovi na<a href="tel:+420603776909"> +420 603 776 909</a>.</p>
-                    <h4>PRO NOVÉ FIREMNÍ KLIENTY.</h4>
-                    <p>Máte zájem o spolupráci? Kontaktujte Alexe na <a href="tel:+420777850286"> +420
-                        777 850 286</a>.</p>
-                    <h4>Praha 3</h4>
-                    <p>TELEFON:<a href="tel:+420603776909"> +420 603 776 909</a></p>
-                    <p>E-MAIL:<a href="mailto:info@prekladovna.cz" target="_blank"> info@prekladovna.cz</a></p>
-                    <p>ADRESA: Rokycanova 240/27</p>
-                    <h4>Karlovy Vary</h4>
-                    <p>TELEFON:<a href="tel:+420777850286"> +420 777 850 286</a></p>
-                    <p>E-MAIL:<a href="mailto:info@prekladovna.cz" target="_blank"> info@prekladovna.cz</a></p>
-                    <p>ADRESA: Truhlářská 1074/13a</p>
+                <!--                <p>Иногда случается, что в офисе никого нет.-->
+                <!--                    Не стесняйтесь звонить Александру-->
+                <!--                    по телефону <a href="tel:+420603776909"> +420 603 776 909</a>.</p>-->
+                <h4>Obraťte se na nás jakýmkoliv pohodlném pro Vás způsobem.</h4>
+                <p></p>
+                <!--                <br>-->
+                <div class="icons">
+                    <a href="https://www.facebook.com/profile.php?id=61556728345328" target="_blank">
+                        <img alt="Facebook Icon" src="./images/facebook_icon.svg">
+                    </a>
+                    <a href="https://www.instagram.com/prekladovna.cz/" target="_blank">
+                        <img alt="Instagram Icon" src="./images/instagram_logo_fill_icon.svg">
+                    </a>
+                    <a href="https://t.me/+54kfyLdvt1I3YjFi" target="_blank">
+                        <img alt="Telegram Icon" src="./images/telegram_plane_icon.svg">
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send/?phone=%2B420603776909&text&type=phone_number&app_absent=0"
+                       target="_blank">
+                        <img alt="WhatsUp Icon" src="./images/call_chat_mobile_whatsapp_whatsapp%20logo_icon.svg">
+                    </a>
+                    <!--                    <a href="" target="_blank">-->
+                    <!--                        <img alt="ViberIcon" src="./images/media_messenger_social_viber_icon.svg">-->
+                    <!--                    </a>-->
+                    <a href="mailto:info@prekladovna.cz" target="_blank">
+                        <img alt="email Icon" src="./images/email_mail_open_outline_icon.svg">
+                    </a>
+                    <a href="tel:+420603776909" target="_blank">
+                        <img alt="Phone Icon" src="./images/bxs_phone_call_icon.svg">
+                    </a>
+
+                </div>
+                <p></p>
+                <!--                <br>-->
+                <h4>Pro nové firemní klienty.</h4>
+                <p>Máte zájem o spolupráci? Kontaktujte Evgenij Marandici na telefonní číslo <a
+                        href="tel:+420773095315"> +420 773 095 315</a> nebo přes email: <a
+                        href="mailto:marandici@prekladovna.cz" target="_blank"> marandici@prekladovna.cz</a>.</p>
+
+                <h4>Praha 3</h4>
+                <p>Tel.: <a href="tel:+420603776909"> +420 603 776 909</a></p>
+                <p>E-mail: <a href="mailto:info@prekladovna.cz" target="_blank"> info@prekladovna.cz</a></p>
+                <p>Adresa: Rokycanova 240/27</p>
+                <h4>Karlovy Vary</h4>
+                <p>Tel.:<a href="tel:+420777850286"> +420 777 850 286</a></p>
+                <p>E-mail:<a href="mailto:info@prekladovna.cz" target="_blank"> info@prekladovna.cz</a></p>
+                <p>Adresa: Truhlářská 1074/13a</p>
 
 
             </div>
@@ -901,29 +1352,138 @@
         </div>
     </div>
 </div>
+<div class="faq" id="faq">
+    <div class="container">
+        <h2 class="highlight-word price__heading">FAQ - časté otázky </h2>
+        <div class="faq__main">
+
+            <button class="accordion">Jaké služby nabízí společnost Překladovna a jak vlastně pracují překladatelé?
+            </button>
+            <div class="panel">
+                <p>Překladovna zaujímá vedoucí postavení na trhu překladatelských služeb v České republice. Naši
+                    překladatelé zajišťují kvalitní překlady dokumentů z různých jazyků včetně češtiny, ukrajinštiny a
+                    ruštiny. Jsme hrdí na to, že naše služby jsou žádané a splňují nejvyšší standardy.</p>
+                <br>
+                <p> Náš tým profesionálních překladatelů má bohaté zkušenosti a je připraven ujmout se jakéhokoli úkolu.
+                    Bez ohledu na obtížnost textu věnuje každý překladatel Překladovny pozornost každému detailu, aby
+                    zajistil přesný a kvalitní překlad.</p>
+                <br>
+                <p> Pokud potřebujete překladatele pro důležité dokumenty, který dokáže odvést práci v nejkratší době,
+                    je Překladovna tou nejlepší volbou. Chápeme důležitost přesnosti a důvěrnosti, proto naši
+                    překladatelé při práci s vašimi materiály tyto zásady vždy dodržují.</p>
+                <br>
+                <p> Umíme pracovat a kvalitně překládat mj. I právní a obchodní dokumentaci. Náš kvalifikovaný
+                    překladatel dokáže pracovat s podobným typem dokumentů a zajistit správný a akceptovatelný
+                    překlad. </p>
+                <br>
+                <p> Překladovna je tým profesionálů, který poskytuje komplexní překladatelské služby a zaručuje vysokou
+                    úroveň služeb a spokojenost zákazníků. Můžete si být jisti, že naši překladatelé odvedou svou práci
+                    na nejvyšší úrovni. </p>
+            </div>
+
+            <button class="accordion">Jak objednat překlad ?</button>
+            <div class="panel">
+                <p>Můžete poslat objednávku prostřednictvím objednávkového formuláře na našem webu, e-mailu, poštovní
+                    služby, kurýrní služby nebo přímo v naši kanceláři. </p>
+            </div>
+
+            <button class="accordion">Jak mohu získat soudní překlad dokumentů?</button>
+            <div class="panel">
+                <p>Posíláme překlady prostřednictvím e-mailu, poštovní služby, kurýrní služby, nebo si je můžete
+                    vyzvednout přímo u nás v kanceláři. </p>
+            </div>
+
+            <button class="accordion">Pracujete i v dopoledních hodinách?</button>
+            <div class="panel">
+                <p>Ano, pracujeme pro Vás každý pracovní den od pondělí do pátku od 9:00 do 17:00 (bez přestávek).</p>
+            </div>
+
+            <button class="accordion">Je-li potřeba objednávat se na schůzku u Vás v kanceláři?</button>
+            <div class="panel">
+                <p>Není třeba. Nezdržíte se u nás déle než 5-7 minut. </p>
+            </div>
+
+            <button class="accordion">Musím osobně přinést dokumenty na překlad?</button>
+            <div class="panel">
+                <p>Není třeba. Pro většinu dokumentů postačí jen sken či kvalitní foto, překlad Vám připojíme k
+                    dokumentů až si pro něj zastavíte, případně je můžete poslat kurýrem/poštou. </p>
+            </div>
+
+            <button class="accordion">Mohu-li objednat překlad v elektronické podobě?</button>
+            <div class="panel">
+                <p>Ano, jistě. Pokud potřebujete obyčejný překlad nikoli soudní, můžete objednat překlad v elektronické
+                    podobě. Také mate možnost objednat překlad dokumentu v elektronické podobě pro následné ověření
+                    překladu, například v českém velvyslanectví. </p>
+            </div>
+
+            <button class="accordion">Je-li možné doručení překladu do zahraničí?</button>
+            <div class="panel">
+                <p>Můžeme doručit překlad pomocí pošty nebo vybrané kurýrské služby do jakékoliv části světa. </p>
+            </div>
+
+            <button class="accordion">Jste certifikovaný dodavatel písemných a ústních překladatelských služeb?</button>
+            <div class="panel">
+                <p>Ano, máme možnost poskytovat ověřené překlady. </p>
+            </div>
+
+            <button class="accordion">Jak rychle získat informaci ohledně cenyy?</button>
+            <div class="panel">
+                <p>Mate možnost rychle získat informaci ohledně naších cen po telefonu, e-mailu nebo pomocí formuláře na
+                    webových stránkách, pak také <a class="soglasie"
+                                                    href="./about_pricecz.html">stránkách webu</a>, kde jsme podrobně rozepsaly z čeho se cena skládá.</p>
+            </div>
+
+            <button class="accordion">Mohu-li platit pomocí karty v Překladovna?</button>
+            <div class="panel">
+                <p>Ano, naše kancelář nabízí platby pomocí platebního terminálu. </p>
+            </div>
+
+            <button class="accordion">Mohu-li platit online?</button>
+            <div class="panel">
+                <p>Ano, vytváříme pro Vás unikátní odkaz nebo QR kód pro platbu online. </p>
+            </div>
+
+            <button class="accordion">Jaký překlad je potřeba pro nostrifikaci diplomu?</button>
+            <div class="panel">
+                <p>Pro postup přiznání středoškolského nebo vysokoškolského vzdělání(nostrifikace) je třeba provést soudní překlad diplomu o absolvování střední nebo vysoké školy, také odpovídajících dodatku. Upozorňujeme, že překlad musí být ověřen soudním překladatelem, sídlícím na území České republiky. </p>
+            </div>
+
+            <button class="accordion">Jak vypadá přeložený dokument soudního překladatele?</button>
+            <div class="panel">
+                <p>Zvláštností soudního překladu je, že překlad je přiložen k originálu nebo notářsky ověřené kopii dokumentu. Soudní překlad je přišitý k dokumentu a opatřený razítkem soudního překladatele. Povinná je také "doložka soudního tlumočníka" - číslo překladu a potvrzení, že podepsaný překladatel má soudní licenci a že jím vyhotovený překlad odpovídá textu připojené listiny. </p>
+            </div>
+
+            <!--            <button class="accordion"></button>-->
+            <!--            <div class="panel">-->
+            <!--                <p></p>-->
+            <!--            </div>-->
+
+        </div>
+    </div>
+</div>
 <footer>
     <div class="container">
         <div class="row">
             <div class="footer-col">
-                <h4>O nás</h4>
+                <h4>O firmě</h4>
                 <ul>
                     <li><a class="menu__list-link" href="#uslugy">Služby</a></li>
-                    <li><a class="menu__list-link" href="#price">Ceník Služeb</a></li>
+                    <li><a class="menu__list-link" href="#price">Cenová nabídka</a></li>
                     <li><a class="menu__list-link" href="#aboutus">O nás</a></li>
                     <li><a class="menu__list-link" href="#otzovy">Recenze</a></li>
-                    <li><a class="menu__list-link" href="#ourpartners">Partnery</a></li>
-                    <li><a class="menu__list-link" href="#forma">Objednávka</a></li>
+                    <li><a class="menu__list-link" href="#ourpartners">Naše partneři </a></li>
+                    <li><a class="menu__list-link" href="#forma">Objednat překlad </a></li>
                     <li><a class="menu__list-link" href="#kontakty">Kontakty</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Další informace:</h4>
+                <h4>Informace</h4>
                 <ul>
-                    <li><a href="#">FAQ - často kladené otázky</a></li>
-                    <li><a href="#">Jak objednávat</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">Ceník služeb</a></li>
-                    <li><a href="#">Dodací lhůty</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <!--                    <li><a href="#">Как оформить заказ</a></li>-->
+                    <li><a href="./contacts.html">Kontakty</a></li>
+                    <li><a href="./about_price.html">Cenová nabídka</a></li>
+                    <!--                    <li><a href="#">Сроки выполнения</a></li>-->
                 </ul>
             </div>
             <div class="footer-col">
@@ -942,7 +1502,7 @@
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Přihlasit se na:</h4>
+                <h4>Sledovat:</h4>
                 <div class="social-links">
                     <a href="https://www.facebook.com/profile.php?id=61556728345328"><i
                             class="fab fa-facebook-f"></i></a>
@@ -971,8 +1531,12 @@
         </div>
     </div>
 </footer>
-
-
+<script async>
+    (function(w,d,u){
+        var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn-ru.bitrix24.ru/b31225536/crm/site_button/loader_2_ibjjua.js');
+</script>
 
 </body>
 
