@@ -2489,45 +2489,80 @@ body .hero_6 {
 
 
 .notification-block {
-    background-color: var(--main-dark);
-    color: var(--main-white);
-    padding: 20px;
+    background: var(--main-yellow);
+    color: var(--main-dark);
     border-radius: 8px;
-    margin: 20px auto;
-    font-family: Arial, sans-serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
     max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .notification-title {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: bold;
-    color: var(--main-yellow);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.notification-message {
-    font-size: 1rem;
-    line-height: 1.5;
-    text-align: justify;
+.office-status {
+    margin-bottom: 20px;
 }
 
-.notification-message strong {
-    color: var(--main-yellow);
+.status-block {
+    background: var(--main-white);
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Адаптация для мобильных устройств */
-@media screen and (max-width: 600px) {
-    .notification-block {
-        padding: 15px;
-    }
+.closed {
+    border-left: 6px solid var(--main-dark);
+}
 
-    .notification-title {
-        font-size: 1.3rem;
-    }
+.open {
+    border-left: 6px solid var(--main-yellow);
+}
 
-    .notification-message {
-        font-size: 0.95rem;
-    }
+.status-title {
+    color: var(--main-dark);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.status-list {
+    margin: 10px 0 0;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.status-list li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.online-services {
+    background: var(--main-white);
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services-title {
+    color: var(--main-dark);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.services-list {
+    margin: 10px 0 0;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.services-list li {
+    margin-bottom: 5px;
+    font-size: 16px;
 }
