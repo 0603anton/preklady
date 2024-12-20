@@ -2375,3 +2375,159 @@ body .hero_6 {
     }
 }
 
+
+.survey-page-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.survey-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.survey-subtitle {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.survey-description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Кнопка */
+.survey-button {
+    display: inline-block;
+    background-color: #f7b000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.survey-button:hover {
+    background-color: #e09e00;
+}
+
+/* Купон */
+.survey-coupon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 400px;
+}
+
+
+
+/* Footer */
+.survey-footer-text {
+    font-size: 12px;
+    color: #777;
+    margin: 20px 0;
+}
+
+.survey-thank-you {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Медиазапросы для адаптивности */
+@media (max-width: 768px) {
+    .survey-title {
+        font-size: 24px;
+    }
+
+    .survey-description {
+        font-size: 14px;
+    }
+
+    .survey-button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+    .survey-page-container {
+        padding: 15px;
+    }
+
+    .survey-title {
+        font-size: 20px;
+    }
+
+    .survey-subtitle, .survey-description {
+        font-size: 12px;
+    }
+
+    .survey-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+
+    .survey-discount {
+        font-size: 24px;
+    }
+}
+
+
+.notification-block {
+    background-color: var(--main-dark);
+    color: var(--main-white);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+.notification-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--main-yellow);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.notification-message {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.notification-message strong {
+    color: var(--main-yellow);
+}
+
+/* Адаптация для мобильных устройств */
+@media screen and (max-width: 600px) {
+    .notification-block {
+        padding: 15px;
+    }
+
+    .notification-title {
+        font-size: 1.3rem;
+    }
+
+    .notification-message {
+        font-size: 0.95rem;
+    }
+}
