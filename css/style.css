@@ -2571,5 +2571,169 @@ body .hero_6 {
 
 .services-list li {
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.languages-button {
+    background: linear-gradient(45deg, #FFA500, #FFD700);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.languages-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 165, 0, 0.2);
+}
+
+.languages-button__text {
+    color: #333;
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.languages-button__icon {
+    font-size: 20px;
+}
+
+/* Общие стили для секции */
+.languages-section {
+    padding: 60px 20px;
+    /*background-color: #f0f4f8;*/
+    text-align: center;
+}
+
+.languages-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: var(--main-yellow);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Контейнер для карточек */
+.languages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Стили для ссылок-карточек */
+.language-pair {
+    text-decoration: none;
+    color: inherit;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.language-pair:hover {
+    transform: translateY(-5px);
+}
+
+/* Стили для карточек */
+.language-card {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 2px solid var(--main-yellow);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--main-dark);
+}
+
+.language-card:hover {
+    border-color: #007BFF;
+    box-shadow: 0 8px 12px rgba(0, 123, 255, 0.2);
+    background-color: #e6f7ff;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .language-pair {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .language-pair {
+        width: 100%;
+    }
+}
+
+/* Стили для раздела услуг */
+.services-article {
+    padding: 60px 20px;
+    /*background-color: #f9f9f9;*/
+}
+
+.services-article .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services-article h2 {
+    font-size: 2.5em;
+    color: var(--main-yellow);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services-article p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.services-article h3 {
+    font-size: 1.8em;
+    color: var(--main-yellow);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.services-article ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.services-article ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.services-article ul li strong {
+    color: #333;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .services-article h2 {
+        font-size: 2em;
+    }
+
+    .services-article h3 {
+        font-size: 1.5em;
+    }
+
+    .services-article p,
+    .services-article ul li {
+        font-size: 1em;
+    }
+
+    .services-article {
+        padding: 40px 15px;
+    }
 }
