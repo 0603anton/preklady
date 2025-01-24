@@ -9,223 +9,268 @@
 
 <url>
   <loc>https://prekladovna.cz/</loc>
-  <lastmod>2024-11-25T20:16:05+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:20+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/allservice.html</loc>
-  <lastmod>2024-11-25T20:16:00+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/partners.html</loc>
-  <lastmod>2024-11-25T20:16:08+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/prekladycz.html</loc>
-  <lastmod>2024-11-25T20:16:08+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/index.html</loc>
+  <lastmod>2025-01-17T07:54:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/prekladyukr.html</loc>
-  <lastmod>2024-11-25T20:16:09+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/prekladyeng.html</loc>
-  <lastmod>2024-11-25T20:16:09+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/financialservice.html</loc>
-  <lastmod>2024-11-25T20:16:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/eduservice.html</loc>
-  <lastmod>2024-11-25T20:16:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/dopuslugi.html</loc>
-  <lastmod>2024-11-25T20:16:03+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/blog.html</loc>
-  <lastmod>2024-11-25T20:16:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/sud_perevod_dokumentov.html</loc>
-  <lastmod>2024-11-25T20:16:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/localization.html</loc>
-  <lastmod>2024-11-25T20:16:05+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/business_translations.html</loc>
-  <lastmod>2024-11-25T20:16:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/nostrif.html</loc>
-  <lastmod>2024-11-25T20:16:06+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/apostila.html</loc>
-  <lastmod>2024-11-25T20:16:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/oraltranslation.html</loc>
-  <lastmod>2024-11-25T20:16:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/notarskeovereni.html</loc>
-  <lastmod>2024-11-25T20:16:07+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/translation.html</loc>
-  <lastmod>2024-11-25T20:16:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/expresstranslation.html</loc>
-  <lastmod>2024-11-25T20:16:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/about_price.html</loc>
-  <lastmod>2024-11-25T20:15:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/zasady.html</loc>
-  <lastmod>2024-11-25T20:16:11+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/contacts.html</loc>
-  <lastmod>2024-11-25T20:16:02+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/sud_perevod_dokumentov.html</loc>
+  <lastmod>2025-01-17T07:54:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/localization.html</loc>
+  <lastmod>2025-01-17T07:54:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/business_translations.html</loc>
+  <lastmod>2025-01-17T07:54:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/nostrif.html</loc>
+  <lastmod>2025-01-17T07:54:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/apostila.html</loc>
+  <lastmod>2025-01-17T07:54:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/oraltranslation.html</loc>
+  <lastmod>2025-01-17T07:54:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/notarskeovereni.html</loc>
+  <lastmod>2025-01-17T07:54:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/translation.html</loc>
+  <lastmod>2025-01-17T07:54:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/expresstranslation.html</loc>
+  <lastmod>2025-01-17T07:54:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/languages.html</loc>
+  <lastmod>2025-01-17T07:54:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/about_price.html</loc>
+  <lastmod>2025-01-17T07:54:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/blog_translation_price.html</loc>
+  <lastmod>2025-01-17T07:54:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/online-kalkulace-prekladu.html</loc>
+  <lastmod>2025-01-17T07:54:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/allservicecz.html</loc>
-  <lastmod>2024-11-25T20:16:00+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/cz.html</loc>
-  <lastmod>2024-11-25T20:16:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/temp_page.html</loc>
-  <lastmod>2024-11-25T20:16:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/sud_perevod_dokumentovcz.html</loc>
-  <lastmod>2024-11-25T20:16:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/localizationcz.html</loc>
-  <lastmod>2024-11-25T20:16:05+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/business_translationscz.html</loc>
-  <lastmod>2024-11-25T20:16:02+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/nostrifcz.html</loc>
-  <lastmod>2024-11-25T20:16:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/oraltranslationcz.html</loc>
-  <lastmod>2024-11-25T20:16:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/notarskeoverenicz.html</loc>
-  <lastmod>2024-11-25T20:16:07+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/translationscz.html</loc>
-  <lastmod>2024-11-25T20:16:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/dopuslugieng.html</loc>
-  <lastmod>2024-11-25T20:16:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/nostrifsrednobraz.html</loc>
-  <lastmod>2024-11-25T20:16:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/nostrifvysokoobraz.html</loc>
-  <lastmod>2024-11-25T20:16:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/assist.html</loc>
-  <lastmod>2024-11-25T20:16:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/prodlenieVNZ.html</loc>
-  <lastmod>2024-11-25T20:16:09+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/openbusiness.html</loc>
-  <lastmod>2024-11-25T20:16:07+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/uniassist.html</loc>
-  <lastmod>2024-11-25T20:16:11+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/blog_translation_price.html</loc>
-  <lastmod>2024-11-25T20:16:01+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/apostilacz.html</loc>
-  <lastmod>2024-11-25T20:16:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/expresstranslationcz.html</loc>
-  <lastmod>2024-11-25T20:16:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://prekladovna.cz/about_pricecz.html</loc>
-  <lastmod>2024-11-25T20:15:59+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:17+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://prekladovna.cz/contactscz.html</loc>
-  <lastmod>2024-11-25T20:16:02+00:00</lastmod>
+  <lastmod>2025-01-17T07:54:17+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/temp_page.html</loc>
+  <lastmod>2025-01-17T07:54:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/dopuslugicz.html</loc>
+  <lastmod>2025-01-17T07:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/sud_perevod_dokumentovcz.html</loc>
+  <lastmod>2025-01-17T07:54:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/localizationcz.html</loc>
+  <lastmod>2025-01-17T07:54:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/business_translationscz.html</loc>
+  <lastmod>2025-01-17T07:54:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/nostrifcz.html</loc>
+  <lastmod>2025-01-17T07:54:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/oraltranslationcz.html</loc>
+  <lastmod>2025-01-17T07:54:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/notarskeoverenicz.html</loc>
+  <lastmod>2025-01-17T07:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/translationscz.html</loc>
+  <lastmod>2025-01-17T07:54:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/expresstranslationcz.html</loc>
+  <lastmod>2025-01-17T07:54:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/online-kalkulace-prekladu-cz.html</loc>
+  <lastmod>2025-01-17T07:54:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/about_pricecz.html</loc>
+  <lastmod>2025-01-17T07:54:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/zasady.html</loc>
+  <lastmod>2025-01-17T07:54:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/eduservice.html</loc>
+  <lastmod>2025-01-17T07:54:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/dopuslugieng.html</loc>
+  <lastmod>2025-01-17T07:54:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/dopuslugi.html</loc>
+  <lastmod>2025-01-17T07:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/nostrifsrednobraz.html</loc>
+  <lastmod>2025-01-17T07:54:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/nostrifvysokoobraz.html</loc>
+  <lastmod>2025-01-17T07:54:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/apostilacz.html</loc>
+  <lastmod>2025-01-17T07:54:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/ru-cz.html</loc>
+  <lastmod>2025-01-17T07:54:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/financialservicecz.html</loc>
+  <lastmod>2025-01-17T07:54:19+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/nostrifsrednobrazcz.html</loc>
+  <lastmod>2025-01-17T07:54:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/nostrifvysokoobrazcz.html</loc>
+  <lastmod>2025-01-17T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/assist.html</loc>
+  <lastmod>2025-01-17T07:54:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/prodlenieVNZ.html</loc>
+  <lastmod>2025-01-17T07:54:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/openbusiness.html</loc>
+  <lastmod>2025-01-17T07:54:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://prekladovna.cz/uniassist.html</loc>
+  <lastmod>2025-01-17T07:54:29+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
