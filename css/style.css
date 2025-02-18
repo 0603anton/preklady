@@ -2863,3 +2863,201 @@ tbody tr:nth-child(even) td {
     }
 }
 
+
+
+/* Стили для объявления */
+.compact-announcement {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px; /* Увеличенный отступ для лучшего визуального восприятия */
+    background-color: var(--main-white); /* Белый фон */
+    border-radius: 10px; /* Увеличенный радиус границ для мягкости */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Усиленная тень */
+    border: 2px solid var(--main-yellow); /* Желтая граница, чтобы выделить блок */
+}
+
+.announcement-header {
+    background-color: var(--main-yellow); /* Желтый фон для заголовка */
+    color: var(--main-dark); /* Темный цвет текста для заголовка */
+    text-align: center;
+    padding: 15px 10px; /* Увеличенные вертикальные отступы */
+    margin-bottom: 20px;
+    border-radius: 8px 8px 0 0; /* Закругление только верхних углов */
+}
+
+.announcement-header h3 {
+    font-size: 1.4em; /* Увеличенный размер шрифта заголовка */
+    margin: 0;
+    font-weight: bold; /* Жирный шрифт для заголовка */
+}
+
+.announcement-content {
+    color: var(--main-dark);
+    line-height: 1.7; /* Увеличенный интервал между строками для лучшей читаемости */
+    padding: 0 15px; /* Горизонтальные отступы для контента */
+}
+
+.announcement-content p {
+    margin: 15px 0;
+    font-size: 1em; /* Немного увеличенный размер шрифта основного текста */
+}
+
+.announcement-content ul {
+    list-style-type: disc;
+    padding-left: 25px; /* Увеличенный отступ для списка */
+    margin: 15px 0;
+}
+
+.announcement-content li {
+    font-size: 1em;
+    margin-bottom: 8px; /* Отступ снизу для пунктов списка */
+}
+
+/* Ссылка на сайт */
+.announcement-content a {
+    color: var(--main-yellow); /* Желтый цвет для ссылок, чтобы выделялись */
+    text-decoration: none; /* Убрать подчеркивание для ссылок */
+    font-weight: bold; /* Жирный шрифт для ссылок */
+}
+
+.announcement-content a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении на ссылку */
+    color: var(--hover-yellow); /* Изменение цвета при наведении */
+}
+
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+    .compact-announcement {
+        padding: 20px;
+        margin: 15px auto;
+    }
+
+    .announcement-header {
+        padding: 12px 8px;
+        margin-bottom: 15px;
+    }
+
+    .announcement-header h3 {
+        font-size: 1.2em;
+    }
+
+    .announcement-content {
+        padding: 0 10px;
+    }
+
+    .announcement-content p,
+    .announcement-content li {
+        font-size: 0.95em;
+    }
+}
+
+/* Стили для блока инструкций (Grid Layout) */
+.instruction-block-grid {
+    max-width: 900px; /* Увеличена максимальная ширина для размещения в две колонки */
+    margin: 30px auto;
+    padding: 30px;
+    background-color: var(--main-white);
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    border: 2px solid var(--main-yellow);
+}
+
+.instruction-block-grid h2 {
+    color: var(--main-dark);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.7em;
+}
+
+.instruction-list-grid {
+    list-style-type: none;
+    padding: 0;
+    display: grid; /* Используем Grid Layout */
+    grid-template-columns: repeat(2, 1fr); /* Две колонки */
+    gap: 20px; /* Расстояние между колонками и строками */
+}
+
+.instruction-step-grid {
+    margin-bottom: 0; /* Убираем отступ снизу для шагов, т.к. используется gap в grid layout */
+}
+
+.step-header-grid {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Уменьшенный отступ снизу для заголовка шага */
+}
+
+.step-number-grid {
+    background-color: var(--main-yellow);
+    color: var(--main-dark);
+    font-weight: bold;
+    font-size: 1.1em; /* Немного уменьшен размер номера */
+    padding: 8px 12px; /* Уменьшены padding номера */
+    border-radius: 6px; /* Уменьшен радиус номера */
+    margin-right: 10px; /* Уменьшен отступ справа от номера */
+}
+
+.step-title-grid {
+    color: var(--main-dark);
+    font-size: 1.2em; /* Уменьшен размер заголовка шага */
+    margin: 0;
+    font-weight: bold;
+}
+
+.step-content-grid {
+    color: var(--main-dark);
+    line-height: 1.6; /* Уменьшен межстрочный интервал */
+    padding-left: calc(10px + 12px + 25px); /* Корректировка отступа контента под номер шага для grid layout */
+    font-size: 0.95em; /* Уменьшен размер шрифта контента */
+}
+
+.step-content-grid p {
+    margin-top: 0;
+    margin-bottom: 10px; /* Уменьшен отступ снизу для абзацев контента */
+}
+
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) { /* Увеличен breakpoint для мобильных, чтобы применить стили на планшетах тоже если нужно */
+    .instruction-block-grid {
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .instruction-block-grid h2 {
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+
+    .instruction-list-grid {
+        grid-template-columns: 1fr; /* Одна колонка на мобильных */
+        gap: 15px; /* Уменьшен gap между шагами */
+    }
+
+    .step-header-grid {
+        margin-bottom: 8px; /* Еще уменьшен отступ заголовка шага на мобильных */
+    }
+
+    .step-number-grid {
+        font-size: 1em;
+        padding: 6px 10px;
+        border-radius: 5px;
+        margin-right: 8px;
+    }
+
+    .step-title-grid {
+        font-size: 1.1em;
+    }
+
+    .step-content-grid {
+        font-size: 0.9em;
+        line-height: 1.5;
+        padding-left: calc(8px + 10px + 20px); /* Еще корректировка отступа для мобильных */
+    }
+
+    .step-content-grid p {
+        margin-bottom: 8px;
+    }
+}
