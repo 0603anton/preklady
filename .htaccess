@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/stop\.html$
+RewriteRule ^(.*)$ /stop.html [R=301,L]
